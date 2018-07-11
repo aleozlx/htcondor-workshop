@@ -1,0 +1,12 @@
+universe = vanilla
+executable = max_square.py
+arguments = $(anagrams)
+
+transfer_input_files = euler_common.py
+
+request_memory = 50
+output = squares/square-$(serial).out
+error = squares/square-$(serial).err
+log = squares/square-$(serial).log
+
+queue

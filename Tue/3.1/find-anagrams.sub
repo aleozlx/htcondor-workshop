@@ -1,0 +1,13 @@
+universe = vanilla
+executable = find_anagrams.py
+arguments = p098_words.txt
+
+input = p098_words.txt
+output = find-anagrams.out
+error = find-anagrams.err
+log = find-anagrams.log
+
+request_memory = 10 
+transfer_input_files = euler_common.py
+
+queue

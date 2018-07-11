@@ -1,0 +1,50 @@
+# Rescue DAG file, created after running
+#   the squares.dag DAG file
+# Created 7/10/2018 20:07:55 UTC
+# Rescue DAG version: 2.0.1 (partial)
+#
+# Total number of Nodes: 42
+# Nodes premarked DONE: 40
+# Nodes that failed: 2
+#   Squares030,Squares035,<ENDLIST>
+
+DONE Squares000
+DONE Squares001
+DONE Squares002
+DONE Squares003
+DONE Squares004
+DONE Squares005
+DONE Squares006
+DONE Squares007
+DONE Squares008
+DONE Squares009
+DONE Squares010
+DONE Squares011
+DONE Squares012
+DONE Squares013
+DONE Squares014
+DONE Squares015
+DONE Squares016
+DONE Squares017
+DONE Squares018
+DONE Squares019
+DONE Squares020
+DONE Squares021
+DONE Squares022
+DONE Squares023
+DONE Squares024
+DONE Squares025
+DONE Squares026
+DONE Squares027
+DONE Squares028
+DONE Squares029
+DONE Squares031
+DONE Squares032
+DONE Squares033
+DONE Squares034
+DONE Squares036
+DONE Squares037
+DONE Squares038
+DONE Squares039
+DONE Squares040
+DONE Squares041

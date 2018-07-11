@@ -1,0 +1,15 @@
+universe = scheduler
+# SOLUTION
+# ========
+# Problem: Job fails to submit
+# Where to find more info: condor_q -held shows that the job was not marked as
+# an executable (or doesn't exist)
+# Solution: Set executable bit (`chmod +x max.sh`) and `condor_release`
+executable = max.sh
+
+output = result.out
+error = result.err
+log = result.log
+
+queue
+

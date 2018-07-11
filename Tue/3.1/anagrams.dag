@@ -1,0 +1,13 @@
+# Find the anagrams in the input file and dynamically generate a DAG that
+# separates each set of anagrams into its own job
+JOB FindAnagrams find-anagrams.sub
+SCRIPT POST FindAnagrams generate-dag.py
+
+# Find all the anagramic squares for each set of anagrams
+SUBDAG EXTERNAL Squares squares.dag
+
+# Collate the results from the SUBDAG and find the maximum value
+JOB FindMax max.sh
+
+PARENT FindAnagrams CHILD Squares
+PARENT Squares CHILD FindMax

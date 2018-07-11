@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/cvmfs/oasis.opensciencegrid.org/osg/modules/python-2.7.7/lib/python2.7/site.py", line 548, in <module>
+    main()
+  File "/cvmfs/oasis.opensciencegrid.org/osg/modules/python-2.7.7/lib/python2.7/site.py", line 530, in main
+    known_paths = addusersitepackages(known_paths)
+  File "/cvmfs/oasis.opensciencegrid.org/osg/modules/python-2.7.7/lib/python2.7/site.py", line 266, in addusersitepackages
+    user_site = getusersitepackages()
+  File "/cvmfs/oasis.opensciencegrid.org/osg/modules/python-2.7.7/lib/python2.7/site.py", line 241, in getusersitepackages
+    user_base = getuserbase() # this will also set USER_BASE
+  File "/cvmfs/oasis.opensciencegrid.org/osg/modules/python-2.7.7/lib/python2.7/site.py", line 231, in getuserbase
+    USER_BASE = get_config_var('userbase')
+  File "/cvmfs/oasis.opensciencegrid.org/osg/modules/python-2.7.7/lib/python2.7/sysconfig.py", line 516, in get_config_var
+    return get_config_vars().get(name)
+  File "/cvmfs/oasis.opensciencegrid.org/osg/modules/python-2.7.7/lib/python2.7/sysconfig.py", line 473, in get_config_vars
+    _CONFIG_VARS['userbase'] = _getuserbase()
+  File "/cvmfs/oasis.opensciencegrid.org/osg/modules/python-2.7.7/lib/python2.7/sysconfig.py", line 187, in _getuserbase
+    return env_base if env_base else joinuser("~", ".local")
+  File "/cvmfs/oasis.opensciencegrid.org/osg/modules/python-2.7.7/lib/python2.7/sysconfig.py", line 173, in joinuser
+    return os.path.expanduser(os.path.join(*args))
+  File "/cvmfs/oasis.opensciencegrid.org/osg/modules/python-2.7.7/lib/python2.7/posixpath.py", line 269, in expanduser
+    userhome = pwd.getpwuid(os.getuid()).pw_dir
+KeyError: 'getpwuid(): uid not found: 22219'

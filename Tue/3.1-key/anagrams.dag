@@ -1,0 +1,27 @@
+# Find the anagrams in the input file and dynamically generate a DAG that
+# separates each set of anagrams into its own job
+JOB FindAnagrams find-anagrams.sub
+SCRIPT POST FindAnagrams generate-dag.py
+
+# Find all the anagramic squares for each set of anagrams
+SUBDAG EXTERNAL Squares squares.dag
+
+# Collate the results from the SUBDAG and find the maximum value
+# SOLUTION
+# ========
+# Problem: Job fails to submit
+# Where to find more info: anagrams.dag.rescue* and anagrams.dag.dagman.out
+# Solution: Oops, we were submitting the script instead of the submit file!
+# Change 'max.sh' to 'max.sub'
+JOB FindMax max.sub
+
+PARENT FindAnagrams CHILD Squares
+
+# SOLUTION
+# ========
+# Problem: DAG fails to submit
+# Where to find more info: anagrams.dag.dagman.out 
+# Solution: Make sure to watch out for typos! We initially name the SUBDAG
+# node 'Squares' but accidentally refer to it as 'Square' on the next line. Add
+# the expected 's' and the DAG should submit!
+PARENT Squares CHILD FindMax

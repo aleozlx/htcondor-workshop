@@ -1,0 +1,11 @@
+executable              = /usr/bin/montage
+arguments               = tile_0_0.ppm tile_0_1.ppm tile_1_0.ppm tile_1_1.ppm -mode Concatenate -tile 2x2 mandel-from-dag.jpg
+transfer_input_files    = tile_0_0.ppm,tile_0_1.ppm,tile_1_0.ppm,tile_1_1.ppm
+output                  = montage.out
+error                   = montage.err
+log                     = montage.log
+request_memory          = 1GB
+request_disk            = 1GB
+request_cpus            = 1
+requirements            = OpSysMajorVer =?= 6
+queue

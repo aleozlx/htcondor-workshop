@@ -1,0 +1,6 @@
+JOB g1 goatbrot1.sub
+JOB g2 goatbrot2.sub
+JOB g3 goatbrot3.sub
+JOB g4 goatbrot4.sub
+JOB montage montage.sub
+PARENT g1 g2 g3 g4 CHILD montage

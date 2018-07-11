@@ -1,0 +1,148 @@
+07/09/18 15:56:38 (D_ALWAYS) ******************************************************
+07/09/18 15:56:38 (D_ALWAYS) ** condor_scheduniv_exec.42045.0 (CONDOR_DAGMAN) STARTING UP
+07/09/18 15:56:38 (D_ALWAYS) ** /usr/bin/condor_dagman
+07/09/18 15:56:38 (D_ALWAYS) ** SubsystemInfo: name=DAGMAN type=DAGMAN(10) class=DAEMON(1)
+07/09/18 15:56:38 (D_ALWAYS) ** Configuration: subsystem:DAGMAN local:<NONE> class:DAEMON
+07/09/18 15:56:38 (D_ALWAYS) ** $CondorVersion: 8.7.2 Jun 02 2017 BuildID: 407060 $
+07/09/18 15:56:38 (D_ALWAYS) ** $CondorPlatform: x86_64_RedHat6 $
+07/09/18 15:56:38 (D_ALWAYS) ** PID = 3477074
+07/09/18 15:56:38 (D_ALWAYS) ** Log last touched time unavailable (No such file or directory)
+07/09/18 15:56:38 (D_ALWAYS) ******************************************************
+07/09/18 15:56:38 (D_ALWAYS) Using config source: /etc/condor/condor_config
+07/09/18 15:56:38 (D_ALWAYS) Using local config sources: 
+07/09/18 15:56:38 (D_ALWAYS)    /etc/condor/ephemeral/dns_domain_name.conf
+07/09/18 15:56:38 (D_ALWAYS)    /etc/condor/condor_config.hosts
+07/09/18 15:56:38 (D_ALWAYS)    /etc/condor/condor_config.global
+07/09/18 15:56:38 (D_ALWAYS)    /etc/condor/condor_config.policy
+07/09/18 15:56:38 (D_ALWAYS)    /etc/condor/condor_config.x86_64_SL6
+07/09/18 15:56:38 (D_ALWAYS)    /etc/condor/condor_config.security
+07/09/18 15:56:38 (D_ALWAYS)    /etc/condor/dns_domains/chtc.wisc.edu.local
+07/09/18 15:56:38 (D_ALWAYS)    /etc/condor/hosts/learn.chtc.wisc.edu.local
+07/09/18 15:56:38 (D_ALWAYS)    /etc/condor/include/schedd.conf
+07/09/18 15:56:38 (D_ALWAYS)    /etc/condor/include/facility_wid.conf
+07/09/18 15:56:38 (D_ALWAYS)    /etc/condor/include/owned_by_chtc.conf
+07/09/18 15:56:38 (D_ALWAYS)    /etc/condor/condor_config.flightworthy_testing
+07/09/18 15:56:38 (D_ALWAYS) config Macros = 253, Sorted = 253, StringBytes = 58548, TablesBytes = 9252
+07/09/18 15:56:38 (D_ALWAYS) CLASSAD_CACHING is ENABLED
+07/09/18 15:56:38 (D_ALWAYS) Daemon Log is logging: D_ALWAYS D_ERROR
+07/09/18 15:56:38 (D_ALWAYS) DaemonCore: No command port requested.
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_USE_STRICT setting: 1
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_VERBOSITY setting: 3
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_DEBUG_CACHE_SIZE setting: 5242880
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_DEBUG_CACHE_ENABLE setting: False
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_SUBMIT_DELAY setting: 0
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_STARTUP_CYCLE_DETECT setting: False
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_USER_LOG_SCAN_INTERVAL setting: 5
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_DEFAULT_PRIORITY setting: 0
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_SUPPRESS_NOTIFICATION setting: True
+07/09/18 15:56:38 (D_ALWAYS) allow_events (DAGMAN_ALLOW_EVENTS) setting: 114
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_RETRY_SUBMIT_FIRST setting: True
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_RETRY_NODE_FIRST setting: False
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_MAX_JOBS_IDLE setting: 1000
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_MAX_PRE_SCRIPTS setting: 20
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_MAX_POST_SCRIPTS setting: 20
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_MUNGE_NODE_NAMES setting: True
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_PROHIBIT_MULTI_JOBS setting: False
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_SUBMIT_DEPTH_FIRST setting: False
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_ALWAYS_RUN_POST setting: False
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_ABORT_DUPLICATES setting: True
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_ABORT_ON_SCARY_SUBMIT setting: True
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_PENDING_REPORT_INTERVAL setting: 600
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_AUTO_RESCUE setting: True
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_MAX_RESCUE_NUM setting: 100
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_WRITE_PARTIAL_RESCUE setting: True
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_DEFAULT_NODE_LOG setting: @(DAG_DIR)/@(DAG_FILE).nodes.log
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_GENERATE_SUBDAG_SUBMITS setting: True
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_MAX_JOB_HOLDS setting: 100
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_HOLD_CLAIM_TIME setting: 20
+07/09/18 15:56:38 (D_ALWAYS) ALL_DEBUG setting: D_CAT
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_DEBUG setting: 
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_SUPPRESS_JOB_LOGS setting: False
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_REMOVE_NODE_JOBS setting: True
+07/09/18 15:56:38 (D_ALWAYS) argv[0] == "condor_scheduniv_exec.42045.0"
+07/09/18 15:56:38 (D_ALWAYS) argv[1] == "-Lockfile"
+07/09/18 15:56:38 (D_ALWAYS) argv[2] == "simple.dag.lock"
+07/09/18 15:56:38 (D_ALWAYS) argv[3] == "-AutoRescue"
+07/09/18 15:56:38 (D_ALWAYS) argv[4] == "1"
+07/09/18 15:56:38 (D_ALWAYS) argv[5] == "-DoRescueFrom"
+07/09/18 15:56:38 (D_ALWAYS) argv[6] == "0"
+07/09/18 15:56:38 (D_ALWAYS) argv[7] == "-Dag"
+07/09/18 15:56:38 (D_ALWAYS) argv[8] == "simple.dag"
+07/09/18 15:56:38 (D_ALWAYS) argv[9] == "-Suppress_notification"
+07/09/18 15:56:38 (D_ALWAYS) argv[10] == "-CsdVersion"
+07/09/18 15:56:38 (D_ALWAYS) argv[11] == "$CondorVersion: 8.7.2 Jun 02 2017 BuildID: 407060 $"
+07/09/18 15:56:38 (D_ALWAYS) argv[12] == "-Dagman"
+07/09/18 15:56:38 (D_ALWAYS) argv[13] == "/usr/bin/condor_dagman"
+07/09/18 15:56:38 (D_ALWAYS) Workflow batch-name: <simple.dag+42045>
+07/09/18 15:56:38 (D_ALWAYS) Workflow accounting_group: <>
+07/09/18 15:56:38 (D_ALWAYS) Workflow accounting_group_user: <>
+07/09/18 15:56:38 (D_ALWAYS) Warning: failed to get attribute DAGNodeName
+07/09/18 15:56:38 (D_ALWAYS) DAGMAN_LOG_ON_NFS_IS_ERROR setting: False
+07/09/18 15:56:38 (D_ALWAYS) Default node log file is: </home/s18_alexyan/Mon/4.1/./simple.dag.nodes.log>
+07/09/18 15:56:38 (D_ALWAYS) DAG Lockfile will be written to simple.dag.lock
+07/09/18 15:56:38 (D_ALWAYS) DAG Input file is simple.dag
+07/09/18 15:56:38 (D_ALWAYS) Parsing 1 dagfiles
+07/09/18 15:56:38 (D_ALWAYS) Parsing simple.dag ...
+07/09/18 15:56:38 (D_ALWAYS) Dag contains 1 total jobs
+07/09/18 15:56:38 (D_ALWAYS) Sleeping for 3 seconds to ensure ProcessId uniqueness
+07/09/18 15:56:41 (D_ALWAYS) Bootstrapping...
+07/09/18 15:56:41 (D_ALWAYS) Number of pre-completed nodes: 0
+07/09/18 15:56:41 (D_ALWAYS) MultiLogFiles: truncating log file /home/s18_alexyan/Mon/4.1/./simple.dag.nodes.log
+07/09/18 15:56:41 (D_ALWAYS) DAG status: 0 (DAG_STATUS_OK)
+07/09/18 15:56:41 (D_ALWAYS) Of 1 nodes total:
+07/09/18 15:56:41 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/09/18 15:56:41 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/09/18 15:56:41 (D_ALWAYS)     0       0        0       0       1          0        0
+07/09/18 15:56:41 (D_ALWAYS) 0 job proc(s) currently held
+07/09/18 15:56:41 (D_ALWAYS) Registering condor_event_timer...
+07/09/18 15:56:42 (D_ALWAYS) Submitting HTCondor Node Simple job(s)...
+07/09/18 15:56:42 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Mon/4.1/./simple.dag.nodes.log
+07/09/18 15:56:42 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/09/18 15:56:42 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/09/18 15:56:42 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Simple -a +DAGManJobId' '=' '42045 -a DAGManJobId' '=' '42045 -batch-name simple.dag+42045 -a submit_event_notes' '=' 'DAG' 'Node:' 'Simple -a dagman_log' '=' '/home/s18_alexyan/Mon/4.1/./simple.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" test.sub
+07/09/18 15:56:42 (D_ALWAYS) From submit: Submitting job(s).
+07/09/18 15:56:42 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 42047.
+07/09/18 15:56:42 (D_ALWAYS) 	assigned HTCondor ID (42047.0.0)
+07/09/18 15:56:42 (D_ALWAYS) Just submitted 1 job this cycle...
+07/09/18 15:56:42 (D_ALWAYS) Currently monitoring 1 HTCondor log file(s)
+07/09/18 15:56:42 (D_ALWAYS) Reassigning the id of job Simple from (42047.0.0) to (42047.0.0)
+07/09/18 15:56:42 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Simple (42047.0.0) {07/09/18 15:56:42}
+07/09/18 15:56:42 (D_ALWAYS) Number of idle job procs: 1
+07/09/18 15:56:42 (D_ALWAYS) DAG status: 0 (DAG_STATUS_OK)
+07/09/18 15:56:42 (D_ALWAYS) Of 1 nodes total:
+07/09/18 15:56:42 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/09/18 15:56:42 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/09/18 15:56:42 (D_ALWAYS)     0       0        1       0       0          0        0
+07/09/18 15:56:42 (D_ALWAYS) 0 job proc(s) currently held
+07/09/18 15:57:12 (D_ALWAYS) Currently monitoring 1 HTCondor log file(s)
+07/09/18 15:57:12 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Simple (42047.0.0) {07/09/18 15:57:12}
+07/09/18 15:57:12 (D_ALWAYS) Number of idle job procs: 0
+07/09/18 15:57:17 (D_ALWAYS) Currently monitoring 1 HTCondor log file(s)
+07/09/18 15:57:17 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Simple (42047.0.0) {07/09/18 15:57:17}
+07/09/18 15:57:17 (D_ALWAYS) Number of idle job procs: 0
+07/09/18 15:57:17 (D_ALWAYS) Node Simple job proc (42047.0.0) completed successfully.
+07/09/18 15:57:17 (D_ALWAYS) Node Simple job completed
+07/09/18 15:57:17 (D_ALWAYS) DAG status: 0 (DAG_STATUS_OK)
+07/09/18 15:57:17 (D_ALWAYS) Of 1 nodes total:
+07/09/18 15:57:17 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/09/18 15:57:17 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/09/18 15:57:17 (D_ALWAYS)     1       0        0       0       0          0        0
+07/09/18 15:57:17 (D_ALWAYS) 0 job proc(s) currently held
+07/09/18 15:57:17 (D_ALWAYS) All jobs Completed!
+07/09/18 15:57:17 (D_ALWAYS) Note: 0 total job deferrals because of -MaxJobs limit (0)
+07/09/18 15:57:17 (D_ALWAYS) Note: 0 total job deferrals because of -MaxIdle limit (1000)
+07/09/18 15:57:17 (D_ALWAYS) Note: 0 total job deferrals because of node category throttles
+07/09/18 15:57:17 (D_ALWAYS) Note: 0 total PRE script deferrals because of -MaxPre limit (20) or DEFER
+07/09/18 15:57:17 (D_ALWAYS) Note: 0 total POST script deferrals because of -MaxPost limit (20) or DEFER
+07/09/18 15:57:17 (D_ALWAYS) DAG status: 0 (DAG_STATUS_OK)
+07/09/18 15:57:17 (D_ALWAYS) Of 1 nodes total:
+07/09/18 15:57:17 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/09/18 15:57:17 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/09/18 15:57:17 (D_ALWAYS)     1       0        0       0       0          0        0
+07/09/18 15:57:17 (D_ALWAYS) 0 job proc(s) currently held
+07/09/18 15:57:17 (D_ALWAYS) Wrote metrics file simple.dag.metrics.
+07/09/18 15:57:17 (D_ALWAYS) Metrics not sent because of PEGASUS_METRICS or CONDOR_DEVELOPERS setting.
+07/09/18 15:57:17 (D_ALWAYS) **** condor_scheduniv_exec.42045.0 (condor_DAGMAN) pid 3477074 EXITING WITH STATUS 0

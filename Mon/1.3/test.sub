@@ -1,0 +1,13 @@
+universe = vanilla
+executable = test-script.sh
+arguments = "foo bar baz *"
+
+output = script.out
+error = script.err
+log = script.log
+
+request_cpus = 1
+request_memory = 1
+request_disk = 1
+
+queue

@@ -1,0 +1,13 @@
+
+Running rescue DAG 1
+-----------------------------------------------------------------------
+File for submitting this DAG to HTCondor           : squares.dag.condor.sub
+Log of DAGMan debugging messages                 : squares.dag.dagman.out
+Log of HTCondor library output                     : squares.dag.lib.out
+Log of HTCondor library error messages             : squares.dag.lib.err
+Log of the life of condor_dagman itself          : squares.dag.dagman.log
+
+-no_submit given, not submitting DAG to HTCondor.  You can do this with:
+"condor_submit squares.dag.condor.sub"
+-----------------------------------------------------------------------
+Executing condor dagman ... 

@@ -1,0 +1,12 @@
+executable = /bin/hostname
+
+output = simple.out
+error = simple.err
+log = simple.log
+
+request_cpus = 1
+request_memory = 1MB
+request_disk = 1MB
+
+queue
+

@@ -1,0 +1,294 @@
+07/09/18 16:05:09 (D_ALWAYS) ******************************************************
+07/09/18 16:05:09 (D_ALWAYS) ** condor_scheduniv_exec.42125.0 (CONDOR_DAGMAN) STARTING UP
+07/09/18 16:05:09 (D_ALWAYS) ** /usr/bin/condor_dagman
+07/09/18 16:05:09 (D_ALWAYS) ** SubsystemInfo: name=DAGMAN type=DAGMAN(10) class=DAEMON(1)
+07/09/18 16:05:09 (D_ALWAYS) ** Configuration: subsystem:DAGMAN local:<NONE> class:DAEMON
+07/09/18 16:05:09 (D_ALWAYS) ** $CondorVersion: 8.7.2 Jun 02 2017 BuildID: 407060 $
+07/09/18 16:05:09 (D_ALWAYS) ** $CondorPlatform: x86_64_RedHat6 $
+07/09/18 16:05:09 (D_ALWAYS) ** PID = 3483914
+07/09/18 16:05:09 (D_ALWAYS) ** Log last touched time unavailable (No such file or directory)
+07/09/18 16:05:09 (D_ALWAYS) ******************************************************
+07/09/18 16:05:09 (D_ALWAYS) Using config source: /etc/condor/condor_config
+07/09/18 16:05:09 (D_ALWAYS) Using local config sources: 
+07/09/18 16:05:09 (D_ALWAYS)    /etc/condor/ephemeral/dns_domain_name.conf
+07/09/18 16:05:09 (D_ALWAYS)    /etc/condor/condor_config.hosts
+07/09/18 16:05:09 (D_ALWAYS)    /etc/condor/condor_config.global
+07/09/18 16:05:09 (D_ALWAYS)    /etc/condor/condor_config.policy
+07/09/18 16:05:09 (D_ALWAYS)    /etc/condor/condor_config.x86_64_SL6
+07/09/18 16:05:09 (D_ALWAYS)    /etc/condor/condor_config.security
+07/09/18 16:05:09 (D_ALWAYS)    /etc/condor/dns_domains/chtc.wisc.edu.local
+07/09/18 16:05:09 (D_ALWAYS)    /etc/condor/hosts/learn.chtc.wisc.edu.local
+07/09/18 16:05:09 (D_ALWAYS)    /etc/condor/include/schedd.conf
+07/09/18 16:05:09 (D_ALWAYS)    /etc/condor/include/facility_wid.conf
+07/09/18 16:05:09 (D_ALWAYS)    /etc/condor/include/owned_by_chtc.conf
+07/09/18 16:05:09 (D_ALWAYS)    /etc/condor/condor_config.flightworthy_testing
+07/09/18 16:05:09 (D_ALWAYS) config Macros = 253, Sorted = 253, StringBytes = 58550, TablesBytes = 9252
+07/09/18 16:05:09 (D_ALWAYS) CLASSAD_CACHING is ENABLED
+07/09/18 16:05:09 (D_ALWAYS) Daemon Log is logging: D_ALWAYS D_ERROR
+07/09/18 16:05:09 (D_ALWAYS) DaemonCore: No command port requested.
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_USE_STRICT setting: 1
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_VERBOSITY setting: 3
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_DEBUG_CACHE_SIZE setting: 5242880
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_DEBUG_CACHE_ENABLE setting: False
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_SUBMIT_DELAY setting: 0
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_STARTUP_CYCLE_DETECT setting: False
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_USER_LOG_SCAN_INTERVAL setting: 5
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_DEFAULT_PRIORITY setting: 0
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_SUPPRESS_NOTIFICATION setting: True
+07/09/18 16:05:09 (D_ALWAYS) allow_events (DAGMAN_ALLOW_EVENTS) setting: 114
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_RETRY_SUBMIT_FIRST setting: True
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_RETRY_NODE_FIRST setting: False
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_MAX_JOBS_IDLE setting: 1000
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_MAX_PRE_SCRIPTS setting: 20
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_MAX_POST_SCRIPTS setting: 20
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_MUNGE_NODE_NAMES setting: True
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_PROHIBIT_MULTI_JOBS setting: False
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_SUBMIT_DEPTH_FIRST setting: False
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_ALWAYS_RUN_POST setting: False
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_ABORT_DUPLICATES setting: True
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_ABORT_ON_SCARY_SUBMIT setting: True
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_PENDING_REPORT_INTERVAL setting: 600
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_AUTO_RESCUE setting: True
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_MAX_RESCUE_NUM setting: 100
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_WRITE_PARTIAL_RESCUE setting: True
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_DEFAULT_NODE_LOG setting: @(DAG_DIR)/@(DAG_FILE).nodes.log
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_GENERATE_SUBDAG_SUBMITS setting: True
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_MAX_JOB_HOLDS setting: 100
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_HOLD_CLAIM_TIME setting: 20
+07/09/18 16:05:09 (D_ALWAYS) ALL_DEBUG setting: D_CAT
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_DEBUG setting: 
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_SUPPRESS_JOB_LOGS setting: False
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_REMOVE_NODE_JOBS setting: True
+07/09/18 16:05:09 (D_ALWAYS) argv[0] == "condor_scheduniv_exec.42125.0"
+07/09/18 16:05:09 (D_ALWAYS) argv[1] == "-Lockfile"
+07/09/18 16:05:09 (D_ALWAYS) argv[2] == "goatbrot.dag.lock"
+07/09/18 16:05:09 (D_ALWAYS) argv[3] == "-AutoRescue"
+07/09/18 16:05:09 (D_ALWAYS) argv[4] == "1"
+07/09/18 16:05:09 (D_ALWAYS) argv[5] == "-DoRescueFrom"
+07/09/18 16:05:09 (D_ALWAYS) argv[6] == "0"
+07/09/18 16:05:09 (D_ALWAYS) argv[7] == "-Dag"
+07/09/18 16:05:09 (D_ALWAYS) argv[8] == "goatbrot.dag"
+07/09/18 16:05:09 (D_ALWAYS) argv[9] == "-Suppress_notification"
+07/09/18 16:05:09 (D_ALWAYS) argv[10] == "-CsdVersion"
+07/09/18 16:05:09 (D_ALWAYS) argv[11] == "$CondorVersion: 8.7.2 Jun 02 2017 BuildID: 407060 $"
+07/09/18 16:05:09 (D_ALWAYS) argv[12] == "-Dagman"
+07/09/18 16:05:09 (D_ALWAYS) argv[13] == "/usr/bin/condor_dagman"
+07/09/18 16:05:09 (D_ALWAYS) Workflow batch-name: <goatbrot.dag+42125>
+07/09/18 16:05:09 (D_ALWAYS) Workflow accounting_group: <>
+07/09/18 16:05:09 (D_ALWAYS) Workflow accounting_group_user: <>
+07/09/18 16:05:09 (D_ALWAYS) Warning: failed to get attribute DAGNodeName
+07/09/18 16:05:09 (D_ALWAYS) DAGMAN_LOG_ON_NFS_IS_ERROR setting: False
+07/09/18 16:05:09 (D_ALWAYS) Default node log file is: </home/s18_alexyan/Mon/4.3/./goatbrot.dag.nodes.log>
+07/09/18 16:05:09 (D_ALWAYS) DAG Lockfile will be written to goatbrot.dag.lock
+07/09/18 16:05:09 (D_ALWAYS) DAG Input file is goatbrot.dag
+07/09/18 16:05:09 (D_ALWAYS) Parsing 1 dagfiles
+07/09/18 16:05:09 (D_ALWAYS) Parsing goatbrot.dag ...
+07/09/18 16:05:09 (D_ALWAYS) Dag contains 5 total jobs
+07/09/18 16:05:09 (D_ALWAYS) Sleeping for 3 seconds to ensure ProcessId uniqueness
+07/09/18 16:05:12 (D_ALWAYS) Bootstrapping...
+07/09/18 16:05:12 (D_ALWAYS) Number of pre-completed nodes: 0
+07/09/18 16:05:12 (D_ALWAYS) MultiLogFiles: truncating log file /home/s18_alexyan/Mon/4.3/./goatbrot.dag.nodes.log
+07/09/18 16:05:12 (D_ALWAYS) DAG status: 0 (DAG_STATUS_OK)
+07/09/18 16:05:12 (D_ALWAYS) Of 5 nodes total:
+07/09/18 16:05:12 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/09/18 16:05:12 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/09/18 16:05:12 (D_ALWAYS)     0       0        0       0       4          1        0
+07/09/18 16:05:12 (D_ALWAYS) 0 job proc(s) currently held
+07/09/18 16:05:12 (D_ALWAYS) Registering condor_event_timer...
+07/09/18 16:05:13 (D_ALWAYS) Submitting HTCondor Node g1 job(s)...
+07/09/18 16:05:13 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Mon/4.3/./goatbrot.dag.nodes.log
+07/09/18 16:05:13 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/09/18 16:05:13 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/09/18 16:05:13 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'g1 -a +DAGManJobId' '=' '42125 -a DAGManJobId' '=' '42125 -batch-name goatbrot.dag+42125 -a submit_event_notes' '=' 'DAG' 'Node:' 'g1 -a dagman_log' '=' '/home/s18_alexyan/Mon/4.3/./goatbrot.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" goatbrot1.sub
+07/09/18 16:05:13 (D_ALWAYS) From submit: Submitting job(s).
+07/09/18 16:05:13 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 42127.
+07/09/18 16:05:13 (D_ALWAYS) 	assigned HTCondor ID (42127.0.0)
+07/09/18 16:05:13 (D_ALWAYS) Submitting HTCondor Node g2 job(s)...
+07/09/18 16:05:13 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Mon/4.3/./goatbrot.dag.nodes.log
+07/09/18 16:05:13 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/09/18 16:05:13 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/09/18 16:05:13 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'g2 -a +DAGManJobId' '=' '42125 -a DAGManJobId' '=' '42125 -batch-name goatbrot.dag+42125 -a submit_event_notes' '=' 'DAG' 'Node:' 'g2 -a dagman_log' '=' '/home/s18_alexyan/Mon/4.3/./goatbrot.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" goatbrot2.sub
+07/09/18 16:05:13 (D_ALWAYS) From submit: Submitting job(s).
+07/09/18 16:05:13 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 42128.
+07/09/18 16:05:13 (D_ALWAYS) 	assigned HTCondor ID (42128.0.0)
+07/09/18 16:05:13 (D_ALWAYS) Submitting HTCondor Node g3 job(s)...
+07/09/18 16:05:13 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Mon/4.3/./goatbrot.dag.nodes.log
+07/09/18 16:05:13 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/09/18 16:05:13 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/09/18 16:05:13 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'g3 -a +DAGManJobId' '=' '42125 -a DAGManJobId' '=' '42125 -batch-name goatbrot.dag+42125 -a submit_event_notes' '=' 'DAG' 'Node:' 'g3 -a dagman_log' '=' '/home/s18_alexyan/Mon/4.3/./goatbrot.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" goatbrot3.sub
+07/09/18 16:05:13 (D_ALWAYS) From submit: 
+07/09/18 16:05:13 (D_ALWAYS) From submit: ERROR: Failed to open command file (No such file or directory)
+07/09/18 16:05:13 (D_ALWAYS) failed while reading from pipe.
+07/09/18 16:05:13 (D_ALWAYS) Read so far: ERROR: Failed to open command file (No such file or directory)
+07/09/18 16:05:13 (D_ALWAYS) ERROR: submit attempt failed
+07/09/18 16:05:13 (D_ALWAYS) submit command was: /usr/bin/condor_submit -a dag_node_name' '=' 'g3 -a +DAGManJobId' '=' '42125 -a DAGManJobId' '=' '42125 -batch-name goatbrot.dag+42125 -a submit_event_notes' '=' 'DAG' 'Node:' 'g3 -a dagman_log' '=' '/home/s18_alexyan/Mon/4.3/./goatbrot.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" goatbrot3.sub
+07/09/18 16:05:13 (D_ALWAYS) Job submit try 1/6 failed, will try again in >= 1 second.
+07/09/18 16:05:13 (D_ALWAYS) Just submitted 2 jobs this cycle...
+07/09/18 16:05:13 (D_ALWAYS) Currently monitoring 1 HTCondor log file(s)
+07/09/18 16:05:13 (D_ALWAYS) Reassigning the id of job g1 from (42127.0.0) to (42127.0.0)
+07/09/18 16:05:13 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node g1 (42127.0.0) {07/09/18 16:05:13}
+07/09/18 16:05:13 (D_ALWAYS) Number of idle job procs: 1
+07/09/18 16:05:13 (D_ALWAYS) Reassigning the id of job g2 from (42128.0.0) to (42128.0.0)
+07/09/18 16:05:13 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node g2 (42128.0.0) {07/09/18 16:05:13}
+07/09/18 16:05:13 (D_ALWAYS) Number of idle job procs: 2
+07/09/18 16:05:13 (D_ALWAYS) DAG status: 0 (DAG_STATUS_OK)
+07/09/18 16:05:13 (D_ALWAYS) Of 5 nodes total:
+07/09/18 16:05:13 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/09/18 16:05:13 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/09/18 16:05:13 (D_ALWAYS)     0       0        2       0       2          1        0
+07/09/18 16:05:13 (D_ALWAYS) 0 job proc(s) currently held
+07/09/18 16:05:18 (D_ALWAYS) Submitting HTCondor Node g3 job(s)...
+07/09/18 16:05:18 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Mon/4.3/./goatbrot.dag.nodes.log
+07/09/18 16:05:18 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/09/18 16:05:18 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/09/18 16:05:18 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'g3 -a +DAGManJobId' '=' '42125 -a DAGManJobId' '=' '42125 -batch-name goatbrot.dag+42125 -a submit_event_notes' '=' 'DAG' 'Node:' 'g3 -a dagman_log' '=' '/home/s18_alexyan/Mon/4.3/./goatbrot.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" goatbrot3.sub
+07/09/18 16:05:18 (D_ALWAYS) From submit: 
+07/09/18 16:05:18 (D_ALWAYS) From submit: ERROR: Failed to open command file (No such file or directory)
+07/09/18 16:05:18 (D_ALWAYS) failed while reading from pipe.
+07/09/18 16:05:18 (D_ALWAYS) Read so far: ERROR: Failed to open command file (No such file or directory)
+07/09/18 16:05:18 (D_ALWAYS) ERROR: submit attempt failed
+07/09/18 16:05:18 (D_ALWAYS) submit command was: /usr/bin/condor_submit -a dag_node_name' '=' 'g3 -a +DAGManJobId' '=' '42125 -a DAGManJobId' '=' '42125 -batch-name goatbrot.dag+42125 -a submit_event_notes' '=' 'DAG' 'Node:' 'g3 -a dagman_log' '=' '/home/s18_alexyan/Mon/4.3/./goatbrot.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" goatbrot3.sub
+07/09/18 16:05:18 (D_ALWAYS) Job submit try 2/6 failed, will try again in >= 2 seconds.
+07/09/18 16:05:23 (D_ALWAYS) Submitting HTCondor Node g3 job(s)...
+07/09/18 16:05:23 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Mon/4.3/./goatbrot.dag.nodes.log
+07/09/18 16:05:23 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/09/18 16:05:23 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/09/18 16:05:23 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'g3 -a +DAGManJobId' '=' '42125 -a DAGManJobId' '=' '42125 -batch-name goatbrot.dag+42125 -a submit_event_notes' '=' 'DAG' 'Node:' 'g3 -a dagman_log' '=' '/home/s18_alexyan/Mon/4.3/./goatbrot.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" goatbrot3.sub
+07/09/18 16:05:23 (D_ALWAYS) From submit: 
+07/09/18 16:05:23 (D_ALWAYS) From submit: ERROR: Failed to open command file (No such file or directory)
+07/09/18 16:05:23 (D_ALWAYS) failed while reading from pipe.
+07/09/18 16:05:23 (D_ALWAYS) Read so far: ERROR: Failed to open command file (No such file or directory)
+07/09/18 16:05:23 (D_ALWAYS) ERROR: submit attempt failed
+07/09/18 16:05:23 (D_ALWAYS) submit command was: /usr/bin/condor_submit -a dag_node_name' '=' 'g3 -a +DAGManJobId' '=' '42125 -a DAGManJobId' '=' '42125 -batch-name goatbrot.dag+42125 -a submit_event_notes' '=' 'DAG' 'Node:' 'g3 -a dagman_log' '=' '/home/s18_alexyan/Mon/4.3/./goatbrot.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" goatbrot3.sub
+07/09/18 16:05:23 (D_ALWAYS) Job submit try 3/6 failed, will try again in >= 4 seconds.
+07/09/18 16:05:28 (D_ALWAYS) Submitting HTCondor Node g3 job(s)...
+07/09/18 16:05:28 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Mon/4.3/./goatbrot.dag.nodes.log
+07/09/18 16:05:28 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/09/18 16:05:28 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/09/18 16:05:28 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'g3 -a +DAGManJobId' '=' '42125 -a DAGManJobId' '=' '42125 -batch-name goatbrot.dag+42125 -a submit_event_notes' '=' 'DAG' 'Node:' 'g3 -a dagman_log' '=' '/home/s18_alexyan/Mon/4.3/./goatbrot.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" goatbrot3.sub
+07/09/18 16:05:29 (D_ALWAYS) From submit: 
+07/09/18 16:05:29 (D_ALWAYS) From submit: ERROR: Failed to open command file (No such file or directory)
+07/09/18 16:05:29 (D_ALWAYS) failed while reading from pipe.
+07/09/18 16:05:29 (D_ALWAYS) Read so far: ERROR: Failed to open command file (No such file or directory)
+07/09/18 16:05:29 (D_ALWAYS) ERROR: submit attempt failed
+07/09/18 16:05:29 (D_ALWAYS) submit command was: /usr/bin/condor_submit -a dag_node_name' '=' 'g3 -a +DAGManJobId' '=' '42125 -a DAGManJobId' '=' '42125 -batch-name goatbrot.dag+42125 -a submit_event_notes' '=' 'DAG' 'Node:' 'g3 -a dagman_log' '=' '/home/s18_alexyan/Mon/4.3/./goatbrot.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" goatbrot3.sub
+07/09/18 16:05:29 (D_ALWAYS) Job submit try 4/6 failed, will try again in >= 8 seconds.
+07/09/18 16:05:40 (D_ALWAYS) Submitting HTCondor Node g3 job(s)...
+07/09/18 16:05:40 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Mon/4.3/./goatbrot.dag.nodes.log
+07/09/18 16:05:40 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/09/18 16:05:40 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/09/18 16:05:40 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'g3 -a +DAGManJobId' '=' '42125 -a DAGManJobId' '=' '42125 -batch-name goatbrot.dag+42125 -a submit_event_notes' '=' 'DAG' 'Node:' 'g3 -a dagman_log' '=' '/home/s18_alexyan/Mon/4.3/./goatbrot.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" goatbrot3.sub
+07/09/18 16:05:40 (D_ALWAYS) From submit: 
+07/09/18 16:05:40 (D_ALWAYS) From submit: ERROR: Failed to open command file (No such file or directory)
+07/09/18 16:05:40 (D_ALWAYS) failed while reading from pipe.
+07/09/18 16:05:40 (D_ALWAYS) Read so far: ERROR: Failed to open command file (No such file or directory)
+07/09/18 16:05:40 (D_ALWAYS) ERROR: submit attempt failed
+07/09/18 16:05:40 (D_ALWAYS) submit command was: /usr/bin/condor_submit -a dag_node_name' '=' 'g3 -a +DAGManJobId' '=' '42125 -a DAGManJobId' '=' '42125 -batch-name goatbrot.dag+42125 -a submit_event_notes' '=' 'DAG' 'Node:' 'g3 -a dagman_log' '=' '/home/s18_alexyan/Mon/4.3/./goatbrot.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" goatbrot3.sub
+07/09/18 16:05:40 (D_ALWAYS) Job submit try 5/6 failed, will try again in >= 16 seconds.
+07/09/18 16:05:57 (D_ALWAYS) Submitting HTCondor Node g3 job(s)...
+07/09/18 16:05:57 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Mon/4.3/./goatbrot.dag.nodes.log
+07/09/18 16:05:57 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/09/18 16:05:57 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/09/18 16:05:57 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'g3 -a +DAGManJobId' '=' '42125 -a DAGManJobId' '=' '42125 -batch-name goatbrot.dag+42125 -a submit_event_notes' '=' 'DAG' 'Node:' 'g3 -a dagman_log' '=' '/home/s18_alexyan/Mon/4.3/./goatbrot.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" goatbrot3.sub
+07/09/18 16:05:57 (D_ALWAYS) From submit: 
+07/09/18 16:05:57 (D_ALWAYS) From submit: ERROR: Failed to open command file (No such file or directory)
+07/09/18 16:05:57 (D_ALWAYS) failed while reading from pipe.
+07/09/18 16:05:57 (D_ALWAYS) Read so far: ERROR: Failed to open command file (No such file or directory)
+07/09/18 16:05:57 (D_ALWAYS) ERROR: submit attempt failed
+07/09/18 16:05:57 (D_ALWAYS) submit command was: /usr/bin/condor_submit -a dag_node_name' '=' 'g3 -a +DAGManJobId' '=' '42125 -a DAGManJobId' '=' '42125 -batch-name goatbrot.dag+42125 -a submit_event_notes' '=' 'DAG' 'Node:' 'g3 -a dagman_log' '=' '/home/s18_alexyan/Mon/4.3/./goatbrot.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" goatbrot3.sub
+07/09/18 16:05:57 (D_ALWAYS) Job submit failed after 6 tries.
+07/09/18 16:05:57 (D_ALWAYS) Shortcutting node g3 retries because of submit failure(s)
+07/09/18 16:05:57 (D_ALWAYS) DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/09/18 16:05:57 (D_ALWAYS) Of 5 nodes total:
+07/09/18 16:05:57 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/09/18 16:05:57 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/09/18 16:05:57 (D_ALWAYS)     0       0        2       0       1          1        1
+07/09/18 16:05:57 (D_ALWAYS) 0 job proc(s) currently held
+07/09/18 16:06:02 (D_ALWAYS) Submitting HTCondor Node g4 job(s)...
+07/09/18 16:06:02 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Mon/4.3/./goatbrot.dag.nodes.log
+07/09/18 16:06:02 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/09/18 16:06:02 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/09/18 16:06:02 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'g4 -a +DAGManJobId' '=' '42125 -a DAGManJobId' '=' '42125 -batch-name goatbrot.dag+42125 -a submit_event_notes' '=' 'DAG' 'Node:' 'g4 -a dagman_log' '=' '/home/s18_alexyan/Mon/4.3/./goatbrot.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '1 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" goatbrot4.sub
+07/09/18 16:06:02 (D_ALWAYS) From submit: Submitting job(s).
+07/09/18 16:06:02 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 42135.
+07/09/18 16:06:02 (D_ALWAYS) 	assigned HTCondor ID (42135.0.0)
+07/09/18 16:06:02 (D_ALWAYS) Just submitted 1 job this cycle...
+07/09/18 16:06:02 (D_ALWAYS) Currently monitoring 1 HTCondor log file(s)
+07/09/18 16:06:02 (D_ALWAYS) Reassigning the id of job g4 from (42135.0.0) to (42135.0.0)
+07/09/18 16:06:02 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node g4 (42135.0.0) {07/09/18 16:06:02}
+07/09/18 16:06:02 (D_ALWAYS) Number of idle job procs: 3
+07/09/18 16:06:02 (D_ALWAYS) DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/09/18 16:06:02 (D_ALWAYS) Of 5 nodes total:
+07/09/18 16:06:02 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/09/18 16:06:02 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/09/18 16:06:02 (D_ALWAYS)     0       0        3       0       0          1        1
+07/09/18 16:06:02 (D_ALWAYS) 0 job proc(s) currently held
+07/09/18 16:07:57 (D_ALWAYS) Currently monitoring 1 HTCondor log file(s)
+07/09/18 16:07:57 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node g4 (42135.0.0) {07/09/18 16:07:54}
+07/09/18 16:07:57 (D_ALWAYS) Number of idle job procs: 2
+07/09/18 16:07:57 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node g2 (42128.0.0) {07/09/18 16:07:54}
+07/09/18 16:07:57 (D_ALWAYS) Number of idle job procs: 1
+07/09/18 16:07:57 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node g1 (42127.0.0) {07/09/18 16:07:54}
+07/09/18 16:07:57 (D_ALWAYS) Number of idle job procs: 0
+07/09/18 16:08:12 (D_ALWAYS) Currently monitoring 1 HTCondor log file(s)
+07/09/18 16:08:12 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node g4 (42135.0.0) {07/09/18 16:08:10}
+07/09/18 16:08:12 (D_ALWAYS) Number of idle job procs: 0
+07/09/18 16:08:12 (D_ALWAYS) Node g4 job proc (42135.0.0) completed successfully.
+07/09/18 16:08:12 (D_ALWAYS) Node g4 job completed
+07/09/18 16:08:12 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node g2 (42128.0.0) {07/09/18 16:08:11}
+07/09/18 16:08:12 (D_ALWAYS) Number of idle job procs: 0
+07/09/18 16:08:12 (D_ALWAYS) Node g2 job proc (42128.0.0) completed successfully.
+07/09/18 16:08:12 (D_ALWAYS) Node g2 job completed
+07/09/18 16:08:12 (D_ALWAYS) DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/09/18 16:08:12 (D_ALWAYS) Of 5 nodes total:
+07/09/18 16:08:12 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/09/18 16:08:12 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/09/18 16:08:12 (D_ALWAYS)     2       0        1       0       0          1        1
+07/09/18 16:08:12 (D_ALWAYS) 0 job proc(s) currently held
+07/09/18 16:09:12 (D_ALWAYS) Currently monitoring 1 HTCondor log file(s)
+07/09/18 16:09:12 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node g1 (42127.0.0) {07/09/18 16:09:09}
+07/09/18 16:09:12 (D_ALWAYS) Number of idle job procs: 0
+07/09/18 16:09:12 (D_ALWAYS) Node g1 job proc (42127.0.0) completed successfully.
+07/09/18 16:09:12 (D_ALWAYS) Node g1 job completed
+07/09/18 16:09:12 (D_ALWAYS) DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/09/18 16:09:12 (D_ALWAYS) Of 5 nodes total:
+07/09/18 16:09:12 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/09/18 16:09:12 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/09/18 16:09:12 (D_ALWAYS)     3       0        0       0       0          1        1
+07/09/18 16:09:12 (D_ALWAYS) 0 job proc(s) currently held
+07/09/18 16:09:12 (D_ALWAYS) ERROR: the following job(s) failed:
+07/09/18 16:09:12 (D_ALWAYS) ---------------------- Job ----------------------
+07/09/18 16:09:12 (D_ALWAYS)       Node Name: g3
+07/09/18 16:09:12 (D_ALWAYS)            Noop: false
+07/09/18 16:09:12 (D_ALWAYS)          NodeID: 2
+07/09/18 16:09:12 (D_ALWAYS)     Node Status: STATUS_ERROR    
+07/09/18 16:09:12 (D_ALWAYS) Node return val: -1
+07/09/18 16:09:12 (D_ALWAYS)           Error: Job submit failed
+07/09/18 16:09:12 (D_ALWAYS) Job Submit File: goatbrot3.sub
+07/09/18 16:09:12 (D_ALWAYS)  HTCondor Job ID: [not yet submitted]
+07/09/18 16:09:12 (D_ALWAYS)       Q_PARENTS: <END>
+07/09/18 16:09:12 (D_ALWAYS)       Q_WAITING: <END>
+07/09/18 16:09:12 (D_ALWAYS)      Q_CHILDREN: montage, <END>
+07/09/18 16:09:12 (D_ALWAYS) ---------------------------------------	<END>
+07/09/18 16:09:12 (D_ALWAYS) Aborting DAG...
+07/09/18 16:09:12 (D_ALWAYS) Writing Rescue DAG to goatbrot.dag.rescue001...
+07/09/18 16:09:12 (D_ALWAYS) Removing submitted jobs...
+07/09/18 16:09:12 (D_ALWAYS) Removing any/all submitted HTCondor jobs...
+07/09/18 16:09:12 (D_ALWAYS) Running: /usr/bin/condor_rm -const DAGManJobId' '=?=' '42125
+07/09/18 16:09:12 (D_ALWAYS) Note: 0 total job deferrals because of -MaxJobs limit (0)
+07/09/18 16:09:12 (D_ALWAYS) Note: 0 total job deferrals because of -MaxIdle limit (1000)
+07/09/18 16:09:12 (D_ALWAYS) Note: 0 total job deferrals because of node category throttles
+07/09/18 16:09:12 (D_ALWAYS) Note: 0 total PRE script deferrals because of -MaxPre limit (20) or DEFER
+07/09/18 16:09:12 (D_ALWAYS) Note: 0 total POST script deferrals because of -MaxPost limit (20) or DEFER
+07/09/18 16:09:12 (D_ALWAYS) DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/09/18 16:09:12 (D_ALWAYS) Of 5 nodes total:
+07/09/18 16:09:12 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/09/18 16:09:12 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/09/18 16:09:12 (D_ALWAYS)     3       0        0       0       0          1        1
+07/09/18 16:09:12 (D_ALWAYS) 0 job proc(s) currently held
+07/09/18 16:09:12 (D_ALWAYS) Wrote metrics file goatbrot.dag.metrics.
+07/09/18 16:09:12 (D_ALWAYS) Metrics not sent because of PEGASUS_METRICS or CONDOR_DEVELOPERS setting.
+07/09/18 16:09:12 (D_ALWAYS) **** condor_scheduniv_exec.42125.0 (condor_DAGMAN) pid 3483914 EXITING WITH STATUS 1

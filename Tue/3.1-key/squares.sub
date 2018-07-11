@@ -1,0 +1,28 @@
+universe = vanilla
+executable = max_square.py
+arguments = $(anagrams)
+
+# SOLUTION
+# ========
+# Problem: Some jobs are held
+# Where to find more info: condor_q -held and squares/square-*.log files
+# Solution: max_square.py consumes different amounts of memory depending on how
+# long the words are. There are two ways to solve this problem:
+# 1. Use `condor_qedit <job ID> RequestMemory <# of MBs>` followed by
+# `condor_release <job ID> for each job ID.
+# 2. `condor_rm` your jobs, add a 'request_memory' line to the submit file, and
+# resubmit the DAG with `condor_submit_dag anagrams.dag`
+request_memory = 50MB
+transfer_input_files = euler_common.py
+
+# SOLUTION
+# ========
+# Problem: Jobs fail to submit
+# Where to find more info: condor_q -held
+# Solution: Due to a missing 'squares' directory, all the 'square' jobs fail to
+# run. Create the directory with `mkdir squares`
+output = squares/square-$(serial).out
+error = squares/square-$(serial).err
+log = squares/square-$(serial).log
+
+queue

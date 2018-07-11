@@ -1,0 +1,21 @@
+000 (42047.000.000) 07/09 15:56:42 Job submitted from host: <128.104.100.43:9618?addrs=128.104.100.43-9618+[2607-f388-107c-501-2--3]-9618&noUDP&sock=2062_28ec_69>
+    DAG Node: Simple
+...
+001 (42047.000.000) 07/09 15:57:12 Job executing on host: <128.104.58.33:9618?addrs=128.104.58.33-9618+[2607-f388-1086-0-a6ba-dbff-fe38-e64f]-9618&noUDP&sock=1415_2699_3>
+...
+005 (42047.000.000) 07/09 15:57:17 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	27848  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	27848  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       49  1048576   4396525
+	   Ioheavy              :                           1
+	   Memory (MB)          :        0     1024      1024
+...

@@ -1,0 +1,9 @@
+executable              = /usr/local/bin/goatbrot
+arguments               = -i 100000 -c -0.75,0.75 -w 1.5 -s 500,500 -o tile_0_0.ppm
+log                     = goatbrot.log
+output                  = goatbrot.out.0.0
+error                   = goatbrot.err.0.0
+request_memory          = 1GB
+request_disk            = 1GB
+request_cpus            = 1
+queue

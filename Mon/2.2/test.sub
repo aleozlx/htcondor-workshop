@@ -1,0 +1,13 @@
+universe = vanilla
+executable = cpi
+arguments = "1000000"
+
+output = script.out$(Process)
+error = script.err
+log = script.log
+
+request_cpus = 1
+request_memory = 1
+request_disk = 1
+
+queue 3

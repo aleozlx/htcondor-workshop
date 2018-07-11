@@ -1,0 +1,34 @@
+009 (43639.000.000) 07/10 15:02:24 Job was aborted by the user.
+	removed because <OtherJobRemoveRequirements = DAGManJobId =?= 43600> fired when job (43600.0) was removed
+...
+009 (43639.000.000) 07/10 15:02:24 Job was aborted by the user.
+	removed because <OtherJobRemoveRequirements = DAGManJobId =?= 43600> fired when job (43600.0) was removed
+...
+009 (43639.000.000) 07/10 15:02:24 Job was aborted by the user.
+	removed because <OtherJobRemoveRequirements = DAGManJobId =?= 43600> fired when job (43600.0) was removed
+...
+000 (43895.000.000) 07/10 15:03:29 Job submitted from host: <128.104.100.43:9618?addrs=128.104.100.43-9618+[2607-f388-107c-501-2--3]-9618&noUDP&sock=2062_28ec_69>
+    DAG Node: Squares038
+...
+001 (43895.000.000) 07/10 15:06:44 Job executing on host: <128.104.58.67:9618?addrs=128.104.58.67-9618+[2607-f388-1086-0-a6ba-dbff-fe38-fcba]-9618&noUDP&sock=4487_498a_3>
+...
+006 (43895.000.000) 07/10 15:06:53 Image size of job updated: 12716
+	13  -  MemoryUsage of job (MB)
+	12716  -  ResidentSetSize of job (KB)
+...
+005 (43895.000.000) 07/10 15:07:45 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1306  -  Run Bytes Sent By Job
+	2636  -  Run Bytes Received By Job
+	1306  -  Total Bytes Sent By Job
+	2636  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       18        3   8780202
+	   Ioheavy              :                           1
+	   Memory (MB)          :       13       50        50
+...

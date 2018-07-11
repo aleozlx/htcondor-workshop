@@ -1,0 +1,967 @@
+07/10/18 15:02:43 (D_ALWAYS) ******************************************************
+07/10/18 15:02:43 (D_ALWAYS) ** condor_scheduniv_exec.43854.0 (CONDOR_DAGMAN) STARTING UP
+07/10/18 15:02:43 (D_ALWAYS) ** /usr/bin/condor_dagman
+07/10/18 15:02:43 (D_ALWAYS) ** SubsystemInfo: name=DAGMAN type=DAGMAN(10) class=DAEMON(1)
+07/10/18 15:02:43 (D_ALWAYS) ** Configuration: subsystem:DAGMAN local:<NONE> class:DAEMON
+07/10/18 15:02:43 (D_ALWAYS) ** $CondorVersion: 8.7.2 Jun 02 2017 BuildID: 407060 $
+07/10/18 15:02:43 (D_ALWAYS) ** $CondorPlatform: x86_64_RedHat6 $
+07/10/18 15:02:43 (D_ALWAYS) ** PID = 3732803
+07/10/18 15:02:43 (D_ALWAYS) ** Log last touched time unavailable (No such file or directory)
+07/10/18 15:02:43 (D_ALWAYS) ******************************************************
+07/10/18 15:02:43 (D_ALWAYS) Using config source: /etc/condor/condor_config
+07/10/18 15:02:43 (D_ALWAYS) Using local config sources: 
+07/10/18 15:02:43 (D_ALWAYS)    /etc/condor/ephemeral/dns_domain_name.conf
+07/10/18 15:02:43 (D_ALWAYS)    /etc/condor/condor_config.hosts
+07/10/18 15:02:43 (D_ALWAYS)    /etc/condor/condor_config.global
+07/10/18 15:02:43 (D_ALWAYS)    /etc/condor/condor_config.policy
+07/10/18 15:02:43 (D_ALWAYS)    /etc/condor/condor_config.x86_64_SL6
+07/10/18 15:02:43 (D_ALWAYS)    /etc/condor/condor_config.security
+07/10/18 15:02:43 (D_ALWAYS)    /etc/condor/dns_domains/chtc.wisc.edu.local
+07/10/18 15:02:43 (D_ALWAYS)    /etc/condor/hosts/learn.chtc.wisc.edu.local
+07/10/18 15:02:43 (D_ALWAYS)    /etc/condor/include/schedd.conf
+07/10/18 15:02:43 (D_ALWAYS)    /etc/condor/include/facility_wid.conf
+07/10/18 15:02:43 (D_ALWAYS)    /etc/condor/include/owned_by_chtc.conf
+07/10/18 15:02:43 (D_ALWAYS)    /etc/condor/condor_config.flightworthy_testing
+07/10/18 15:02:43 (D_ALWAYS) config Macros = 253, Sorted = 253, StringBytes = 58549, TablesBytes = 9252
+07/10/18 15:02:43 (D_ALWAYS) CLASSAD_CACHING is ENABLED
+07/10/18 15:02:43 (D_ALWAYS) Daemon Log is logging: D_ALWAYS D_ERROR
+07/10/18 15:02:43 (D_ALWAYS) DaemonCore: No command port requested.
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_USE_STRICT setting: 1
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_VERBOSITY setting: 3
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_DEBUG_CACHE_SIZE setting: 5242880
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_DEBUG_CACHE_ENABLE setting: False
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_SUBMIT_DELAY setting: 0
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_STARTUP_CYCLE_DETECT setting: False
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_USER_LOG_SCAN_INTERVAL setting: 5
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_DEFAULT_PRIORITY setting: 0
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_SUPPRESS_NOTIFICATION setting: True
+07/10/18 15:02:43 (D_ALWAYS) allow_events (DAGMAN_ALLOW_EVENTS) setting: 114
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_RETRY_SUBMIT_FIRST setting: True
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_RETRY_NODE_FIRST setting: False
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_MAX_JOBS_IDLE setting: 1000
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_MAX_PRE_SCRIPTS setting: 20
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_MAX_POST_SCRIPTS setting: 20
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_MUNGE_NODE_NAMES setting: True
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_PROHIBIT_MULTI_JOBS setting: False
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_SUBMIT_DEPTH_FIRST setting: False
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_ALWAYS_RUN_POST setting: False
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_ABORT_DUPLICATES setting: True
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_ABORT_ON_SCARY_SUBMIT setting: True
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_PENDING_REPORT_INTERVAL setting: 600
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_AUTO_RESCUE setting: True
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_MAX_RESCUE_NUM setting: 100
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_WRITE_PARTIAL_RESCUE setting: True
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_DEFAULT_NODE_LOG setting: @(DAG_DIR)/@(DAG_FILE).nodes.log
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_GENERATE_SUBDAG_SUBMITS setting: True
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_MAX_JOB_HOLDS setting: 100
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_HOLD_CLAIM_TIME setting: 20
+07/10/18 15:02:43 (D_ALWAYS) ALL_DEBUG setting: D_CAT
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_DEBUG setting: 
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_SUPPRESS_JOB_LOGS setting: False
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_REMOVE_NODE_JOBS setting: True
+07/10/18 15:02:43 (D_ALWAYS) argv[0] == "condor_scheduniv_exec.43854.0"
+07/10/18 15:02:43 (D_ALWAYS) argv[1] == "-Lockfile"
+07/10/18 15:02:43 (D_ALWAYS) argv[2] == "squares.dag.lock"
+07/10/18 15:02:43 (D_ALWAYS) argv[3] == "-AutoRescue"
+07/10/18 15:02:43 (D_ALWAYS) argv[4] == "1"
+07/10/18 15:02:43 (D_ALWAYS) argv[5] == "-DoRescueFrom"
+07/10/18 15:02:43 (D_ALWAYS) argv[6] == "0"
+07/10/18 15:02:43 (D_ALWAYS) argv[7] == "-Dag"
+07/10/18 15:02:43 (D_ALWAYS) argv[8] == "squares.dag"
+07/10/18 15:02:43 (D_ALWAYS) argv[9] == "-Suppress_notification"
+07/10/18 15:02:43 (D_ALWAYS) argv[10] == "-CsdVersion"
+07/10/18 15:02:43 (D_ALWAYS) argv[11] == "$CondorVersion: 8.7.2 Jun 02 2017 BuildID: 407060 $"
+07/10/18 15:02:43 (D_ALWAYS) argv[12] == "-Dagman"
+07/10/18 15:02:43 (D_ALWAYS) argv[13] == "/usr/bin/condor_dagman"
+07/10/18 15:02:43 (D_ALWAYS) argv[14] == "-Update_submit"
+07/10/18 15:02:43 (D_ALWAYS) Workflow batch-name: <anagrams.dag+43853>
+07/10/18 15:02:43 (D_ALWAYS) Workflow accounting_group: <>
+07/10/18 15:02:43 (D_ALWAYS) Workflow accounting_group_user: <>
+07/10/18 15:02:43 (D_ALWAYS) DAGMAN_LOG_ON_NFS_IS_ERROR setting: False
+07/10/18 15:02:43 (D_ALWAYS) Default node log file is: </home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log>
+07/10/18 15:02:43 (D_ALWAYS) DAG Lockfile will be written to squares.dag.lock
+07/10/18 15:02:43 (D_ALWAYS) DAG Input file is squares.dag
+07/10/18 15:02:43 (D_ALWAYS) Parsing 1 dagfiles
+07/10/18 15:02:43 (D_ALWAYS) Parsing squares.dag ...
+07/10/18 15:02:43 (D_ALWAYS) Found rescue DAG number 1; running squares.dag.rescue001 in combination with normal DAG file
+07/10/18 15:02:43 (D_ALWAYS) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+07/10/18 15:02:43 (D_ALWAYS) USING RESCUE DAG squares.dag.rescue001
+07/10/18 15:02:43 (D_ALWAYS) Dag contains 42 total jobs
+07/10/18 15:02:43 (D_ALWAYS) Sleeping for 3 seconds to ensure ProcessId uniqueness
+07/10/18 15:02:46 (D_ALWAYS) Bootstrapping...
+07/10/18 15:02:46 (D_ALWAYS) Number of pre-completed nodes: 0
+07/10/18 15:02:46 (D_ALWAYS) MultiLogFiles: truncating log file /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:02:46 (D_ALWAYS) DAG status: 0 (DAG_STATUS_OK)
+07/10/18 15:02:46 (D_ALWAYS) Of 42 nodes total:
+07/10/18 15:02:46 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/10/18 15:02:46 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/10/18 15:02:46 (D_ALWAYS)     0       0        0       0      42          0        0
+07/10/18 15:02:46 (D_ALWAYS) 0 job proc(s) currently held
+07/10/18 15:02:46 (D_ALWAYS) Registering condor_event_timer...
+07/10/18 15:02:47 (D_ALWAYS) Submitting HTCondor Node Squares000 job(s)...
+07/10/18 15:02:47 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:02:47 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:02:47 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:02:47 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares000 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares000 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'CREDIT' 'DIRECT -a serial' '=' '000 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:02:47 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:02:47 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43855.
+07/10/18 15:02:47 (D_ALWAYS) 	assigned HTCondor ID (43855.0.0)
+07/10/18 15:02:47 (D_ALWAYS) Submitting HTCondor Node Squares001 job(s)...
+07/10/18 15:02:47 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:02:47 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:02:47 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:02:47 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares001 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares001 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'NOW' 'OWN -a serial' '=' '001 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:02:47 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:02:47 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43856.
+07/10/18 15:02:47 (D_ALWAYS) 	assigned HTCondor ID (43856.0.0)
+07/10/18 15:02:47 (D_ALWAYS) Submitting HTCondor Node Squares002 job(s)...
+07/10/18 15:02:47 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:02:47 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:02:47 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:02:47 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares002 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares002 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'EXCEPT' 'EXPECT -a serial' '=' '002 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:02:47 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:02:47 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43857.
+07/10/18 15:02:47 (D_ALWAYS) 	assigned HTCondor ID (43857.0.0)
+07/10/18 15:02:47 (D_ALWAYS) Submitting HTCondor Node Squares003 job(s)...
+07/10/18 15:02:47 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:02:47 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:02:47 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:02:47 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares003 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares003 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'EAT' 'TEA -a serial' '=' '003 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:02:48 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:02:48 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43858.
+07/10/18 15:02:48 (D_ALWAYS) 	assigned HTCondor ID (43858.0.0)
+07/10/18 15:02:48 (D_ALWAYS) Submitting HTCondor Node Squares004 job(s)...
+07/10/18 15:02:48 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:02:48 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:02:48 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:02:48 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares004 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares004 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'SHUT' 'THUS -a serial' '=' '004 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:02:48 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:02:48 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43859.
+07/10/18 15:02:48 (D_ALWAYS) 	assigned HTCondor ID (43859.0.0)
+07/10/18 15:02:48 (D_ALWAYS) Just submitted 5 jobs this cycle...
+07/10/18 15:02:48 (D_ALWAYS) Currently monitoring 1 HTCondor log file(s)
+07/10/18 15:02:48 (D_ALWAYS) Reassigning the id of job Squares000 from (43855.0.0) to (43855.0.0)
+07/10/18 15:02:48 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares000 (43855.0.0) {07/10/18 15:02:47}
+07/10/18 15:02:48 (D_ALWAYS) Number of idle job procs: 1
+07/10/18 15:02:48 (D_ALWAYS) Reassigning the id of job Squares001 from (43856.0.0) to (43856.0.0)
+07/10/18 15:02:48 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares001 (43856.0.0) {07/10/18 15:02:47}
+07/10/18 15:02:48 (D_ALWAYS) Number of idle job procs: 2
+07/10/18 15:02:48 (D_ALWAYS) Reassigning the id of job Squares002 from (43857.0.0) to (43857.0.0)
+07/10/18 15:02:48 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares002 (43857.0.0) {07/10/18 15:02:47}
+07/10/18 15:02:48 (D_ALWAYS) Number of idle job procs: 3
+07/10/18 15:02:48 (D_ALWAYS) Reassigning the id of job Squares003 from (43858.0.0) to (43858.0.0)
+07/10/18 15:02:48 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares003 (43858.0.0) {07/10/18 15:02:48}
+07/10/18 15:02:48 (D_ALWAYS) Number of idle job procs: 4
+07/10/18 15:02:48 (D_ALWAYS) Reassigning the id of job Squares004 from (43859.0.0) to (43859.0.0)
+07/10/18 15:02:48 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares004 (43859.0.0) {07/10/18 15:02:48}
+07/10/18 15:02:48 (D_ALWAYS) Number of idle job procs: 5
+07/10/18 15:02:48 (D_ALWAYS) DAG status: 0 (DAG_STATUS_OK)
+07/10/18 15:02:48 (D_ALWAYS) Of 42 nodes total:
+07/10/18 15:02:48 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/10/18 15:02:48 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/10/18 15:02:48 (D_ALWAYS)     0       0        5       0      37          0        0
+07/10/18 15:02:48 (D_ALWAYS) 0 job proc(s) currently held
+07/10/18 15:02:53 (D_ALWAYS) Submitting HTCondor Node Squares005 job(s)...
+07/10/18 15:02:53 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:02:53 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:02:53 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:02:53 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares005 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares005 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'SURE' 'USER -a serial' '=' '005 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:02:53 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:02:53 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43860.
+07/10/18 15:02:53 (D_ALWAYS) 	assigned HTCondor ID (43860.0.0)
+07/10/18 15:02:53 (D_ALWAYS) Submitting HTCondor Node Squares006 job(s)...
+07/10/18 15:02:53 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:02:53 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:02:53 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:02:53 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares006 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares006 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'INTRODUCE' 'REDUCTION -a serial' '=' '006 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:02:53 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:02:53 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43861.
+07/10/18 15:02:53 (D_ALWAYS) 	assigned HTCondor ID (43861.0.0)
+07/10/18 15:02:53 (D_ALWAYS) Submitting HTCondor Node Squares007 job(s)...
+07/10/18 15:02:53 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:02:53 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:02:53 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:02:53 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares007 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares007 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'ITEM' 'TIME -a serial' '=' '007 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:02:53 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:02:53 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43862.
+07/10/18 15:02:53 (D_ALWAYS) 	assigned HTCondor ID (43862.0.0)
+07/10/18 15:02:53 (D_ALWAYS) Submitting HTCondor Node Squares008 job(s)...
+07/10/18 15:02:53 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:02:53 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:02:53 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:02:53 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares008 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares008 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'HOW' 'WHO -a serial' '=' '008 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:02:54 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:02:54 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43863.
+07/10/18 15:02:54 (D_ALWAYS) 	assigned HTCondor ID (43863.0.0)
+07/10/18 15:02:54 (D_ALWAYS) Submitting HTCondor Node Squares009 job(s)...
+07/10/18 15:02:54 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:02:54 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:02:54 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:02:54 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares009 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares009 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'HATE' 'HEAT -a serial' '=' '009 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:02:54 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:02:54 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43864.
+07/10/18 15:02:54 (D_ALWAYS) 	assigned HTCondor ID (43864.0.0)
+07/10/18 15:02:54 (D_ALWAYS) Just submitted 5 jobs this cycle...
+07/10/18 15:02:54 (D_ALWAYS) Currently monitoring 1 HTCondor log file(s)
+07/10/18 15:02:54 (D_ALWAYS) Reassigning the id of job Squares005 from (43860.0.0) to (43860.0.0)
+07/10/18 15:02:54 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares005 (43860.0.0) {07/10/18 15:02:53}
+07/10/18 15:02:54 (D_ALWAYS) Number of idle job procs: 6
+07/10/18 15:02:54 (D_ALWAYS) Reassigning the id of job Squares006 from (43861.0.0) to (43861.0.0)
+07/10/18 15:02:54 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares006 (43861.0.0) {07/10/18 15:02:53}
+07/10/18 15:02:54 (D_ALWAYS) Number of idle job procs: 7
+07/10/18 15:02:54 (D_ALWAYS) Reassigning the id of job Squares007 from (43862.0.0) to (43862.0.0)
+07/10/18 15:02:54 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares007 (43862.0.0) {07/10/18 15:02:53}
+07/10/18 15:02:54 (D_ALWAYS) Number of idle job procs: 8
+07/10/18 15:02:54 (D_ALWAYS) Reassigning the id of job Squares008 from (43863.0.0) to (43863.0.0)
+07/10/18 15:02:54 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares008 (43863.0.0) {07/10/18 15:02:54}
+07/10/18 15:02:54 (D_ALWAYS) Number of idle job procs: 9
+07/10/18 15:02:54 (D_ALWAYS) Reassigning the id of job Squares009 from (43864.0.0) to (43864.0.0)
+07/10/18 15:02:54 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares009 (43864.0.0) {07/10/18 15:02:54}
+07/10/18 15:02:54 (D_ALWAYS) Number of idle job procs: 10
+07/10/18 15:02:54 (D_ALWAYS) DAG status: 0 (DAG_STATUS_OK)
+07/10/18 15:02:54 (D_ALWAYS) Of 42 nodes total:
+07/10/18 15:02:54 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/10/18 15:02:54 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/10/18 15:02:54 (D_ALWAYS)     0       0       10       0      32          0        0
+07/10/18 15:02:54 (D_ALWAYS) 0 job proc(s) currently held
+07/10/18 15:02:59 (D_ALWAYS) Submitting HTCondor Node Squares010 job(s)...
+07/10/18 15:02:59 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:02:59 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:02:59 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:02:59 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares010 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares010 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'DEAL' 'LEAD -a serial' '=' '010 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:02:59 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:02:59 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43865.
+07/10/18 15:02:59 (D_ALWAYS) 	assigned HTCondor ID (43865.0.0)
+07/10/18 15:02:59 (D_ALWAYS) Submitting HTCondor Node Squares011 job(s)...
+07/10/18 15:02:59 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:02:59 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:02:59 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:02:59 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares011 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares011 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'LEAST' 'STEAL -a serial' '=' '011 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:02:59 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:02:59 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43866.
+07/10/18 15:02:59 (D_ALWAYS) 	assigned HTCondor ID (43866.0.0)
+07/10/18 15:02:59 (D_ALWAYS) Submitting HTCondor Node Squares012 job(s)...
+07/10/18 15:02:59 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:02:59 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:02:59 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:02:59 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares012 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares012 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'DANGER' 'GARDEN -a serial' '=' '012 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:02:59 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:02:59 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43867.
+07/10/18 15:02:59 (D_ALWAYS) 	assigned HTCondor ID (43867.0.0)
+07/10/18 15:02:59 (D_ALWAYS) Submitting HTCondor Node Squares013 job(s)...
+07/10/18 15:02:59 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:02:59 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:02:59 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:02:59 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares013 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares013 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'FORMER' 'REFORM -a serial' '=' '013 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:02:59 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:02:59 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43868.
+07/10/18 15:02:59 (D_ALWAYS) 	assigned HTCondor ID (43868.0.0)
+07/10/18 15:02:59 (D_ALWAYS) Submitting HTCondor Node Squares014 job(s)...
+07/10/18 15:02:59 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:02:59 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:02:59 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:02:59 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares014 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares014 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'NOTE' 'TONE -a serial' '=' '014 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:00 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:00 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43869.
+07/10/18 15:03:00 (D_ALWAYS) 	assigned HTCondor ID (43869.0.0)
+07/10/18 15:03:00 (D_ALWAYS) Just submitted 5 jobs this cycle...
+07/10/18 15:03:00 (D_ALWAYS) Currently monitoring 1 HTCondor log file(s)
+07/10/18 15:03:00 (D_ALWAYS) Reassigning the id of job Squares010 from (43865.0.0) to (43865.0.0)
+07/10/18 15:03:00 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares010 (43865.0.0) {07/10/18 15:02:59}
+07/10/18 15:03:00 (D_ALWAYS) Number of idle job procs: 11
+07/10/18 15:03:00 (D_ALWAYS) Reassigning the id of job Squares011 from (43866.0.0) to (43866.0.0)
+07/10/18 15:03:00 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares011 (43866.0.0) {07/10/18 15:02:59}
+07/10/18 15:03:00 (D_ALWAYS) Number of idle job procs: 12
+07/10/18 15:03:00 (D_ALWAYS) Reassigning the id of job Squares012 from (43867.0.0) to (43867.0.0)
+07/10/18 15:03:00 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares012 (43867.0.0) {07/10/18 15:02:59}
+07/10/18 15:03:00 (D_ALWAYS) Number of idle job procs: 13
+07/10/18 15:03:00 (D_ALWAYS) Reassigning the id of job Squares013 from (43868.0.0) to (43868.0.0)
+07/10/18 15:03:00 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares013 (43868.0.0) {07/10/18 15:02:59}
+07/10/18 15:03:00 (D_ALWAYS) Number of idle job procs: 14
+07/10/18 15:03:00 (D_ALWAYS) Reassigning the id of job Squares014 from (43869.0.0) to (43869.0.0)
+07/10/18 15:03:00 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares014 (43869.0.0) {07/10/18 15:03:00}
+07/10/18 15:03:00 (D_ALWAYS) Number of idle job procs: 15
+07/10/18 15:03:00 (D_ALWAYS) DAG status: 0 (DAG_STATUS_OK)
+07/10/18 15:03:00 (D_ALWAYS) Of 42 nodes total:
+07/10/18 15:03:00 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/10/18 15:03:00 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/10/18 15:03:00 (D_ALWAYS)     0       0       15       0      27          0        0
+07/10/18 15:03:00 (D_ALWAYS) 0 job proc(s) currently held
+07/10/18 15:03:05 (D_ALWAYS) Submitting HTCondor Node Squares015 job(s)...
+07/10/18 15:03:05 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:03:05 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:03:05 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:03:05 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares015 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares015 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'FORM' 'FROM -a serial' '=' '015 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:05 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:05 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43870.
+07/10/18 15:03:05 (D_ALWAYS) 	assigned HTCondor ID (43870.0.0)
+07/10/18 15:03:05 (D_ALWAYS) Submitting HTCondor Node Squares016 job(s)...
+07/10/18 15:03:05 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:03:05 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:03:05 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:03:05 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares016 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares016 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'EARN' 'NEAR -a serial' '=' '016 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:05 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:05 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43871.
+07/10/18 15:03:05 (D_ALWAYS) 	assigned HTCondor ID (43871.0.0)
+07/10/18 15:03:05 (D_ALWAYS) Submitting HTCondor Node Squares017 job(s)...
+07/10/18 15:03:05 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:03:05 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:03:05 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:03:05 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares017 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares017 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'SHEET' 'THESE -a serial' '=' '017 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:05 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:05 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43872.
+07/10/18 15:03:05 (D_ALWAYS) 	assigned HTCondor ID (43872.0.0)
+07/10/18 15:03:05 (D_ALWAYS) Submitting HTCondor Node Squares018 job(s)...
+07/10/18 15:03:05 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:03:05 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:03:05 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:03:05 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares018 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares018 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'RATE' 'TEAR -a serial' '=' '018 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:05 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:05 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43873.
+07/10/18 15:03:05 (D_ALWAYS) 	assigned HTCondor ID (43873.0.0)
+07/10/18 15:03:05 (D_ALWAYS) Submitting HTCondor Node Squares019 job(s)...
+07/10/18 15:03:05 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:03:05 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:03:05 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:03:05 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares019 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares019 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'SHOUT' 'SOUTH -a serial' '=' '019 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:05 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:05 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43874.
+07/10/18 15:03:05 (D_ALWAYS) 	assigned HTCondor ID (43874.0.0)
+07/10/18 15:03:05 (D_ALWAYS) Just submitted 5 jobs this cycle...
+07/10/18 15:03:05 (D_ALWAYS) Currently monitoring 1 HTCondor log file(s)
+07/10/18 15:03:05 (D_ALWAYS) Reassigning the id of job Squares015 from (43870.0.0) to (43870.0.0)
+07/10/18 15:03:05 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares015 (43870.0.0) {07/10/18 15:03:05}
+07/10/18 15:03:05 (D_ALWAYS) Number of idle job procs: 16
+07/10/18 15:03:05 (D_ALWAYS) Reassigning the id of job Squares016 from (43871.0.0) to (43871.0.0)
+07/10/18 15:03:05 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares016 (43871.0.0) {07/10/18 15:03:05}
+07/10/18 15:03:05 (D_ALWAYS) Number of idle job procs: 17
+07/10/18 15:03:05 (D_ALWAYS) Reassigning the id of job Squares017 from (43872.0.0) to (43872.0.0)
+07/10/18 15:03:05 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares017 (43872.0.0) {07/10/18 15:03:05}
+07/10/18 15:03:05 (D_ALWAYS) Number of idle job procs: 18
+07/10/18 15:03:05 (D_ALWAYS) Reassigning the id of job Squares018 from (43873.0.0) to (43873.0.0)
+07/10/18 15:03:05 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares018 (43873.0.0) {07/10/18 15:03:05}
+07/10/18 15:03:05 (D_ALWAYS) Number of idle job procs: 19
+07/10/18 15:03:05 (D_ALWAYS) Reassigning the id of job Squares019 from (43874.0.0) to (43874.0.0)
+07/10/18 15:03:05 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares019 (43874.0.0) {07/10/18 15:03:05}
+07/10/18 15:03:05 (D_ALWAYS) Number of idle job procs: 20
+07/10/18 15:03:05 (D_ALWAYS) DAG status: 0 (DAG_STATUS_OK)
+07/10/18 15:03:05 (D_ALWAYS) Of 42 nodes total:
+07/10/18 15:03:05 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/10/18 15:03:05 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/10/18 15:03:05 (D_ALWAYS)     0       0       20       0      22          0        0
+07/10/18 15:03:05 (D_ALWAYS) 0 job proc(s) currently held
+07/10/18 15:03:10 (D_ALWAYS) Submitting HTCondor Node Squares020 job(s)...
+07/10/18 15:03:10 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:03:10 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:03:10 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:03:10 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares020 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares020 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'CENTRE' 'RECENT -a serial' '=' '020 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:11 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:11 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43875.
+07/10/18 15:03:11 (D_ALWAYS) 	assigned HTCondor ID (43875.0.0)
+07/10/18 15:03:11 (D_ALWAYS) Submitting HTCondor Node Squares021 job(s)...
+07/10/18 15:03:11 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:03:11 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:03:11 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:03:11 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares021 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares021 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'FILE' 'LIFE -a serial' '=' '021 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:11 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:11 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43876.
+07/10/18 15:03:11 (D_ALWAYS) 	assigned HTCondor ID (43876.0.0)
+07/10/18 15:03:11 (D_ALWAYS) Submitting HTCondor Node Squares022 job(s)...
+07/10/18 15:03:11 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:03:11 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:03:11 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:03:11 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares022 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares022 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'NO' 'ON -a serial' '=' '022 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:11 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:11 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43877.
+07/10/18 15:03:11 (D_ALWAYS) 	assigned HTCondor ID (43877.0.0)
+07/10/18 15:03:11 (D_ALWAYS) Submitting HTCondor Node Squares023 job(s)...
+07/10/18 15:03:11 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:03:11 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:03:11 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:03:11 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares023 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares023 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'IGNORE' 'REGION -a serial' '=' '023 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:11 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:11 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43878.
+07/10/18 15:03:11 (D_ALWAYS) 	assigned HTCondor ID (43878.0.0)
+07/10/18 15:03:11 (D_ALWAYS) Submitting HTCondor Node Squares024 job(s)...
+07/10/18 15:03:11 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:03:11 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:03:11 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:03:11 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares024 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares024 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'EAST' 'SEAT -a serial' '=' '024 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:11 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:11 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43879.
+07/10/18 15:03:11 (D_ALWAYS) 	assigned HTCondor ID (43879.0.0)
+07/10/18 15:03:11 (D_ALWAYS) Just submitted 5 jobs this cycle...
+07/10/18 15:03:11 (D_ALWAYS) Currently monitoring 1 HTCondor log file(s)
+07/10/18 15:03:11 (D_ALWAYS) Reassigning the id of job Squares020 from (43875.0.0) to (43875.0.0)
+07/10/18 15:03:11 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares020 (43875.0.0) {07/10/18 15:03:11}
+07/10/18 15:03:11 (D_ALWAYS) Number of idle job procs: 21
+07/10/18 15:03:11 (D_ALWAYS) Reassigning the id of job Squares021 from (43876.0.0) to (43876.0.0)
+07/10/18 15:03:11 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares021 (43876.0.0) {07/10/18 15:03:11}
+07/10/18 15:03:11 (D_ALWAYS) Number of idle job procs: 22
+07/10/18 15:03:11 (D_ALWAYS) Reassigning the id of job Squares022 from (43877.0.0) to (43877.0.0)
+07/10/18 15:03:11 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares022 (43877.0.0) {07/10/18 15:03:11}
+07/10/18 15:03:11 (D_ALWAYS) Number of idle job procs: 23
+07/10/18 15:03:11 (D_ALWAYS) Reassigning the id of job Squares023 from (43878.0.0) to (43878.0.0)
+07/10/18 15:03:11 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares023 (43878.0.0) {07/10/18 15:03:11}
+07/10/18 15:03:11 (D_ALWAYS) Number of idle job procs: 24
+07/10/18 15:03:11 (D_ALWAYS) Reassigning the id of job Squares024 from (43879.0.0) to (43879.0.0)
+07/10/18 15:03:11 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares024 (43879.0.0) {07/10/18 15:03:11}
+07/10/18 15:03:11 (D_ALWAYS) Number of idle job procs: 25
+07/10/18 15:03:11 (D_ALWAYS) DAG status: 0 (DAG_STATUS_OK)
+07/10/18 15:03:11 (D_ALWAYS) Of 42 nodes total:
+07/10/18 15:03:11 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/10/18 15:03:11 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/10/18 15:03:11 (D_ALWAYS)     0       0       25       0      17          0        0
+07/10/18 15:03:11 (D_ALWAYS) 0 job proc(s) currently held
+07/10/18 15:03:16 (D_ALWAYS) Submitting HTCondor Node Squares025 job(s)...
+07/10/18 15:03:16 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:03:16 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:03:16 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:03:16 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares025 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares025 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'CARE' 'RACE -a serial' '=' '025 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:17 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:17 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43881.
+07/10/18 15:03:17 (D_ALWAYS) 	assigned HTCondor ID (43881.0.0)
+07/10/18 15:03:17 (D_ALWAYS) Submitting HTCondor Node Squares026 job(s)...
+07/10/18 15:03:17 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:03:17 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:03:17 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:03:17 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares026 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares026 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'MALE' 'MEAL -a serial' '=' '026 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:17 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:17 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43882.
+07/10/18 15:03:17 (D_ALWAYS) 	assigned HTCondor ID (43882.0.0)
+07/10/18 15:03:17 (D_ALWAYS) Submitting HTCondor Node Squares027 job(s)...
+07/10/18 15:03:17 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:03:17 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:03:17 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:03:17 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares027 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares027 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'ITS' 'SIT -a serial' '=' '027 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:17 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:17 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43883.
+07/10/18 15:03:17 (D_ALWAYS) 	assigned HTCondor ID (43883.0.0)
+07/10/18 15:03:17 (D_ALWAYS) Submitting HTCondor Node Squares028 job(s)...
+07/10/18 15:03:17 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:03:17 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:03:17 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:03:17 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares028 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares028 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'COURSE' 'SOURCE -a serial' '=' '028 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:17 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:17 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43884.
+07/10/18 15:03:17 (D_ALWAYS) 	assigned HTCondor ID (43884.0.0)
+07/10/18 15:03:17 (D_ALWAYS) Submitting HTCondor Node Squares029 job(s)...
+07/10/18 15:03:17 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:03:17 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:03:17 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:03:17 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares029 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares029 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'BOARD' 'BROAD -a serial' '=' '029 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:17 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:17 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43885.
+07/10/18 15:03:17 (D_ALWAYS) 	assigned HTCondor ID (43885.0.0)
+07/10/18 15:03:17 (D_ALWAYS) Just submitted 5 jobs this cycle...
+07/10/18 15:03:17 (D_ALWAYS) Currently monitoring 1 HTCondor log file(s)
+07/10/18 15:03:17 (D_ALWAYS) Reassigning the id of job Squares025 from (43881.0.0) to (43881.0.0)
+07/10/18 15:03:17 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares025 (43881.0.0) {07/10/18 15:03:17}
+07/10/18 15:03:17 (D_ALWAYS) Number of idle job procs: 26
+07/10/18 15:03:17 (D_ALWAYS) Reassigning the id of job Squares026 from (43882.0.0) to (43882.0.0)
+07/10/18 15:03:17 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares026 (43882.0.0) {07/10/18 15:03:17}
+07/10/18 15:03:17 (D_ALWAYS) Number of idle job procs: 27
+07/10/18 15:03:17 (D_ALWAYS) Reassigning the id of job Squares027 from (43883.0.0) to (43883.0.0)
+07/10/18 15:03:17 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares027 (43883.0.0) {07/10/18 15:03:17}
+07/10/18 15:03:17 (D_ALWAYS) Number of idle job procs: 28
+07/10/18 15:03:17 (D_ALWAYS) Reassigning the id of job Squares028 from (43884.0.0) to (43884.0.0)
+07/10/18 15:03:17 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares028 (43884.0.0) {07/10/18 15:03:17}
+07/10/18 15:03:17 (D_ALWAYS) Number of idle job procs: 29
+07/10/18 15:03:17 (D_ALWAYS) Reassigning the id of job Squares029 from (43885.0.0) to (43885.0.0)
+07/10/18 15:03:17 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares029 (43885.0.0) {07/10/18 15:03:17}
+07/10/18 15:03:17 (D_ALWAYS) Number of idle job procs: 30
+07/10/18 15:03:17 (D_ALWAYS) DAG status: 0 (DAG_STATUS_OK)
+07/10/18 15:03:17 (D_ALWAYS) Of 42 nodes total:
+07/10/18 15:03:17 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/10/18 15:03:17 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/10/18 15:03:17 (D_ALWAYS)     0       0       30       0      12          0        0
+07/10/18 15:03:17 (D_ALWAYS) 0 job proc(s) currently held
+07/10/18 15:03:22 (D_ALWAYS) Submitting HTCondor Node Squares030 job(s)...
+07/10/18 15:03:22 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:03:22 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:03:22 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:03:22 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares030 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares030 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'MEAN' 'NAME -a serial' '=' '030 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:22 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:22 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43887.
+07/10/18 15:03:22 (D_ALWAYS) 	assigned HTCondor ID (43887.0.0)
+07/10/18 15:03:22 (D_ALWAYS) Submitting HTCondor Node Squares031 job(s)...
+07/10/18 15:03:22 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:03:22 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:03:22 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:03:22 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares031 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares031 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'QUIET' 'QUITE -a serial' '=' '031 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:23 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:23 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43888.
+07/10/18 15:03:23 (D_ALWAYS) 	assigned HTCondor ID (43888.0.0)
+07/10/18 15:03:23 (D_ALWAYS) Submitting HTCondor Node Squares032 job(s)...
+07/10/18 15:03:23 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:03:23 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:03:23 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:03:23 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares032 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares032 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'EARTH' 'HEART -a serial' '=' '032 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:23 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:23 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43889.
+07/10/18 15:03:23 (D_ALWAYS) 	assigned HTCondor ID (43889.0.0)
+07/10/18 15:03:23 (D_ALWAYS) Submitting HTCondor Node Squares033 job(s)...
+07/10/18 15:03:23 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:03:23 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:03:23 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:03:23 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares033 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares033 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'ACT' 'CAT -a serial' '=' '033 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:23 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:23 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43890.
+07/10/18 15:03:23 (D_ALWAYS) 	assigned HTCondor ID (43890.0.0)
+07/10/18 15:03:23 (D_ALWAYS) Submitting HTCondor Node Squares034 job(s)...
+07/10/18 15:03:23 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:03:23 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:03:23 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:03:23 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares034 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares034 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'THROW' 'WORTH -a serial' '=' '034 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:23 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:23 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43891.
+07/10/18 15:03:23 (D_ALWAYS) 	assigned HTCondor ID (43891.0.0)
+07/10/18 15:03:23 (D_ALWAYS) Just submitted 5 jobs this cycle...
+07/10/18 15:03:23 (D_ALWAYS) Currently monitoring 1 HTCondor log file(s)
+07/10/18 15:03:23 (D_ALWAYS) Reassigning the id of job Squares030 from (43887.0.0) to (43887.0.0)
+07/10/18 15:03:23 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares030 (43887.0.0) {07/10/18 15:03:22}
+07/10/18 15:03:23 (D_ALWAYS) Number of idle job procs: 31
+07/10/18 15:03:23 (D_ALWAYS) Reassigning the id of job Squares031 from (43888.0.0) to (43888.0.0)
+07/10/18 15:03:23 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares031 (43888.0.0) {07/10/18 15:03:23}
+07/10/18 15:03:23 (D_ALWAYS) Number of idle job procs: 32
+07/10/18 15:03:23 (D_ALWAYS) Reassigning the id of job Squares032 from (43889.0.0) to (43889.0.0)
+07/10/18 15:03:23 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares032 (43889.0.0) {07/10/18 15:03:23}
+07/10/18 15:03:23 (D_ALWAYS) Number of idle job procs: 33
+07/10/18 15:03:23 (D_ALWAYS) Reassigning the id of job Squares033 from (43890.0.0) to (43890.0.0)
+07/10/18 15:03:23 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares033 (43890.0.0) {07/10/18 15:03:23}
+07/10/18 15:03:23 (D_ALWAYS) Number of idle job procs: 34
+07/10/18 15:03:23 (D_ALWAYS) Reassigning the id of job Squares034 from (43891.0.0) to (43891.0.0)
+07/10/18 15:03:23 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares034 (43891.0.0) {07/10/18 15:03:23}
+07/10/18 15:03:23 (D_ALWAYS) Number of idle job procs: 35
+07/10/18 15:03:23 (D_ALWAYS) DAG status: 0 (DAG_STATUS_OK)
+07/10/18 15:03:23 (D_ALWAYS) Of 42 nodes total:
+07/10/18 15:03:23 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/10/18 15:03:23 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/10/18 15:03:23 (D_ALWAYS)     0       0       35       0       7          0        0
+07/10/18 15:03:23 (D_ALWAYS) 0 job proc(s) currently held
+07/10/18 15:03:28 (D_ALWAYS) Submitting HTCondor Node Squares035 job(s)...
+07/10/18 15:03:28 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:03:28 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:03:28 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:03:28 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares035 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares035 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'ARISE' 'RAISE -a serial' '=' '035 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:28 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:28 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43892.
+07/10/18 15:03:28 (D_ALWAYS) 	assigned HTCondor ID (43892.0.0)
+07/10/18 15:03:28 (D_ALWAYS) Submitting HTCondor Node Squares036 job(s)...
+07/10/18 15:03:28 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:03:28 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:03:28 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:03:28 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares036 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares036 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'POST' 'SPOT' 'STOP -a serial' '=' '036 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:28 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:28 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43893.
+07/10/18 15:03:28 (D_ALWAYS) 	assigned HTCondor ID (43893.0.0)
+07/10/18 15:03:28 (D_ALWAYS) Submitting HTCondor Node Squares037 job(s)...
+07/10/18 15:03:28 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:03:28 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:03:28 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:03:28 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares037 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares037 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'NIGHT' 'THING -a serial' '=' '037 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:29 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:29 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43894.
+07/10/18 15:03:29 (D_ALWAYS) 	assigned HTCondor ID (43894.0.0)
+07/10/18 15:03:29 (D_ALWAYS) Submitting HTCondor Node Squares038 job(s)...
+07/10/18 15:03:29 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:03:29 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:03:29 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:03:29 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares038 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares038 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'DOG' 'GOD -a serial' '=' '038 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:29 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:29 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43895.
+07/10/18 15:03:29 (D_ALWAYS) 	assigned HTCondor ID (43895.0.0)
+07/10/18 15:03:29 (D_ALWAYS) Submitting HTCondor Node Squares039 job(s)...
+07/10/18 15:03:29 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:03:29 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:03:29 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:03:29 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares039 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares039 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'PHASE' 'SHAPE -a serial' '=' '039 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:29 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:29 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43896.
+07/10/18 15:03:29 (D_ALWAYS) 	assigned HTCondor ID (43896.0.0)
+07/10/18 15:03:29 (D_ALWAYS) Just submitted 5 jobs this cycle...
+07/10/18 15:03:29 (D_ALWAYS) Currently monitoring 1 HTCondor log file(s)
+07/10/18 15:03:29 (D_ALWAYS) Reassigning the id of job Squares035 from (43892.0.0) to (43892.0.0)
+07/10/18 15:03:29 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares035 (43892.0.0) {07/10/18 15:03:28}
+07/10/18 15:03:29 (D_ALWAYS) Number of idle job procs: 36
+07/10/18 15:03:29 (D_ALWAYS) Reassigning the id of job Squares036 from (43893.0.0) to (43893.0.0)
+07/10/18 15:03:29 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares036 (43893.0.0) {07/10/18 15:03:28}
+07/10/18 15:03:29 (D_ALWAYS) Number of idle job procs: 37
+07/10/18 15:03:29 (D_ALWAYS) Reassigning the id of job Squares037 from (43894.0.0) to (43894.0.0)
+07/10/18 15:03:29 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares037 (43894.0.0) {07/10/18 15:03:29}
+07/10/18 15:03:29 (D_ALWAYS) Number of idle job procs: 38
+07/10/18 15:03:29 (D_ALWAYS) Reassigning the id of job Squares038 from (43895.0.0) to (43895.0.0)
+07/10/18 15:03:29 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares038 (43895.0.0) {07/10/18 15:03:29}
+07/10/18 15:03:29 (D_ALWAYS) Number of idle job procs: 39
+07/10/18 15:03:29 (D_ALWAYS) Reassigning the id of job Squares039 from (43896.0.0) to (43896.0.0)
+07/10/18 15:03:29 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares039 (43896.0.0) {07/10/18 15:03:29}
+07/10/18 15:03:29 (D_ALWAYS) Number of idle job procs: 40
+07/10/18 15:03:29 (D_ALWAYS) DAG status: 0 (DAG_STATUS_OK)
+07/10/18 15:03:29 (D_ALWAYS) Of 42 nodes total:
+07/10/18 15:03:29 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/10/18 15:03:29 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/10/18 15:03:29 (D_ALWAYS)     0       0       40       0       2          0        0
+07/10/18 15:03:29 (D_ALWAYS) 0 job proc(s) currently held
+07/10/18 15:03:34 (D_ALWAYS) Submitting HTCondor Node Squares040 job(s)...
+07/10/18 15:03:34 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:03:34 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:03:34 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:03:34 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares040 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares040 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'CREATION' 'REACTION -a serial' '=' '040 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:34 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:34 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43897.
+07/10/18 15:03:34 (D_ALWAYS) 	assigned HTCondor ID (43897.0.0)
+07/10/18 15:03:34 (D_ALWAYS) Submitting HTCondor Node Squares041 job(s)...
+07/10/18 15:03:34 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log
+07/10/18 15:03:34 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:03:34 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:03:34 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares041 -a +DAGManJobId' '=' '43854 -a DAGManJobId' '=' '43854 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares041 -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./squares.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a anagrams' '=' 'SIGN' 'SING -a serial' '=' '041 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" squares.sub
+07/10/18 15:03:34 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:03:34 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43898.
+07/10/18 15:03:34 (D_ALWAYS) 	assigned HTCondor ID (43898.0.0)
+07/10/18 15:03:34 (D_ALWAYS) Just submitted 2 jobs this cycle...
+07/10/18 15:03:34 (D_ALWAYS) Currently monitoring 1 HTCondor log file(s)
+07/10/18 15:03:34 (D_ALWAYS) Reassigning the id of job Squares040 from (43897.0.0) to (43897.0.0)
+07/10/18 15:03:34 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares040 (43897.0.0) {07/10/18 15:03:34}
+07/10/18 15:03:34 (D_ALWAYS) Number of idle job procs: 41
+07/10/18 15:03:34 (D_ALWAYS) Reassigning the id of job Squares041 from (43898.0.0) to (43898.0.0)
+07/10/18 15:03:34 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares041 (43898.0.0) {07/10/18 15:03:34}
+07/10/18 15:03:34 (D_ALWAYS) Number of idle job procs: 42
+07/10/18 15:03:34 (D_ALWAYS) DAG status: 0 (DAG_STATUS_OK)
+07/10/18 15:03:34 (D_ALWAYS) Of 42 nodes total:
+07/10/18 15:03:34 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/10/18 15:03:34 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/10/18 15:03:34 (D_ALWAYS)     0       0       42       0       0          0        0
+07/10/18 15:03:34 (D_ALWAYS) 0 job proc(s) currently held
+07/10/18 15:06:45 (D_ALWAYS) Currently monitoring 1 HTCondor log file(s)
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares003 (43858.0.0) {07/10/18 15:06:42}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 41
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares002 (43857.0.0) {07/10/18 15:06:42}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 40
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares009 (43864.0.0) {07/10/18 15:06:42}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 39
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares004 (43859.0.0) {07/10/18 15:06:42}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 38
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares016 (43871.0.0) {07/10/18 15:06:43}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 37
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares007 (43862.0.0) {07/10/18 15:06:43}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 36
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares022 (43877.0.0) {07/10/18 15:06:43}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 35
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares023 (43878.0.0) {07/10/18 15:06:43}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 34
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares018 (43873.0.0) {07/10/18 15:06:43}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 33
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares017 (43872.0.0) {07/10/18 15:06:43}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 32
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares004 (43859.0.0) {07/10/18 15:06:43}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 32
+07/10/18 15:06:45 (D_ALWAYS) Node Squares004 job proc (43859.0.0) completed successfully.
+07/10/18 15:06:45 (D_ALWAYS) Node Squares004 job completed
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares028 (43884.0.0) {07/10/18 15:06:43}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 31
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares027 (43883.0.0) {07/10/18 15:06:43}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 30
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares005 (43860.0.0) {07/10/18 15:06:43}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 29
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares009 (43864.0.0) {07/10/18 15:06:43}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 29
+07/10/18 15:06:45 (D_ALWAYS) Node Squares009 job proc (43864.0.0) completed successfully.
+07/10/18 15:06:45 (D_ALWAYS) Node Squares009 job completed
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares008 (43863.0.0) {07/10/18 15:06:43}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 28
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares007 (43862.0.0) {07/10/18 15:06:43}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 28
+07/10/18 15:06:45 (D_ALWAYS) Node Squares007 job proc (43862.0.0) completed successfully.
+07/10/18 15:06:45 (D_ALWAYS) Node Squares007 job completed
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares022 (43877.0.0) {07/10/18 15:06:43}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 28
+07/10/18 15:06:45 (D_ALWAYS) Node Squares022 job proc (43877.0.0) completed successfully.
+07/10/18 15:06:45 (D_ALWAYS) Node Squares022 job completed
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares011 (43866.0.0) {07/10/18 15:06:43}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 27
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares006 (43861.0.0) {07/10/18 15:06:43}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 26
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares001 (43856.0.0) {07/10/18 15:06:43}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 25
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares027 (43883.0.0) {07/10/18 15:06:43}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 25
+07/10/18 15:06:45 (D_ALWAYS) Node Squares027 job proc (43883.0.0) completed successfully.
+07/10/18 15:06:45 (D_ALWAYS) Node Squares027 job completed
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares032 (43889.0.0) {07/10/18 15:06:43}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 24
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares014 (43869.0.0) {07/10/18 15:06:43}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 23
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares031 (43888.0.0) {07/10/18 15:06:43}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 22
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares010 (43865.0.0) {07/10/18 15:06:43}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 21
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares032 (43889.0.0) {07/10/18 15:06:44}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 21
+07/10/18 15:06:45 (D_ALWAYS) Node Squares032 job proc (43889.0.0) completed successfully.
+07/10/18 15:06:45 (D_ALWAYS) Node Squares032 job completed
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares013 (43868.0.0) {07/10/18 15:06:44}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 20
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares010 (43865.0.0) {07/10/18 15:06:44}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 20
+07/10/18 15:06:45 (D_ALWAYS) Node Squares010 job proc (43865.0.0) completed successfully.
+07/10/18 15:06:45 (D_ALWAYS) Node Squares010 job completed
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares031 (43888.0.0) {07/10/18 15:06:44}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 20
+07/10/18 15:06:45 (D_ALWAYS) Node Squares031 job proc (43888.0.0) completed successfully.
+07/10/18 15:06:45 (D_ALWAYS) Node Squares031 job completed
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares014 (43869.0.0) {07/10/18 15:06:44}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 20
+07/10/18 15:06:45 (D_ALWAYS) Node Squares014 job proc (43869.0.0) completed successfully.
+07/10/18 15:06:45 (D_ALWAYS) Node Squares014 job completed
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares013 (43868.0.0) {07/10/18 15:06:44}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 20
+07/10/18 15:06:45 (D_ALWAYS) Node Squares013 job proc (43868.0.0) completed successfully.
+07/10/18 15:06:45 (D_ALWAYS) Node Squares013 job completed
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares021 (43876.0.0) {07/10/18 15:06:44}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 19
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares019 (43874.0.0) {07/10/18 15:06:44}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 18
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares038 (43895.0.0) {07/10/18 15:06:44}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 17
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares015 (43870.0.0) {07/10/18 15:06:44}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 16
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares020 (43875.0.0) {07/10/18 15:06:44}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 15
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares021 (43876.0.0) {07/10/18 15:06:44}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 15
+07/10/18 15:06:45 (D_ALWAYS) Node Squares021 job proc (43876.0.0) completed successfully.
+07/10/18 15:06:45 (D_ALWAYS) Node Squares021 job completed
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares039 (43896.0.0) {07/10/18 15:06:44}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 14
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares025 (43881.0.0) {07/10/18 15:06:44}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 13
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares037 (43894.0.0) {07/10/18 15:06:44}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 12
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares019 (43874.0.0) {07/10/18 15:06:44}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 12
+07/10/18 15:06:45 (D_ALWAYS) Node Squares019 job proc (43874.0.0) completed successfully.
+07/10/18 15:06:45 (D_ALWAYS) Node Squares019 job completed
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares015 (43870.0.0) {07/10/18 15:06:44}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 12
+07/10/18 15:06:45 (D_ALWAYS) Node Squares015 job proc (43870.0.0) completed successfully.
+07/10/18 15:06:45 (D_ALWAYS) Node Squares015 job completed
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares025 (43881.0.0) {07/10/18 15:06:44}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 12
+07/10/18 15:06:45 (D_ALWAYS) Node Squares025 job proc (43881.0.0) completed successfully.
+07/10/18 15:06:45 (D_ALWAYS) Node Squares025 job completed
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares029 (43885.0.0) {07/10/18 15:06:44}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 11
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares040 (43897.0.0) {07/10/18 15:06:44}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 10
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares036 (43893.0.0) {07/10/18 15:06:44}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 9
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares033 (43890.0.0) {07/10/18 15:06:44}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 8
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares037 (43894.0.0) {07/10/18 15:06:44}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 8
+07/10/18 15:06:45 (D_ALWAYS) Node Squares037 job proc (43894.0.0) completed successfully.
+07/10/18 15:06:45 (D_ALWAYS) Node Squares037 job completed
+07/10/18 15:06:45 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares035 (43892.0.0) {07/10/18 15:06:45}
+07/10/18 15:06:45 (D_ALWAYS) Number of idle job procs: 7
+07/10/18 15:06:45 (D_ALWAYS) DAG status: 0 (DAG_STATUS_OK)
+07/10/18 15:06:45 (D_ALWAYS) Of 42 nodes total:
+07/10/18 15:06:45 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/10/18 15:06:45 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/10/18 15:06:45 (D_ALWAYS)    15       0       27       0       0          0        0
+07/10/18 15:06:45 (D_ALWAYS) 0 job proc(s) currently held
+07/10/18 15:06:50 (D_ALWAYS) Currently monitoring 1 HTCondor log file(s)
+07/10/18 15:06:50 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares034 (43891.0.0) {07/10/18 15:06:45}
+07/10/18 15:06:50 (D_ALWAYS) Number of idle job procs: 6
+07/10/18 15:06:50 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares041 (43898.0.0) {07/10/18 15:06:45}
+07/10/18 15:06:50 (D_ALWAYS) Number of idle job procs: 5
+07/10/18 15:06:50 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares035 (43892.0.0) {07/10/18 15:06:45}
+07/10/18 15:06:50 (D_ALWAYS) Number of idle job procs: 5
+07/10/18 15:06:50 (D_ALWAYS) Node Squares035 job proc (43892.0.0) failed with status 1.
+07/10/18 15:06:50 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares036 (43893.0.0) {07/10/18 15:06:45}
+07/10/18 15:06:50 (D_ALWAYS) Number of idle job procs: 5
+07/10/18 15:06:50 (D_ALWAYS) Node Squares036 job proc (43893.0.0) completed successfully.
+07/10/18 15:06:50 (D_ALWAYS) Node Squares036 job completed
+07/10/18 15:06:50 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares040 (43897.0.0) {07/10/18 15:06:45}
+07/10/18 15:06:50 (D_ALWAYS) Number of idle job procs: 5
+07/10/18 15:06:50 (D_ALWAYS) Node Squares040 job proc (43897.0.0) completed successfully.
+07/10/18 15:06:50 (D_ALWAYS) Node Squares040 job completed
+07/10/18 15:06:50 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares041 (43898.0.0) {07/10/18 15:06:45}
+07/10/18 15:06:50 (D_ALWAYS) Number of idle job procs: 5
+07/10/18 15:06:50 (D_ALWAYS) Node Squares041 job proc (43898.0.0) completed successfully.
+07/10/18 15:06:50 (D_ALWAYS) Node Squares041 job completed
+07/10/18 15:06:50 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares030 (43887.0.0) {07/10/18 15:06:45}
+07/10/18 15:06:50 (D_ALWAYS) Number of idle job procs: 4
+07/10/18 15:06:50 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares034 (43891.0.0) {07/10/18 15:06:45}
+07/10/18 15:06:50 (D_ALWAYS) Number of idle job procs: 4
+07/10/18 15:06:50 (D_ALWAYS) Node Squares034 job proc (43891.0.0) completed successfully.
+07/10/18 15:06:50 (D_ALWAYS) Node Squares034 job completed
+07/10/18 15:06:50 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares026 (43882.0.0) {07/10/18 15:06:45}
+07/10/18 15:06:50 (D_ALWAYS) Number of idle job procs: 3
+07/10/18 15:06:50 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares012 (43867.0.0) {07/10/18 15:06:46}
+07/10/18 15:06:50 (D_ALWAYS) Number of idle job procs: 2
+07/10/18 15:06:50 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares030 (43887.0.0) {07/10/18 15:06:46}
+07/10/18 15:06:50 (D_ALWAYS) Number of idle job procs: 2
+07/10/18 15:06:50 (D_ALWAYS) Node Squares030 job proc (43887.0.0) failed with status 1.
+07/10/18 15:06:50 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares000 (43855.0.0) {07/10/18 15:06:46}
+07/10/18 15:06:50 (D_ALWAYS) Number of idle job procs: 1
+07/10/18 15:06:50 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares026 (43882.0.0) {07/10/18 15:06:47}
+07/10/18 15:06:50 (D_ALWAYS) Number of idle job procs: 1
+07/10/18 15:06:50 (D_ALWAYS) Node Squares026 job proc (43882.0.0) completed successfully.
+07/10/18 15:06:50 (D_ALWAYS) Node Squares026 job completed
+07/10/18 15:06:50 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares024 (43879.0.0) {07/10/18 15:06:48}
+07/10/18 15:06:50 (D_ALWAYS) Number of idle job procs: 0
+07/10/18 15:06:50 (D_ALWAYS) DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/10/18 15:06:50 (D_ALWAYS) Of 42 nodes total:
+07/10/18 15:06:50 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/10/18 15:06:50 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/10/18 15:06:50 (D_ALWAYS)    20       0       20       0       0          0        2
+07/10/18 15:06:50 (D_ALWAYS) 0 job proc(s) currently held
+07/10/18 15:07:45 (D_ALWAYS) Currently monitoring 1 HTCondor log file(s)
+07/10/18 15:07:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares002 (43857.0.0) {07/10/18 15:07:42}
+07/10/18 15:07:45 (D_ALWAYS) Number of idle job procs: 0
+07/10/18 15:07:45 (D_ALWAYS) Node Squares002 job proc (43857.0.0) completed successfully.
+07/10/18 15:07:45 (D_ALWAYS) Node Squares002 job completed
+07/10/18 15:07:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares016 (43871.0.0) {07/10/18 15:07:43}
+07/10/18 15:07:45 (D_ALWAYS) Number of idle job procs: 0
+07/10/18 15:07:45 (D_ALWAYS) Node Squares016 job proc (43871.0.0) completed successfully.
+07/10/18 15:07:45 (D_ALWAYS) Node Squares016 job completed
+07/10/18 15:07:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares023 (43878.0.0) {07/10/18 15:07:43}
+07/10/18 15:07:45 (D_ALWAYS) Number of idle job procs: 0
+07/10/18 15:07:45 (D_ALWAYS) Node Squares023 job proc (43878.0.0) completed successfully.
+07/10/18 15:07:45 (D_ALWAYS) Node Squares023 job completed
+07/10/18 15:07:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares003 (43858.0.0) {07/10/18 15:07:43}
+07/10/18 15:07:45 (D_ALWAYS) Number of idle job procs: 0
+07/10/18 15:07:45 (D_ALWAYS) Node Squares003 job proc (43858.0.0) completed successfully.
+07/10/18 15:07:45 (D_ALWAYS) Node Squares003 job completed
+07/10/18 15:07:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares017 (43872.0.0) {07/10/18 15:07:43}
+07/10/18 15:07:45 (D_ALWAYS) Number of idle job procs: 0
+07/10/18 15:07:45 (D_ALWAYS) Node Squares017 job proc (43872.0.0) completed successfully.
+07/10/18 15:07:45 (D_ALWAYS) Node Squares017 job completed
+07/10/18 15:07:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares018 (43873.0.0) {07/10/18 15:07:43}
+07/10/18 15:07:45 (D_ALWAYS) Number of idle job procs: 0
+07/10/18 15:07:45 (D_ALWAYS) Node Squares018 job proc (43873.0.0) completed successfully.
+07/10/18 15:07:45 (D_ALWAYS) Node Squares018 job completed
+07/10/18 15:07:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares028 (43884.0.0) {07/10/18 15:07:43}
+07/10/18 15:07:45 (D_ALWAYS) Number of idle job procs: 0
+07/10/18 15:07:45 (D_ALWAYS) Node Squares028 job proc (43884.0.0) completed successfully.
+07/10/18 15:07:45 (D_ALWAYS) Node Squares028 job completed
+07/10/18 15:07:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares005 (43860.0.0) {07/10/18 15:07:44}
+07/10/18 15:07:45 (D_ALWAYS) Number of idle job procs: 0
+07/10/18 15:07:45 (D_ALWAYS) Node Squares005 job proc (43860.0.0) completed successfully.
+07/10/18 15:07:45 (D_ALWAYS) Node Squares005 job completed
+07/10/18 15:07:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares001 (43856.0.0) {07/10/18 15:07:44}
+07/10/18 15:07:45 (D_ALWAYS) Number of idle job procs: 0
+07/10/18 15:07:45 (D_ALWAYS) Node Squares001 job proc (43856.0.0) completed successfully.
+07/10/18 15:07:45 (D_ALWAYS) Node Squares001 job completed
+07/10/18 15:07:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares006 (43861.0.0) {07/10/18 15:07:44}
+07/10/18 15:07:45 (D_ALWAYS) Number of idle job procs: 0
+07/10/18 15:07:45 (D_ALWAYS) Node Squares006 job proc (43861.0.0) completed successfully.
+07/10/18 15:07:45 (D_ALWAYS) Node Squares006 job completed
+07/10/18 15:07:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares011 (43866.0.0) {07/10/18 15:07:44}
+07/10/18 15:07:45 (D_ALWAYS) Number of idle job procs: 0
+07/10/18 15:07:45 (D_ALWAYS) Node Squares011 job proc (43866.0.0) completed successfully.
+07/10/18 15:07:45 (D_ALWAYS) Node Squares011 job completed
+07/10/18 15:07:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares039 (43896.0.0) {07/10/18 15:07:44}
+07/10/18 15:07:45 (D_ALWAYS) Number of idle job procs: 0
+07/10/18 15:07:45 (D_ALWAYS) Node Squares039 job proc (43896.0.0) completed successfully.
+07/10/18 15:07:45 (D_ALWAYS) Node Squares039 job completed
+07/10/18 15:07:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares020 (43875.0.0) {07/10/18 15:07:44}
+07/10/18 15:07:45 (D_ALWAYS) Number of idle job procs: 0
+07/10/18 15:07:45 (D_ALWAYS) Node Squares020 job proc (43875.0.0) completed successfully.
+07/10/18 15:07:45 (D_ALWAYS) Node Squares020 job completed
+07/10/18 15:07:45 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares038 (43895.0.0) {07/10/18 15:07:45}
+07/10/18 15:07:45 (D_ALWAYS) Number of idle job procs: 0
+07/10/18 15:07:45 (D_ALWAYS) Node Squares038 job proc (43895.0.0) completed successfully.
+07/10/18 15:07:45 (D_ALWAYS) Node Squares038 job completed
+07/10/18 15:07:45 (D_ALWAYS) DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/10/18 15:07:45 (D_ALWAYS) Of 42 nodes total:
+07/10/18 15:07:45 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/10/18 15:07:45 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/10/18 15:07:45 (D_ALWAYS)    34       0        6       0       0          0        2
+07/10/18 15:07:45 (D_ALWAYS) 0 job proc(s) currently held
+07/10/18 15:07:50 (D_ALWAYS) Currently monitoring 1 HTCondor log file(s)
+07/10/18 15:07:50 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares029 (43885.0.0) {07/10/18 15:07:45}
+07/10/18 15:07:50 (D_ALWAYS) Number of idle job procs: 0
+07/10/18 15:07:50 (D_ALWAYS) Node Squares029 job proc (43885.0.0) completed successfully.
+07/10/18 15:07:50 (D_ALWAYS) Node Squares029 job completed
+07/10/18 15:07:50 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares008 (43863.0.0) {07/10/18 15:07:45}
+07/10/18 15:07:50 (D_ALWAYS) Number of idle job procs: 0
+07/10/18 15:07:50 (D_ALWAYS) Node Squares008 job proc (43863.0.0) completed successfully.
+07/10/18 15:07:50 (D_ALWAYS) Node Squares008 job completed
+07/10/18 15:07:50 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares033 (43890.0.0) {07/10/18 15:07:45}
+07/10/18 15:07:50 (D_ALWAYS) Number of idle job procs: 0
+07/10/18 15:07:50 (D_ALWAYS) Node Squares033 job proc (43890.0.0) completed successfully.
+07/10/18 15:07:50 (D_ALWAYS) Node Squares033 job completed
+07/10/18 15:07:50 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares012 (43867.0.0) {07/10/18 15:07:46}
+07/10/18 15:07:50 (D_ALWAYS) Number of idle job procs: 0
+07/10/18 15:07:50 (D_ALWAYS) Node Squares012 job proc (43867.0.0) completed successfully.
+07/10/18 15:07:50 (D_ALWAYS) Node Squares012 job completed
+07/10/18 15:07:50 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares000 (43855.0.0) {07/10/18 15:07:47}
+07/10/18 15:07:50 (D_ALWAYS) Number of idle job procs: 0
+07/10/18 15:07:50 (D_ALWAYS) Node Squares000 job proc (43855.0.0) completed successfully.
+07/10/18 15:07:50 (D_ALWAYS) Node Squares000 job completed
+07/10/18 15:07:50 (D_ALWAYS) DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/10/18 15:07:50 (D_ALWAYS) Of 42 nodes total:
+07/10/18 15:07:50 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/10/18 15:07:50 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/10/18 15:07:50 (D_ALWAYS)    39       0        1       0       0          0        2
+07/10/18 15:07:50 (D_ALWAYS) 0 job proc(s) currently held
+07/10/18 15:07:55 (D_ALWAYS) Currently monitoring 1 HTCondor log file(s)
+07/10/18 15:07:55 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares024 (43879.0.0) {07/10/18 15:07:50}
+07/10/18 15:07:55 (D_ALWAYS) Number of idle job procs: 0
+07/10/18 15:07:55 (D_ALWAYS) Node Squares024 job proc (43879.0.0) completed successfully.
+07/10/18 15:07:55 (D_ALWAYS) Node Squares024 job completed
+07/10/18 15:07:55 (D_ALWAYS) DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/10/18 15:07:55 (D_ALWAYS) Of 42 nodes total:
+07/10/18 15:07:55 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/10/18 15:07:55 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/10/18 15:07:55 (D_ALWAYS)    40       0        0       0       0          0        2
+07/10/18 15:07:55 (D_ALWAYS) 0 job proc(s) currently held
+07/10/18 15:07:55 (D_ALWAYS) ERROR: the following job(s) failed:
+07/10/18 15:07:55 (D_ALWAYS) ---------------------- Job ----------------------
+07/10/18 15:07:55 (D_ALWAYS)       Node Name: Squares030
+07/10/18 15:07:55 (D_ALWAYS)            Noop: false
+07/10/18 15:07:55 (D_ALWAYS)          NodeID: 30
+07/10/18 15:07:55 (D_ALWAYS)     Node Status: STATUS_ERROR    
+07/10/18 15:07:55 (D_ALWAYS) Node return val: 1
+07/10/18 15:07:55 (D_ALWAYS)           Error: Job proc (43887.0.0) failed with status 1
+07/10/18 15:07:55 (D_ALWAYS) Job Submit File: squares.sub
+07/10/18 15:07:55 (D_ALWAYS)  HTCondor Job ID: (43887.0.0)
+07/10/18 15:07:55 (D_ALWAYS)       Q_PARENTS: <END>
+07/10/18 15:07:55 (D_ALWAYS)       Q_WAITING: <END>
+07/10/18 15:07:55 (D_ALWAYS)      Q_CHILDREN: <END>
+07/10/18 15:07:55 (D_ALWAYS) ---------------------- Job ----------------------
+07/10/18 15:07:55 (D_ALWAYS)       Node Name: Squares035
+07/10/18 15:07:55 (D_ALWAYS)            Noop: false
+07/10/18 15:07:55 (D_ALWAYS)          NodeID: 35
+07/10/18 15:07:55 (D_ALWAYS)     Node Status: STATUS_ERROR    
+07/10/18 15:07:55 (D_ALWAYS) Node return val: 1
+07/10/18 15:07:55 (D_ALWAYS)           Error: Job proc (43892.0.0) failed with status 1
+07/10/18 15:07:55 (D_ALWAYS) Job Submit File: squares.sub
+07/10/18 15:07:55 (D_ALWAYS)  HTCondor Job ID: (43892.0.0)
+07/10/18 15:07:55 (D_ALWAYS)       Q_PARENTS: <END>
+07/10/18 15:07:55 (D_ALWAYS)       Q_WAITING: <END>
+07/10/18 15:07:55 (D_ALWAYS)      Q_CHILDREN: <END>
+07/10/18 15:07:55 (D_ALWAYS) ---------------------------------------	<END>
+07/10/18 15:07:55 (D_ALWAYS) Aborting DAG...
+07/10/18 15:07:55 (D_ALWAYS) Writing Rescue DAG to squares.dag.rescue002...
+07/10/18 15:07:55 (D_ALWAYS) Removing submitted jobs...
+07/10/18 15:07:55 (D_ALWAYS) Removing any/all submitted HTCondor jobs...
+07/10/18 15:07:55 (D_ALWAYS) Running: /usr/bin/condor_rm -const DAGManJobId' '=?=' '43854
+07/10/18 15:07:55 (D_ALWAYS) Note: 0 total job deferrals because of -MaxJobs limit (0)
+07/10/18 15:07:55 (D_ALWAYS) Note: 0 total job deferrals because of -MaxIdle limit (1000)
+07/10/18 15:07:55 (D_ALWAYS) Note: 0 total job deferrals because of node category throttles
+07/10/18 15:07:55 (D_ALWAYS) Note: 0 total PRE script deferrals because of -MaxPre limit (20) or DEFER
+07/10/18 15:07:55 (D_ALWAYS) Note: 0 total POST script deferrals because of -MaxPost limit (20) or DEFER
+07/10/18 15:07:55 (D_ALWAYS) DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/10/18 15:07:55 (D_ALWAYS) Of 42 nodes total:
+07/10/18 15:07:55 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/10/18 15:07:55 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/10/18 15:07:55 (D_ALWAYS)    40       0        0       0       0          0        2
+07/10/18 15:07:55 (D_ALWAYS) 0 job proc(s) currently held
+07/10/18 15:07:55 (D_ALWAYS) Wrote metrics file squares.dag.metrics.
+07/10/18 15:07:55 (D_ALWAYS) Metrics not sent because of PEGASUS_METRICS or CONDOR_DEVELOPERS setting.
+07/10/18 15:07:55 (D_ALWAYS) **** condor_scheduniv_exec.43854.0 (condor_DAGMAN) pid 3732803 EXITING WITH STATUS 1

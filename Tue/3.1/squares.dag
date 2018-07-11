@@ -1,0 +1,84 @@
+JOB Squares000 squares.sub
+VARS Squares000 anagrams="CREDIT DIRECT" serial="000"
+JOB Squares001 squares.sub
+VARS Squares001 anagrams="NOW OWN" serial="001"
+JOB Squares002 squares.sub
+VARS Squares002 anagrams="EXCEPT EXPECT" serial="002"
+JOB Squares003 squares.sub
+VARS Squares003 anagrams="EAT TEA" serial="003"
+JOB Squares004 squares.sub
+VARS Squares004 anagrams="SHUT THUS" serial="004"
+JOB Squares005 squares.sub
+VARS Squares005 anagrams="SURE USER" serial="005"
+JOB Squares006 squares.sub
+VARS Squares006 anagrams="INTRODUCE REDUCTION" serial="006"
+JOB Squares007 squares.sub
+VARS Squares007 anagrams="ITEM TIME" serial="007"
+JOB Squares008 squares.sub
+VARS Squares008 anagrams="HOW WHO" serial="008"
+JOB Squares009 squares.sub
+VARS Squares009 anagrams="HATE HEAT" serial="009"
+JOB Squares010 squares.sub
+VARS Squares010 anagrams="DEAL LEAD" serial="010"
+JOB Squares011 squares.sub
+VARS Squares011 anagrams="LEAST STEAL" serial="011"
+JOB Squares012 squares.sub
+VARS Squares012 anagrams="DANGER GARDEN" serial="012"
+JOB Squares013 squares.sub
+VARS Squares013 anagrams="FORMER REFORM" serial="013"
+JOB Squares014 squares.sub
+VARS Squares014 anagrams="NOTE TONE" serial="014"
+JOB Squares015 squares.sub
+VARS Squares015 anagrams="FORM FROM" serial="015"
+JOB Squares016 squares.sub
+VARS Squares016 anagrams="EARN NEAR" serial="016"
+JOB Squares017 squares.sub
+VARS Squares017 anagrams="SHEET THESE" serial="017"
+JOB Squares018 squares.sub
+VARS Squares018 anagrams="RATE TEAR" serial="018"
+JOB Squares019 squares.sub
+VARS Squares019 anagrams="SHOUT SOUTH" serial="019"
+JOB Squares020 squares.sub
+VARS Squares020 anagrams="CENTRE RECENT" serial="020"
+JOB Squares021 squares.sub
+VARS Squares021 anagrams="FILE LIFE" serial="021"
+JOB Squares022 squares.sub
+VARS Squares022 anagrams="NO ON" serial="022"
+JOB Squares023 squares.sub
+VARS Squares023 anagrams="IGNORE REGION" serial="023"
+JOB Squares024 squares.sub
+VARS Squares024 anagrams="EAST SEAT" serial="024"
+JOB Squares025 squares.sub
+VARS Squares025 anagrams="CARE RACE" serial="025"
+JOB Squares026 squares.sub
+VARS Squares026 anagrams="MALE MEAL" serial="026"
+JOB Squares027 squares.sub
+VARS Squares027 anagrams="ITS SIT" serial="027"
+JOB Squares028 squares.sub
+VARS Squares028 anagrams="COURSE SOURCE" serial="028"
+JOB Squares029 squares.sub
+VARS Squares029 anagrams="BOARD BROAD" serial="029"
+JOB Squares030 squares.sub
+VARS Squares030 anagrams="MEAN NAME" serial="030"
+JOB Squares031 squares.sub
+VARS Squares031 anagrams="QUIET QUITE" serial="031"
+JOB Squares032 squares.sub
+VARS Squares032 anagrams="EARTH HEART" serial="032"
+JOB Squares033 squares.sub
+VARS Squares033 anagrams="ACT CAT" serial="033"
+JOB Squares034 squares.sub
+VARS Squares034 anagrams="THROW WORTH" serial="034"
+JOB Squares035 squares.sub
+VARS Squares035 anagrams="ARISE RAISE" serial="035"
+JOB Squares036 squares.sub
+VARS Squares036 anagrams="POST SPOT STOP" serial="036"
+JOB Squares037 squares.sub
+VARS Squares037 anagrams="NIGHT THING" serial="037"
+JOB Squares038 squares.sub
+VARS Squares038 anagrams="DOG GOD" serial="038"
+JOB Squares039 squares.sub
+VARS Squares039 anagrams="PHASE SHAPE" serial="039"
+JOB Squares040 squares.sub
+VARS Squares040 anagrams="CREATION REACTION" serial="040"
+JOB Squares041 squares.sub
+VARS Squares041 anagrams="SIGN SING" serial="041"

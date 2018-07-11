@@ -1,0 +1,15 @@
+universe = vanilla
+executable = count.py
+arguments = $(book)
+
+output = $(book).out
+error = $(book).err
+log = $(book).log
+
+request_cpus = 1
+request_memory = 20MB
+request_disk = 20MB
+should_transfer_file = YES
+when_to_transfer_output = ON_EXIT
+
+queue book matching *.txt

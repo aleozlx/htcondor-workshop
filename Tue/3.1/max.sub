@@ -1,0 +1,9 @@
+universe = scheduler
+executable = max.sh
+
+output = result.out
+error = result.err
+log = result.log
+
+queue
+

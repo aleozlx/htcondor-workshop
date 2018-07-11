@@ -1,0 +1,34 @@
+universe = vanilla
+executable = find_anagrams.py
+arguments = p098_words.txt
+
+output = find-anagrams.out
+error = find-anagrams.err
+log = find-anagrams.log
+
+# SOLUTION
+# ========
+# Problem: Job remains idle
+# Where to find more info: condor_q -better <job ID> -> requested too much
+# memory
+# Solution:
+# 1. `condor_rm` the job and remove the 'request_memory' line.
+# 2. `condor_submit` find-anagrams.sub
+# 3. Job will get held due to going over default 1MB request memory.
+# 4. View resource usage table in find-anagrams.log and add a request_memory
+# line using numbers from the log
+# 5. Resubmit the job, making further memory adjustments as needed! I've found
+# that 5MB is a safe number
+request_memory = 5MB
+
+# SOLUTION
+# ========
+# Problem: Job fails
+# Where to find more info: anagrams.dag.rescue*, anagrams.dag.nodes.log,
+# find-anagrams.out
+# Solution:
+# 1. Add 'p098_words.txt' to transfer_input_files
+# 2. Resubmit the DAG with `condor_submit_dag anagrams.dag`
+transfer_input_files = p098_words.txt,euler_common.py
+
+queue

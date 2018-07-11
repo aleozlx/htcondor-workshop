@@ -1,0 +1,6 @@
+Date:  Mon Jul 9 10:36:07 CDT 2018
+Host:  e455.chtc.wisc.edu
+System:  Linux x86_64 GNU/Linux
+Program: /var/lib/condor/execute/slot1/dir_35157/condor_exec.exe
+Args: foo bar baz *
+ls:  _condor_stderr _condor_stdout condor_exec.exe tmp

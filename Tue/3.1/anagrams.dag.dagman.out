@@ -1,0 +1,169 @@
+07/10/18 15:02:37 (D_ALWAYS) ******************************************************
+07/10/18 15:02:37 (D_ALWAYS) ** condor_scheduniv_exec.43853.0 (CONDOR_DAGMAN) STARTING UP
+07/10/18 15:02:37 (D_ALWAYS) ** /usr/bin/condor_dagman
+07/10/18 15:02:37 (D_ALWAYS) ** SubsystemInfo: name=DAGMAN type=DAGMAN(10) class=DAEMON(1)
+07/10/18 15:02:37 (D_ALWAYS) ** Configuration: subsystem:DAGMAN local:<NONE> class:DAEMON
+07/10/18 15:02:37 (D_ALWAYS) ** $CondorVersion: 8.7.2 Jun 02 2017 BuildID: 407060 $
+07/10/18 15:02:37 (D_ALWAYS) ** $CondorPlatform: x86_64_RedHat6 $
+07/10/18 15:02:37 (D_ALWAYS) ** PID = 3732777
+07/10/18 15:02:37 (D_ALWAYS) ** Log last touched time unavailable (No such file or directory)
+07/10/18 15:02:37 (D_ALWAYS) ******************************************************
+07/10/18 15:02:37 (D_ALWAYS) Using config source: /etc/condor/condor_config
+07/10/18 15:02:37 (D_ALWAYS) Using local config sources: 
+07/10/18 15:02:37 (D_ALWAYS)    /etc/condor/ephemeral/dns_domain_name.conf
+07/10/18 15:02:37 (D_ALWAYS)    /etc/condor/condor_config.hosts
+07/10/18 15:02:37 (D_ALWAYS)    /etc/condor/condor_config.global
+07/10/18 15:02:37 (D_ALWAYS)    /etc/condor/condor_config.policy
+07/10/18 15:02:37 (D_ALWAYS)    /etc/condor/condor_config.x86_64_SL6
+07/10/18 15:02:37 (D_ALWAYS)    /etc/condor/condor_config.security
+07/10/18 15:02:37 (D_ALWAYS)    /etc/condor/dns_domains/chtc.wisc.edu.local
+07/10/18 15:02:37 (D_ALWAYS)    /etc/condor/hosts/learn.chtc.wisc.edu.local
+07/10/18 15:02:37 (D_ALWAYS)    /etc/condor/include/schedd.conf
+07/10/18 15:02:37 (D_ALWAYS)    /etc/condor/include/facility_wid.conf
+07/10/18 15:02:37 (D_ALWAYS)    /etc/condor/include/owned_by_chtc.conf
+07/10/18 15:02:37 (D_ALWAYS)    /etc/condor/condor_config.flightworthy_testing
+07/10/18 15:02:37 (D_ALWAYS) config Macros = 253, Sorted = 253, StringBytes = 58550, TablesBytes = 9252
+07/10/18 15:02:37 (D_ALWAYS) CLASSAD_CACHING is ENABLED
+07/10/18 15:02:37 (D_ALWAYS) Daemon Log is logging: D_ALWAYS D_ERROR
+07/10/18 15:02:37 (D_ALWAYS) DaemonCore: No command port requested.
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_USE_STRICT setting: 1
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_VERBOSITY setting: 3
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_DEBUG_CACHE_SIZE setting: 5242880
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_DEBUG_CACHE_ENABLE setting: False
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_SUBMIT_DELAY setting: 0
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_STARTUP_CYCLE_DETECT setting: False
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_USER_LOG_SCAN_INTERVAL setting: 5
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_DEFAULT_PRIORITY setting: 0
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_SUPPRESS_NOTIFICATION setting: True
+07/10/18 15:02:37 (D_ALWAYS) allow_events (DAGMAN_ALLOW_EVENTS) setting: 114
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_RETRY_SUBMIT_FIRST setting: True
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_RETRY_NODE_FIRST setting: False
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_MAX_JOBS_IDLE setting: 1000
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_MAX_PRE_SCRIPTS setting: 20
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_MAX_POST_SCRIPTS setting: 20
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_MUNGE_NODE_NAMES setting: True
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_PROHIBIT_MULTI_JOBS setting: False
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_SUBMIT_DEPTH_FIRST setting: False
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_ALWAYS_RUN_POST setting: False
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_ABORT_DUPLICATES setting: True
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_ABORT_ON_SCARY_SUBMIT setting: True
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_PENDING_REPORT_INTERVAL setting: 600
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_AUTO_RESCUE setting: True
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_MAX_RESCUE_NUM setting: 100
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_WRITE_PARTIAL_RESCUE setting: True
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_DEFAULT_NODE_LOG setting: @(DAG_DIR)/@(DAG_FILE).nodes.log
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_GENERATE_SUBDAG_SUBMITS setting: True
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_MAX_JOB_HOLDS setting: 100
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_HOLD_CLAIM_TIME setting: 20
+07/10/18 15:02:37 (D_ALWAYS) ALL_DEBUG setting: D_CAT
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_DEBUG setting: 
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_SUPPRESS_JOB_LOGS setting: False
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_REMOVE_NODE_JOBS setting: True
+07/10/18 15:02:37 (D_ALWAYS) argv[0] == "condor_scheduniv_exec.43853.0"
+07/10/18 15:02:37 (D_ALWAYS) argv[1] == "-Lockfile"
+07/10/18 15:02:37 (D_ALWAYS) argv[2] == "anagrams.dag.lock"
+07/10/18 15:02:37 (D_ALWAYS) argv[3] == "-AutoRescue"
+07/10/18 15:02:37 (D_ALWAYS) argv[4] == "1"
+07/10/18 15:02:37 (D_ALWAYS) argv[5] == "-DoRescueFrom"
+07/10/18 15:02:37 (D_ALWAYS) argv[6] == "0"
+07/10/18 15:02:37 (D_ALWAYS) argv[7] == "-Dag"
+07/10/18 15:02:37 (D_ALWAYS) argv[8] == "anagrams.dag"
+07/10/18 15:02:37 (D_ALWAYS) argv[9] == "-Suppress_notification"
+07/10/18 15:02:37 (D_ALWAYS) argv[10] == "-CsdVersion"
+07/10/18 15:02:37 (D_ALWAYS) argv[11] == "$CondorVersion: 8.7.2 Jun 02 2017 BuildID: 407060 $"
+07/10/18 15:02:37 (D_ALWAYS) argv[12] == "-Dagman"
+07/10/18 15:02:37 (D_ALWAYS) argv[13] == "/usr/bin/condor_dagman"
+07/10/18 15:02:37 (D_ALWAYS) Workflow batch-name: <anagrams.dag+43853>
+07/10/18 15:02:37 (D_ALWAYS) Workflow accounting_group: <>
+07/10/18 15:02:37 (D_ALWAYS) Workflow accounting_group_user: <>
+07/10/18 15:02:37 (D_ALWAYS) Warning: failed to get attribute DAGNodeName
+07/10/18 15:02:37 (D_ALWAYS) DAGMAN_LOG_ON_NFS_IS_ERROR setting: False
+07/10/18 15:02:37 (D_ALWAYS) Default node log file is: </home/s18_alexyan/Tue/3.1/./anagrams.dag.nodes.log>
+07/10/18 15:02:37 (D_ALWAYS) DAG Lockfile will be written to anagrams.dag.lock
+07/10/18 15:02:37 (D_ALWAYS) DAG Input file is anagrams.dag
+07/10/18 15:02:37 (D_ALWAYS) Parsing 1 dagfiles
+07/10/18 15:02:37 (D_ALWAYS) Parsing anagrams.dag ...
+07/10/18 15:02:37 (D_ALWAYS) Found rescue DAG number 1; running anagrams.dag.rescue001 in combination with normal DAG file
+07/10/18 15:02:37 (D_ALWAYS) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+07/10/18 15:02:37 (D_ALWAYS) USING RESCUE DAG anagrams.dag.rescue001
+07/10/18 15:02:37 (D_ALWAYS) Dag contains 3 total jobs
+07/10/18 15:02:37 (D_ALWAYS) Sleeping for 3 seconds to ensure ProcessId uniqueness
+07/10/18 15:02:40 (D_ALWAYS) Bootstrapping...
+07/10/18 15:02:40 (D_ALWAYS) Number of pre-completed nodes: 1
+07/10/18 15:02:40 (D_ALWAYS) MultiLogFiles: truncating log file /home/s18_alexyan/Tue/3.1/./anagrams.dag.nodes.log
+07/10/18 15:02:40 (D_ALWAYS) DAG status: 0 (DAG_STATUS_OK)
+07/10/18 15:02:40 (D_ALWAYS) Of 3 nodes total:
+07/10/18 15:02:40 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/10/18 15:02:40 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/10/18 15:02:40 (D_ALWAYS)     1       0        0       0       1          1        0
+07/10/18 15:02:40 (D_ALWAYS) 0 job proc(s) currently held
+07/10/18 15:02:40 (D_ALWAYS) Registering condor_event_timer...
+07/10/18 15:02:41 (D_ALWAYS) Recursive submit command: <condor_submit_dag -no_submit -update_submit -dagman /usr/bin/condor_dagman -autorescue 1 -suppress_notification squares.dag>
+07/10/18 15:02:41 (D_ALWAYS) Submitting HTCondor Node Squares job(s)...
+07/10/18 15:02:41 (D_ALWAYS) Adding a DAGMan workflow log /home/s18_alexyan/Tue/3.1/./anagrams.dag.nodes.log
+07/10/18 15:02:41 (D_ALWAYS) Masking the events recorded in the DAGMAN workflow log
+07/10/18 15:02:41 (D_ALWAYS) Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+07/10/18 15:02:41 (D_ALWAYS) submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'Squares -a +DAGManJobId' '=' '43853 -a DAGManJobId' '=' '43853 -batch-name anagrams.dag+43853 -a submit_event_notes' '=' 'DAG' 'Node:' 'Squares -a dagman_log' '=' '/home/s18_alexyan/Tue/3.1/./anagrams.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"FindAnagrams" squares.dag.condor.sub
+07/10/18 15:02:41 (D_ALWAYS) From submit: Submitting job(s).
+07/10/18 15:02:41 (D_ALWAYS) From submit: 1 job(s) submitted to cluster 43854.
+07/10/18 15:02:41 (D_ALWAYS) 	assigned HTCondor ID (43854.0.0)
+07/10/18 15:02:41 (D_ALWAYS) Just submitted 1 job this cycle...
+07/10/18 15:02:41 (D_ALWAYS) Currently monitoring 1 HTCondor log file(s)
+07/10/18 15:02:41 (D_ALWAYS) Reassigning the id of job Squares from (43854.0.0) to (43854.0.0)
+07/10/18 15:02:41 (D_ALWAYS) Event: ULOG_SUBMIT for HTCondor Node Squares (43854.0.0) {07/10/18 15:02:41}
+07/10/18 15:02:41 (D_ALWAYS) Number of idle job procs: 1
+07/10/18 15:02:41 (D_ALWAYS) DAG status: 0 (DAG_STATUS_OK)
+07/10/18 15:02:41 (D_ALWAYS) Of 3 nodes total:
+07/10/18 15:02:41 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/10/18 15:02:41 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/10/18 15:02:41 (D_ALWAYS)     1       0        1       0       0          1        0
+07/10/18 15:02:41 (D_ALWAYS) 0 job proc(s) currently held
+07/10/18 15:02:46 (D_ALWAYS) Currently monitoring 1 HTCondor log file(s)
+07/10/18 15:02:46 (D_ALWAYS) Event: ULOG_EXECUTE for HTCondor Node Squares (43854.0.0) {07/10/18 15:02:43}
+07/10/18 15:02:46 (D_ALWAYS) Number of idle job procs: 0
+07/10/18 15:07:57 (D_ALWAYS) Currently monitoring 1 HTCondor log file(s)
+07/10/18 15:07:57 (D_ALWAYS) Event: ULOG_JOB_TERMINATED for HTCondor Node Squares (43854.0.0) {07/10/18 15:07:55}
+07/10/18 15:07:57 (D_ALWAYS) Number of idle job procs: 0
+07/10/18 15:07:57 (D_ALWAYS) Node Squares job proc (43854.0.0) failed with status 1.
+07/10/18 15:07:57 (D_ALWAYS) DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/10/18 15:07:57 (D_ALWAYS) Of 3 nodes total:
+07/10/18 15:07:57 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/10/18 15:07:57 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/10/18 15:07:57 (D_ALWAYS)     1       0        0       0       0          1        1
+07/10/18 15:07:57 (D_ALWAYS) 0 job proc(s) currently held
+07/10/18 15:07:57 (D_ALWAYS) ERROR: the following job(s) failed:
+07/10/18 15:07:57 (D_ALWAYS) ---------------------- Job ----------------------
+07/10/18 15:07:57 (D_ALWAYS)       Node Name: Squares
+07/10/18 15:07:57 (D_ALWAYS)            Noop: false
+07/10/18 15:07:57 (D_ALWAYS)          NodeID: 1
+07/10/18 15:07:57 (D_ALWAYS)     Node Status: STATUS_ERROR    
+07/10/18 15:07:57 (D_ALWAYS) Node return val: 1
+07/10/18 15:07:57 (D_ALWAYS)           Error: Job proc (43854.0.0) failed with status 1
+07/10/18 15:07:57 (D_ALWAYS) Job Submit File: squares.dag.condor.sub
+07/10/18 15:07:57 (D_ALWAYS)  HTCondor Job ID: (43854.0.0)
+07/10/18 15:07:57 (D_ALWAYS)       Q_PARENTS: FindAnagrams, <END>
+07/10/18 15:07:57 (D_ALWAYS)       Q_WAITING: <END>
+07/10/18 15:07:57 (D_ALWAYS)      Q_CHILDREN: FindMax, <END>
+07/10/18 15:07:57 (D_ALWAYS) ---------------------------------------	<END>
+07/10/18 15:07:57 (D_ALWAYS) Aborting DAG...
+07/10/18 15:07:57 (D_ALWAYS) Writing Rescue DAG to anagrams.dag.rescue002...
+07/10/18 15:07:57 (D_ALWAYS) Removing submitted jobs...
+07/10/18 15:07:57 (D_ALWAYS) Removing any/all submitted HTCondor jobs...
+07/10/18 15:07:57 (D_ALWAYS) Running: /usr/bin/condor_rm -const DAGManJobId' '=?=' '43853
+07/10/18 15:07:57 (D_ALWAYS) Note: 0 total job deferrals because of -MaxJobs limit (0)
+07/10/18 15:07:57 (D_ALWAYS) Note: 0 total job deferrals because of -MaxIdle limit (1000)
+07/10/18 15:07:57 (D_ALWAYS) Note: 0 total job deferrals because of node category throttles
+07/10/18 15:07:57 (D_ALWAYS) Note: 0 total PRE script deferrals because of -MaxPre limit (20) or DEFER
+07/10/18 15:07:57 (D_ALWAYS) Note: 0 total POST script deferrals because of -MaxPost limit (20) or DEFER
+07/10/18 15:07:57 (D_ALWAYS) DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/10/18 15:07:57 (D_ALWAYS) Of 3 nodes total:
+07/10/18 15:07:57 (D_ALWAYS)  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/10/18 15:07:57 (D_ALWAYS)   ===     ===      ===     ===     ===        ===      ===
+07/10/18 15:07:57 (D_ALWAYS)     1       0        0       0       0          1        1
+07/10/18 15:07:57 (D_ALWAYS) 0 job proc(s) currently held
+07/10/18 15:07:57 (D_ALWAYS) Wrote metrics file anagrams.dag.metrics.
+07/10/18 15:07:57 (D_ALWAYS) Metrics not sent because of PEGASUS_METRICS or CONDOR_DEVELOPERS setting.
+07/10/18 15:07:57 (D_ALWAYS) **** condor_scheduniv_exec.43853.0 (condor_DAGMAN) pid 3732777 EXITING WITH STATUS 1

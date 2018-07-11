@@ -1,0 +1,11 @@
+universe = vanilla
+executable = /bin/sleep
+arguments = 60
+queue 10 request_memory in (
+4GB
+8GB
+16GB
+32GB
+64GB
+)
+
