@@ -1,0 +1,18 @@
+executable = run_matrix.sh
+arguments = v90
+
+output = build.out
+error = build.err
+log = build.log
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files = matrix, r2015b.tar.gz
+
+requirements = (OpSysMajorVer == 6)
+
+request_cpus = 1
+request_disk = 2GB
+request_memory = 2GB
+
+queue

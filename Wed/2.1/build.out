@@ -1,0 +1,20 @@
+------------------------------------------
+Setting up environment variables
+---
+LD_LIBRARY_PATH is .:v90/runtime/glnxa64:v90/bin/glnxa64:v90/sys/os/glnxa64:v90/sys/opengl/lib/glnxa64
+
+A =
+
+    82    64    96    96
+    91    10    97    49
+    13    28    16    81
+    92    55    98    15
+
+
+x =
+
+       26310
+       17297
+       12191
+       18296
+

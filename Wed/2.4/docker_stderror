@@ -1,0 +1,45 @@
+Unable to find image 'python:3.7.0-stretch' locally
+Trying to pull repository docker.io/library/python ... 
+3.7.0-stretch: Pulling from docker.io/library/python
+0bd44ff9c2cf: Pulling fs layer
+047670ddbd2a: Pulling fs layer
+ea7d5dc89438: Pulling fs layer
+ae7ad5906a75: Pulling fs layer
+0f2ddfdfc7d1: Pulling fs layer
+d055f4d7ae62: Pulling fs layer
+05152d57a61e: Pulling fs layer
+36ebc9dbcca1: Pulling fs layer
+f62c22fac2b1: Pulling fs layer
+ae7ad5906a75: Waiting
+0f2ddfdfc7d1: Waiting
+d055f4d7ae62: Waiting
+05152d57a61e: Waiting
+36ebc9dbcca1: Waiting
+f62c22fac2b1: Waiting
+ea7d5dc89438: Verifying Checksum
+ea7d5dc89438: Download complete
+047670ddbd2a: Verifying Checksum
+047670ddbd2a: Download complete
+ae7ad5906a75: Download complete
+0bd44ff9c2cf: Download complete
+d055f4d7ae62: Verifying Checksum
+d055f4d7ae62: Download complete
+36ebc9dbcca1: Verifying Checksum
+36ebc9dbcca1: Download complete
+05152d57a61e: Verifying Checksum
+05152d57a61e: Download complete
+f62c22fac2b1: Verifying Checksum
+f62c22fac2b1: Download complete
+0f2ddfdfc7d1: Verifying Checksum
+0f2ddfdfc7d1: Download complete
+0bd44ff9c2cf: Pull complete
+047670ddbd2a: Pull complete
+ea7d5dc89438: Pull complete
+ae7ad5906a75: Pull complete
+0f2ddfdfc7d1: Pull complete
+d055f4d7ae62: Pull complete
+05152d57a61e: Pull complete
+36ebc9dbcca1: Pull complete
+f62c22fac2b1: Pull complete
+Digest: sha256:a31e5f0a8afcff51497c3884fe6d94388cb6181571db6b4b464bf272b1a7fcb3
+Status: Downloaded newer image for docker.io/python:3.7.0-stretch

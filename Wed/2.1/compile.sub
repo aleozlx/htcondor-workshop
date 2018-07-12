@@ -1,0 +1,15 @@
+output = compile.out
+error = compile.err
+log = compile.log
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files = matrix.m
+
++IsBuildJob = true
+requirements = (OpSysMajorVer == 6) && ( IsBuildSlot == true )
+request_memory = 1GB
+request_disk = 100MB
+
+queue
+

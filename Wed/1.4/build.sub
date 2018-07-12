@@ -1,0 +1,16 @@
+output = build.out
+error = build.err
+log = build.log
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files = OpenBUGS-3.2.3.tar.gz
+
+requirements = (OpSysMajorVer == 6)
+
+request_cpus = 1
+request_disk = 2GB
+request_memory = 2GB
+
+queue
+
