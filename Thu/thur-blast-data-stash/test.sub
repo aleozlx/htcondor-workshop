@@ -1,0 +1,10 @@
+executable = blast_wrapper.sh
+transfer_input_files = blastx, mouse.fa
+output = test.out
+error = test.err
+log = test.log
+request_memory = 1G
+request_disk = 1G
+request_cpus = 1
+requirements = (OpSys == "LINUX")
+queue

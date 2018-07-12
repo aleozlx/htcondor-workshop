@@ -1,0 +1,14 @@
+executable = run_ffmpeg.sh
+arguments = $(mov) $(mov).mp4
+transfer_input_files = ffmpeg
+
+output = test.out
+error = test.err
+log = test.log
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
++WantsStashCache = true
+requirements = (OSGVO_OS_STRING == "RHEL 6") && (OpSys == "LINUX") && (HAS_MODULES =?= true)
+
+queue mov from movie_list.txt

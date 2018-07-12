@@ -1,0 +1,11 @@
+executable = blast_wrapper.sh
+arguments = $(inputfile)
+transfer_input_files = blastx, $(inputfile)
+output = $(inputfile).out
+error = $(inputfile).error
+log = $(inpugfile).log
+request_memory = 1G
+request_disk = 1G
+request_cpus = 1
+requirements = (OpSys == "LINUX")
+queue inputfile matching mouse_rna.fa.*

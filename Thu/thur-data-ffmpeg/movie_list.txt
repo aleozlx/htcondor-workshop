@@ -1,0 +1,3 @@
+ducks.MOV
+teaching.MOV
+test_open_terminal.mov
