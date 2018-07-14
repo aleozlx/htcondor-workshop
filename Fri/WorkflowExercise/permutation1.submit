@@ -1,0 +1,14 @@
+universe = vanilla
+output = 1_$(Process).out
+error = 1_$(Process).err
+log = 1_$(Process).log
+executable = ./runR.pl
+arguments = 1_$(Process) run_perm.R 1 $(Process) 1000
+
+request_cpus = 1
+request_memory = 1GB
+request_disk = 1GB
+requirements = (Arch == "X86_64") && (OpSysMajorVer > 5)
+should_transfer_files = YES
+transfer_input_files = ./run_perm.R,./input.csv,./RLIBS.tar.gz
+queue 100

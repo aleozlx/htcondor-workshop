@@ -1,0 +1,14 @@
+universe = vanilla
+output = qtl_1.out
+error = qtl_1.err
+log = qtl_1.log
+executable = ./runR.pl
+arguments = qtl_1 qtl.R 1
+
+request_cpus = 1
+request_memory = 1GB
+request_disk = 1GB
+requirements = (Arch == "X86_64") && (OpSysMajorVer > 5)
+should_transfer_files = YES
+transfer_input_files = ./qtl.R,./RLIBS.tar.gz,./input.csv,./perm_combined_1.tar.gz
+queue

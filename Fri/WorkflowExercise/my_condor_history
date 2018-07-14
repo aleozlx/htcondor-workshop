@@ -1,0 +1,738 @@
+ ID     OWNER          SUBMITTED   RUN_TIME     ST COMPLETED   CMD            
+50906.0   s18_alexyan     7/13 11:08   0+00:01:51 C   7/13 11:16 /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_0 run_perm.R 2 0 100
+50892.99  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_99 run_perm.R 2 99 100
+50892.98  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_98 run_perm.R 2 98 100
+50892.97  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_97 run_perm.R 2 97 100
+50892.96  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_96 run_perm.R 2 96 100
+50892.95  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_95 run_perm.R 2 95 100
+50892.94  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_94 run_perm.R 2 94 100
+50892.93  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_93 run_perm.R 2 93 100
+50892.92  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_92 run_perm.R 2 92 100
+50892.91  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_91 run_perm.R 2 91 100
+50892.90  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_90 run_perm.R 2 90 100
+50892.89  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_89 run_perm.R 2 89 100
+50892.88  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_88 run_perm.R 2 88 100
+50892.87  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_87 run_perm.R 2 87 100
+50892.86  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_86 run_perm.R 2 86 100
+50892.85  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_85 run_perm.R 2 85 100
+50892.84  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_84 run_perm.R 2 84 100
+50892.83  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_83 run_perm.R 2 83 100
+50892.82  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_82 run_perm.R 2 82 100
+50892.81  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_81 run_perm.R 2 81 100
+50892.80  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_80 run_perm.R 2 80 100
+50892.79  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_79 run_perm.R 2 79 100
+50892.78  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_78 run_perm.R 2 78 100
+50892.77  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_77 run_perm.R 2 77 100
+50892.76  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_76 run_perm.R 2 76 100
+50892.75  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_75 run_perm.R 2 75 100
+50892.74  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_74 run_perm.R 2 74 100
+50892.73  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_73 run_perm.R 2 73 100
+50892.72  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_72 run_perm.R 2 72 100
+50892.71  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_71 run_perm.R 2 71 100
+50892.70  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_70 run_perm.R 2 70 100
+50892.69  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_69 run_perm.R 2 69 100
+50892.68  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_68 run_perm.R 2 68 100
+50892.67  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_67 run_perm.R 2 67 100
+50892.66  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_66 run_perm.R 2 66 100
+50892.65  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_65 run_perm.R 2 65 100
+50892.64  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_64 run_perm.R 2 64 100
+50892.63  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_63 run_perm.R 2 63 100
+50892.62  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_62 run_perm.R 2 62 100
+50892.61  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_61 run_perm.R 2 61 100
+50892.60  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_60 run_perm.R 2 60 100
+50892.59  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_59 run_perm.R 2 59 100
+50892.58  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_58 run_perm.R 2 58 100
+50892.57  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_57 run_perm.R 2 57 100
+50892.56  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_56 run_perm.R 2 56 100
+50892.55  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_55 run_perm.R 2 55 100
+50892.54  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_54 run_perm.R 2 54 100
+50892.53  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_53 run_perm.R 2 53 100
+50892.52  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_52 run_perm.R 2 52 100
+50892.51  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_51 run_perm.R 2 51 100
+50892.50  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_50 run_perm.R 2 50 100
+50892.49  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_49 run_perm.R 2 49 100
+50892.48  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_48 run_perm.R 2 48 100
+50892.47  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_47 run_perm.R 2 47 100
+50892.46  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_46 run_perm.R 2 46 100
+50892.45  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_45 run_perm.R 2 45 100
+50892.44  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_44 run_perm.R 2 44 100
+50892.43  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_43 run_perm.R 2 43 100
+50892.42  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_42 run_perm.R 2 42 100
+50892.41  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_41 run_perm.R 2 41 100
+50892.40  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_40 run_perm.R 2 40 100
+50892.39  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_39 run_perm.R 2 39 100
+50892.38  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_38 run_perm.R 2 38 100
+50892.37  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_37 run_perm.R 2 37 100
+50892.36  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_36 run_perm.R 2 36 100
+50892.35  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_35 run_perm.R 2 35 100
+50892.34  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_34 run_perm.R 2 34 100
+50892.33  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_33 run_perm.R 2 33 100
+50892.32  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_32 run_perm.R 2 32 100
+50892.31  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_31 run_perm.R 2 31 100
+50892.30  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_30 run_perm.R 2 30 100
+50892.29  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_29 run_perm.R 2 29 100
+50892.28  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_28 run_perm.R 2 28 100
+50892.27  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_27 run_perm.R 2 27 100
+50892.26  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_26 run_perm.R 2 26 100
+50892.25  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_25 run_perm.R 2 25 100
+50892.24  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_24 run_perm.R 2 24 100
+50892.23  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_23 run_perm.R 2 23 100
+50892.22  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_22 run_perm.R 2 22 100
+50892.21  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_21 run_perm.R 2 21 100
+50892.20  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_20 run_perm.R 2 20 100
+50892.19  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_19 run_perm.R 2 19 100
+50892.18  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_18 run_perm.R 2 18 100
+50892.17  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_17 run_perm.R 2 17 100
+50892.16  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_16 run_perm.R 2 16 100
+50892.15  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_15 run_perm.R 2 15 100
+50892.14  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_14 run_perm.R 2 14 100
+50892.13  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_13 run_perm.R 2 13 100
+50892.12  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_12 run_perm.R 2 12 100
+50892.11  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_11 run_perm.R 2 11 100
+50892.10  s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_10 run_perm.R 2 10 100
+50892.9   s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_9 run_perm.R 2 9 100
+50892.8   s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_8 run_perm.R 2 8 100
+50892.7   s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_7 run_perm.R 2 7 100
+50892.6   s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_6 run_perm.R 2 6 100
+50892.5   s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_5 run_perm.R 2 5 100
+50892.4   s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_4 run_perm.R 2 4 100
+50892.3   s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_3 run_perm.R 2 3 100
+50892.2   s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_2 run_perm.R 2 2 100
+50892.1   s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_1 run_perm.R 2 1 100
+50892.0   s18_alexyan     7/13 11:04              X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 2_0 run_perm.R 2 0 100
+50656.0   s18_alexyan     7/13 09:59   0+00:01:27 X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl qtl_1 qtl.R 1
+50639.0   s18_alexyan     7/13 09:48   0+00:00:32 X         ???  /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 1_0 run_perm.R 1 0 10000
+50637.0   s18_alexyan     7/13 09:48   0+00:06:52 C   7/13 09:57 /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 1_0 run_perm.R 1 0 100
+50636.0   s18_alexyan     7/13 09:48   0+00:04:16 C   7/13 09:54 /home/s18_alexyan/Fri/WorkflowExercise/./runR.pl 1_0 run_perm.R 1 0 10
+50440.0   s18_alexyan     7/12 16:38   0+00:00:03 C   7/12 16:46 /home/s18_alexyan/Thu/4.2/motif-flanks/motif.sh 
+50436.0   s18_alexyan     7/12 16:38   0+00:00:03 C   7/12 16:46 /home/s18_alexyan/Thu/4.2/motif-flanks/motif.sh 
+50438.0   s18_alexyan     7/12 16:38   0+00:00:02 C   7/12 16:46 /home/s18_alexyan/Thu/4.2/motif-flanks/motif.sh 
+50409.0   s18_alexyan     7/12 16:30   0+00:00:01 X         ???  /home/s18_alexyan/Thu/4.2/motif-flanks/motif.sh 
+50406.0   s18_alexyan     7/12 16:29              X         ???  /home/s18_alexyan/Thu/4.2/motif-flanks/motif.sh 
+50403.0   s18_alexyan     7/12 16:29              X         ???  /home/s18_alexyan/Thu/4.2/motif-flanks/motif.sh 
+50402.0   s18_alexyan     7/12 16:28              X         ???  /home/s18_alexyan/Thu/4.2/motif-flanks/motif.sh 
+50001.0   s18_alexyan     7/11 11:27   0+00:01:31 C   7/11 11:30 /home/s18_alexyan/Wed/2.4/fib.py 90
+49998.0   s18_alexyan     7/11 11:26   0+00:01:18 C   7/11 11:30 /home/s18_alexyan/Wed/2.4/fib.py 90
+49978.0   s18_alexyan     7/11 11:23   0+00:01:09 C   7/11 11:25                
+49838.0   s18_alexyan     7/11 10:35   0+00:10:46 C   7/11 10:48 /bin/sleep 180 
+49806.0   s18_alexyan     7/11 10:25   0+00:02:47 C   7/11 10:29 /home/s18_alexyan/Wed/2.1/run_matrix.sh v90
+49761.0   s18_alexyan     7/11 10:05   0+00:03:03 C   7/11 10:10 /bin/sleep 180 
+49751.0   s18_alexyan     7/11 09:56   0+00:06:36 C   7/11 10:03 /bin/sleep 180 
+47479.0   s18_alexyan     7/10 16:42   0+00:00:10 C   7/10 16:42 /usr/bin/condor_dagman -p 0 -f -l . -Lockfile anagrams.dag.lock -AutoRescue 1 -DoRescueFrom 0 -Dag anagrams.dag -Suppress_no
+47480.0   s18_alexyan     7/10 16:42              C   7/10 16:42 /home/s18_alexyan/Tue/3.1/max.sh 
+47164.0   s18_alexyan     7/10 16:36   0+00:03:19 C   7/10 16:39 /usr/bin/condor_dagman -p 0 -f -l . -Lockfile anagrams.dag.lock -AutoRescue 1 -DoRescueFrom 0 -Dag anagrams.dag -Suppress_no
+47165.0   s18_alexyan     7/10 16:36   0+00:02:25 C   7/10 16:39 /usr/bin/condor_dagman -p 0 -f -l . -Lockfile squares.dag.lock -AutoRescue 1 -DoRescueFrom 0 -Dag squares.dag -Suppress_noti
+47166.0   s18_alexyan     7/10 16:36   0+00:00:02 C   7/10 16:38 /home/s18_alexyan/Tue/3.1/max_square.py COURSE SOURCE
+46231.0   s18_alexyan     7/10 16:25   0+00:09:01 C   7/10 16:34 /usr/bin/condor_dagman -p 0 -f -l . -Lockfile anagrams.dag.lock -AutoRescue 1 -DoRescueFrom 0 -Dag anagrams.dag -Suppress_no
+46238.0   s18_alexyan     7/10 16:25   0+00:08:51 C   7/10 16:34 /usr/bin/condor_dagman -p 0 -f -l . -Lockfile squares.dag.lock -AutoRescue 1 -DoRescueFrom 0 -Dag squares.dag -Suppress_noti
+46248.0   s18_alexyan     7/10 16:25   0+00:00:04 C   7/10 16:34 /home/s18_alexyan/Tue/3.1/max_square.py COURSE SOURCE
+46246.0   s18_alexyan     7/10 16:25   0+00:00:03 C   7/10 16:34 /home/s18_alexyan/Tue/3.1/max_square.py SHEET THESE
+45686.0   s18_alexyan     7/10 16:18   0+00:05:00 C   7/10 16:23 /usr/bin/condor_dagman -p 0 -f -l . -Lockfile anagrams.dag.lock -AutoRescue 1 -DoRescueFrom 0 -Dag anagrams.dag -Suppress_no
+45706.0   s18_alexyan     7/10 16:18   0+00:04:51 C   7/10 16:23 /usr/bin/condor_dagman -p 0 -f -l . -Lockfile squares.dag.lock -AutoRescue 1 -DoRescueFrom 0 -Dag squares.dag -Suppress_noti
+45749.0   s18_alexyan     7/10 16:19   0+00:01:02 C   7/10 16:23 /home/s18_alexyan/Tue/3.1/max_square.py MEAN NAME
+45770.0   s18_alexyan     7/10 16:19   0+00:01:02 C   7/10 16:23 /home/s18_alexyan/Tue/3.1/max_square.py DOG GOD
+45746.0   s18_alexyan     7/10 16:19   0+00:01:02 C   7/10 16:23 /home/s18_alexyan/Tue/3.1/max_square.py SURE USER
+45747.0   s18_alexyan     7/10 16:19   0+00:00:03 C   7/10 16:22 /home/s18_alexyan/Tue/3.1/max_square.py SHEET THESE
+45744.0   s18_alexyan     7/10 16:19   0+00:00:02 C   7/10 16:22 /home/s18_alexyan/Tue/3.1/max_square.py EXCEPT EXPECT
+45748.0   s18_alexyan     7/10 16:19   0+00:00:02 C   7/10 16:22 /home/s18_alexyan/Tue/3.1/max_square.py COURSE SOURCE
+45460.0   s18_alexyan     7/10 16:13   0+00:00:48 C   7/10 16:14 /usr/bin/condor_dagman -p 0 -f -l . -Lockfile anagrams.dag.lock -AutoRescue 1 -DoRescueFrom 0 -Dag anagrams.dag -Suppress_no
+44966.0   s18_alexyan     7/10 16:01   0+00:06:54 C   7/10 16:08 /usr/bin/condor_dagman -p 0 -f -l . -Lockfile anagrams.dag.lock -AutoRescue 1 -DoRescueFrom 0 -Dag anagrams.dag -Suppress_no
+44973.0   s18_alexyan     7/10 16:01   0+00:05:56 C   7/10 16:07 /usr/bin/condor_dagman -p 0 -f -l . -Lockfile squares.dag.lock -AutoRescue 1 -DoRescueFrom 0 -Dag squares.dag -Suppress_noti
+44982.0   s18_alexyan     7/10 16:01   0+00:01:04 C   7/10 16:07 /home/s18_alexyan/Tue/3.1/max_square.py DOG GOD
+44980.0   s18_alexyan     7/10 16:01   0+00:01:02 C   7/10 16:07 /home/s18_alexyan/Tue/3.1/max_square.py MEAN NAME
+44977.0   s18_alexyan     7/10 16:01   0+00:00:02 C   7/10 16:06 /home/s18_alexyan/Tue/3.1/max_square.py SURE USER
+44979.0   s18_alexyan     7/10 16:01   0+00:00:02 C   7/10 16:06 /home/s18_alexyan/Tue/3.1/max_square.py COURSE SOURCE
+44978.0   s18_alexyan     7/10 16:01   0+00:00:01 C   7/10 16:06 /home/s18_alexyan/Tue/3.1/max_square.py SHEET THESE
+44976.0   s18_alexyan     7/10 16:01   0+00:00:01 C   7/10 16:06 /home/s18_alexyan/Tue/3.1/max_square.py EXCEPT EXPECT
+44162.0   s18_alexyan     7/10 15:31   0+00:08:46 C   7/10 15:40 /usr/bin/condor_dagman -p 0 -f -l . -Lockfile anagrams.dag.lock -AutoRescue 1 -DoRescueFrom 0 -Dag anagrams.dag -Suppress_no
+44189.0   s18_alexyan     7/10 15:35   0+00:04:37 C   7/10 15:40 /usr/bin/condor_dagman -p 0 -f -l . -Lockfile squares.dag.lock -AutoRescue 1 -DoRescueFrom 0 -Dag squares.dag -Suppress_noti
+44246.0   s18_alexyan     7/10 15:36   0+00:01:06 C   7/10 15:40 /home/s18_alexyan/Tue/3.1/max_square.py ITS SIT
+44215.0   s18_alexyan     7/10 15:36   0+00:01:06 C   7/10 15:40 /home/s18_alexyan/Tue/3.1/max_square.py NOTE TONE
+44202.0   s18_alexyan     7/10 15:36   0+00:01:04 C   7/10 15:40 /home/s18_alexyan/Tue/3.1/max_square.py INTRODUCE REDUCTION
+44244.0   s18_alexyan     7/10 15:36   0+00:01:02 C   7/10 15:40 /home/s18_alexyan/Tue/3.1/max_square.py CARE RACE
+44248.0   s18_alexyan     7/10 15:36   0+00:01:03 C   7/10 15:40 /home/s18_alexyan/Tue/3.1/max_square.py BOARD BROAD
+44275.0   s18_alexyan     7/10 15:36   0+00:01:02 C   7/10 15:40 /home/s18_alexyan/Tue/3.1/max_square.py CREATION REACTION
+44267.0   s18_alexyan     7/10 15:36   0+00:01:01 C   7/10 15:40 /home/s18_alexyan/Tue/3.1/max_square.py NIGHT THING
+44258.0   s18_alexyan     7/10 15:36   0+00:01:02 C   7/10 15:40 /home/s18_alexyan/Tue/3.1/max_square.py ACT CAT
+44265.0   s18_alexyan     7/10 15:36   0+00:01:02 C   7/10 15:40 /home/s18_alexyan/Tue/3.1/max_square.py ARISE RAISE
+44205.0   s18_alexyan     7/10 15:36   0+00:01:03 C   7/10 15:40 /home/s18_alexyan/Tue/3.1/max_square.py HATE HEAT
+44225.0   s18_alexyan     7/10 15:36   0+00:01:03 C   7/10 15:40 /home/s18_alexyan/Tue/3.1/max_square.py SHOUT SOUTH
+44233.0   s18_alexyan     7/10 15:36   0+00:01:02 C   7/10 15:40 /home/s18_alexyan/Tue/3.1/max_square.py FILE LIFE
+44213.0   s18_alexyan     7/10 15:36   0+00:01:03 C   7/10 15:40 /home/s18_alexyan/Tue/3.1/max_square.py DANGER GARDEN
+44192.0   s18_alexyan     7/10 15:36   0+00:01:02 C   7/10 15:40 /home/s18_alexyan/Tue/3.1/max_square.py NOW OWN
+44204.0   s18_alexyan     7/10 15:36   0+00:01:02 C   7/10 15:40 /home/s18_alexyan/Tue/3.1/max_square.py HOW WHO
+44191.0   s18_alexyan     7/10 15:36   0+00:01:02 C   7/10 15:40 /home/s18_alexyan/Tue/3.1/max_square.py CREDIT DIRECT
+44194.0   s18_alexyan     7/10 15:36   0+00:01:01 C   7/10 15:40 /home/s18_alexyan/Tue/3.1/max_square.py EAT TEA
+44224.0   s18_alexyan     7/10 15:36   0+00:00:07 C   7/10 15:39 /home/s18_alexyan/Tue/3.1/max_square.py RATE TEAR
+44214.0   s18_alexyan     7/10 15:36   0+00:00:03 C   7/10 15:39 /home/s18_alexyan/Tue/3.1/max_square.py FORMER REFORM
+44193.0   s18_alexyan     7/10 15:36   0+00:00:04 C   7/10 15:39 /home/s18_alexyan/Tue/3.1/max_square.py EXCEPT EXPECT
+44256.0   s18_alexyan     7/10 15:36   0+00:00:02 C   7/10 15:39 /home/s18_alexyan/Tue/3.1/max_square.py QUIET QUITE
+44212.0   s18_alexyan     7/10 15:36   0+00:00:05 C   7/10 15:39 /home/s18_alexyan/Tue/3.1/max_square.py LEAST STEAL
+44276.0   s18_alexyan     7/10 15:36   0+00:00:02 C   7/10 15:39 /home/s18_alexyan/Tue/3.1/max_square.py SIGN SING
+44268.0   s18_alexyan     7/10 15:36   0+00:00:02 C   7/10 15:39 /home/s18_alexyan/Tue/3.1/max_square.py DOG GOD
+44255.0   s18_alexyan     7/10 15:36   0+00:00:03 C   7/10 15:39 /home/s18_alexyan/Tue/3.1/max_square.py MEAN NAME
+44269.0   s18_alexyan     7/10 15:36   0+00:00:01 C   7/10 15:39 /home/s18_alexyan/Tue/3.1/max_square.py PHASE SHAPE
+44195.0   s18_alexyan     7/10 15:36   0+00:00:02 C   7/10 15:39 /home/s18_alexyan/Tue/3.1/max_square.py SHUT THUS
+44257.0   s18_alexyan     7/10 15:36   0+00:00:02 C   7/10 15:39 /home/s18_alexyan/Tue/3.1/max_square.py EARTH HEART
+44245.0   s18_alexyan     7/10 15:36   0+00:00:02 C   7/10 15:39 /home/s18_alexyan/Tue/3.1/max_square.py MALE MEAL
+44266.0   s18_alexyan     7/10 15:36   0+00:00:02 C   7/10 15:39 /home/s18_alexyan/Tue/3.1/max_square.py POST SPOT STOP
+44236.0   s18_alexyan     7/10 15:36   0+00:00:02 C   7/10 15:39 /home/s18_alexyan/Tue/3.1/max_square.py EAST SEAT
+44247.0   s18_alexyan     7/10 15:36   0+00:00:02 C   7/10 15:39 /home/s18_alexyan/Tue/3.1/max_square.py COURSE SOURCE
+44201.0   s18_alexyan     7/10 15:36   0+00:00:02 C   7/10 15:39 /home/s18_alexyan/Tue/3.1/max_square.py SURE USER
+44259.0   s18_alexyan     7/10 15:36   0+00:00:01 C   7/10 15:39 /home/s18_alexyan/Tue/3.1/max_square.py THROW WORTH
+44235.0   s18_alexyan     7/10 15:36   0+00:00:01 C   7/10 15:39 /home/s18_alexyan/Tue/3.1/max_square.py IGNORE REGION
+44234.0   s18_alexyan     7/10 15:36   0+00:00:02 C   7/10 15:39 /home/s18_alexyan/Tue/3.1/max_square.py NO ON
+44221.0   s18_alexyan     7/10 15:36   0+00:00:02 C   7/10 15:39 /home/s18_alexyan/Tue/3.1/max_square.py FORM FROM
+44222.0   s18_alexyan     7/10 15:36   0+00:00:02 C   7/10 15:39 /home/s18_alexyan/Tue/3.1/max_square.py EARN NEAR
+44223.0   s18_alexyan     7/10 15:36   0+00:00:02 C   7/10 15:39 /home/s18_alexyan/Tue/3.1/max_square.py SHEET THESE
+44211.0   s18_alexyan     7/10 15:36   0+00:00:03 C   7/10 15:39 /home/s18_alexyan/Tue/3.1/max_square.py DEAL LEAD
+44203.0   s18_alexyan     7/10 15:36   0+00:00:02 C   7/10 15:39 /home/s18_alexyan/Tue/3.1/max_square.py ITEM TIME
+44232.0   s18_alexyan     7/10 15:36   0+00:00:02 C   7/10 15:39 /home/s18_alexyan/Tue/3.1/max_square.py CENTRE RECENT
+44163.0   s18_alexyan     7/10 15:31   0+00:00:02 C   7/10 15:35 /home/s18_alexyan/Tue/3.1/find_anagrams.py p098_words.txt
+43853.0   s18_alexyan     7/10 15:02   0+00:05:20 C   7/10 15:07 /usr/bin/condor_dagman -p 0 -f -l . -Lockfile anagrams.dag.lock -AutoRescue 1 -DoRescueFrom 0 -Dag anagrams.dag -Suppress_no
+43854.0   s18_alexyan     7/10 15:02   0+00:05:12 C   7/10 15:07 /usr/bin/condor_dagman -p 0 -f -l . -Lockfile squares.dag.lock -AutoRescue 1 -DoRescueFrom 0 -Dag squares.dag -Suppress_noti
+43879.0   s18_alexyan     7/10 15:03   0+00:01:03 C   7/10 15:07 /home/s18_alexyan/Tue/3.1/max_square.py EAST SEAT
+43855.0   s18_alexyan     7/10 15:02   0+00:01:04 C   7/10 15:07 /home/s18_alexyan/Tue/3.1/max_square.py CREDIT DIRECT
+43867.0   s18_alexyan     7/10 15:02   0+00:01:04 C   7/10 15:07 /home/s18_alexyan/Tue/3.1/max_square.py DANGER GARDEN
+43890.0   s18_alexyan     7/10 15:03   0+00:01:02 C   7/10 15:07 /home/s18_alexyan/Tue/3.1/max_square.py ACT CAT
+43863.0   s18_alexyan     7/10 15:02   0+00:01:03 C   7/10 15:07 /home/s18_alexyan/Tue/3.1/max_square.py HOW WHO
+43885.0   s18_alexyan     7/10 15:03   0+00:01:02 C   7/10 15:07 /home/s18_alexyan/Tue/3.1/max_square.py BOARD BROAD
+43895.0   s18_alexyan     7/10 15:03   0+00:01:03 C   7/10 15:07 /home/s18_alexyan/Tue/3.1/max_square.py DOG GOD
+43896.0   s18_alexyan     7/10 15:03   0+00:01:01 C   7/10 15:07 /home/s18_alexyan/Tue/3.1/max_square.py PHASE SHAPE
+43875.0   s18_alexyan     7/10 15:03   0+00:01:02 C   7/10 15:07 /home/s18_alexyan/Tue/3.1/max_square.py CENTRE RECENT
+43866.0   s18_alexyan     7/10 15:02   0+00:01:02 C   7/10 15:07 /home/s18_alexyan/Tue/3.1/max_square.py LEAST STEAL
+43861.0   s18_alexyan     7/10 15:02   0+00:01:02 C   7/10 15:07 /home/s18_alexyan/Tue/3.1/max_square.py INTRODUCE REDUCTION
+43856.0   s18_alexyan     7/10 15:02   0+00:01:03 C   7/10 15:07 /home/s18_alexyan/Tue/3.1/max_square.py NOW OWN
+43860.0   s18_alexyan     7/10 15:02   0+00:01:02 C   7/10 15:07 /home/s18_alexyan/Tue/3.1/max_square.py SURE USER
+43884.0   s18_alexyan     7/10 15:03   0+00:01:02 C   7/10 15:07 /home/s18_alexyan/Tue/3.1/max_square.py COURSE SOURCE
+43873.0   s18_alexyan     7/10 15:03   0+00:01:02 C   7/10 15:07 /home/s18_alexyan/Tue/3.1/max_square.py RATE TEAR
+43872.0   s18_alexyan     7/10 15:03   0+00:01:02 C   7/10 15:07 /home/s18_alexyan/Tue/3.1/max_square.py SHEET THESE
+43858.0   s18_alexyan     7/10 15:02   0+00:01:03 C   7/10 15:07 /home/s18_alexyan/Tue/3.1/max_square.py EAT TEA
+43878.0   s18_alexyan     7/10 15:03   0+00:01:02 C   7/10 15:07 /home/s18_alexyan/Tue/3.1/max_square.py IGNORE REGION
+43871.0   s18_alexyan     7/10 15:03   0+00:01:02 C   7/10 15:07 /home/s18_alexyan/Tue/3.1/max_square.py EARN NEAR
+43857.0   s18_alexyan     7/10 15:02   0+00:01:02 C   7/10 15:07 /home/s18_alexyan/Tue/3.1/max_square.py EXCEPT EXPECT
+43882.0   s18_alexyan     7/10 15:03   0+00:00:05 C   7/10 15:06 /home/s18_alexyan/Tue/3.1/max_square.py MALE MEAL
+43887.0   s18_alexyan     7/10 15:03   0+00:00:03 C   7/10 15:06 /home/s18_alexyan/Tue/3.1/max_square.py MEAN NAME
+43891.0   s18_alexyan     7/10 15:03   0+00:00:02 C   7/10 15:06 /home/s18_alexyan/Tue/3.1/max_square.py THROW WORTH
+43898.0   s18_alexyan     7/10 15:03   0+00:00:02 C   7/10 15:06 /home/s18_alexyan/Tue/3.1/max_square.py SIGN SING
+43897.0   s18_alexyan     7/10 15:03   0+00:00:02 C   7/10 15:06 /home/s18_alexyan/Tue/3.1/max_square.py CREATION REACTION
+43893.0   s18_alexyan     7/10 15:03   0+00:00:02 C   7/10 15:06 /home/s18_alexyan/Tue/3.1/max_square.py POST SPOT STOP
+43892.0   s18_alexyan     7/10 15:03   0+00:00:02 C   7/10 15:06 /home/s18_alexyan/Tue/3.1/max_square.py ARISE RAISE
+43894.0   s18_alexyan     7/10 15:03   0+00:00:02 C   7/10 15:06 /home/s18_alexyan/Tue/3.1/max_square.py NIGHT THING
+43881.0   s18_alexyan     7/10 15:03   0+00:00:02 C   7/10 15:06 /home/s18_alexyan/Tue/3.1/max_square.py CARE RACE
+43870.0   s18_alexyan     7/10 15:03   0+00:00:02 C   7/10 15:06 /home/s18_alexyan/Tue/3.1/max_square.py FORM FROM
+43874.0   s18_alexyan     7/10 15:03   0+00:00:02 C   7/10 15:06 /home/s18_alexyan/Tue/3.1/max_square.py SHOUT SOUTH
+43876.0   s18_alexyan     7/10 15:03   0+00:00:02 C   7/10 15:06 /home/s18_alexyan/Tue/3.1/max_square.py FILE LIFE
+43868.0   s18_alexyan     7/10 15:02   0+00:00:02 C   7/10 15:06 /home/s18_alexyan/Tue/3.1/max_square.py FORMER REFORM
+43869.0   s18_alexyan     7/10 15:03   0+00:00:02 C   7/10 15:06 /home/s18_alexyan/Tue/3.1/max_square.py NOTE TONE
+43888.0   s18_alexyan     7/10 15:03   0+00:00:02 C   7/10 15:06 /home/s18_alexyan/Tue/3.1/max_square.py QUIET QUITE
+43865.0   s18_alexyan     7/10 15:02   0+00:00:02 C   7/10 15:06 /home/s18_alexyan/Tue/3.1/max_square.py DEAL LEAD
+43889.0   s18_alexyan     7/10 15:03   0+00:00:02 C   7/10 15:06 /home/s18_alexyan/Tue/3.1/max_square.py EARTH HEART
+43883.0   s18_alexyan     7/10 15:03   0+00:00:02 C   7/10 15:06 /home/s18_alexyan/Tue/3.1/max_square.py ITS SIT
+43877.0   s18_alexyan     7/10 15:03   0+00:00:02 C   7/10 15:06 /home/s18_alexyan/Tue/3.1/max_square.py NO ON
+43862.0   s18_alexyan     7/10 15:02   0+00:00:02 C   7/10 15:06 /home/s18_alexyan/Tue/3.1/max_square.py ITEM TIME
+43864.0   s18_alexyan     7/10 15:02   0+00:00:02 C   7/10 15:06 /home/s18_alexyan/Tue/3.1/max_square.py HATE HEAT
+43859.0   s18_alexyan     7/10 15:02   0+00:00:03 C   7/10 15:06 /home/s18_alexyan/Tue/3.1/max_square.py SHUT THUS
+43600.0   s18_alexyan     7/10 13:17   0+01:45:07 X         ???  /usr/bin/condor_dagman -p 0 -f -l . -Lockfile squares.dag.lock -AutoRescue 1 -DoRescueFrom 0 -Dag squares.dag -Suppress_noti
+43594.0   s18_alexyan     7/10 13:13   0+01:48:41 X         ???  /usr/bin/condor_dagman -p 0 -f -l . -Lockfile anagrams.dag.lock -AutoRescue 1 -DoRescueFrom 0 -Dag anagrams.dag -Suppress_no
+43602.0   s18_alexyan     7/10 13:17   0+00:00:01 X         ???  /home/s18_alexyan/Tue/3.1/max_square.py NOW OWN
+43635.0   s18_alexyan     7/10 13:17   0+00:00:01 X         ???  /home/s18_alexyan/Tue/3.1/max_square.py THROW WORTH
+43619.0   s18_alexyan     7/10 13:17              X         ???  /home/s18_alexyan/Tue/3.1/max_square.py RATE TEAR
+43603.0   s18_alexyan     7/10 13:17   0+00:00:01 X         ???  /home/s18_alexyan/Tue/3.1/max_square.py EXCEPT EXPECT
+43636.0   s18_alexyan     7/10 13:18              X         ???  /home/s18_alexyan/Tue/3.1/max_square.py ARISE RAISE
+43620.0   s18_alexyan     7/10 13:17              X         ???  /home/s18_alexyan/Tue/3.1/max_square.py SHOUT SOUTH
+43604.0   s18_alexyan     7/10 13:17   0+00:00:01 X         ???  /home/s18_alexyan/Tue/3.1/max_square.py EAT TEA
+43637.0   s18_alexyan     7/10 13:18              X         ???  /home/s18_alexyan/Tue/3.1/max_square.py POST SPOT STOP
+43621.0   s18_alexyan     7/10 13:17              X         ???  /home/s18_alexyan/Tue/3.1/max_square.py CENTRE RECENT
+43605.0   s18_alexyan     7/10 13:17   0+00:00:01 X         ???  /home/s18_alexyan/Tue/3.1/max_square.py SHUT THUS
+43638.0   s18_alexyan     7/10 13:18   0+00:00:01 X         ???  /home/s18_alexyan/Tue/3.1/max_square.py NIGHT THING
+43622.0   s18_alexyan     7/10 13:17              X         ???  /home/s18_alexyan/Tue/3.1/max_square.py FILE LIFE
+43606.0   s18_alexyan     7/10 13:17   0+00:00:01 X         ???  /home/s18_alexyan/Tue/3.1/max_square.py SURE USER
+43639.0   s18_alexyan     7/10 13:18   0+00:00:01 X         ???  /home/s18_alexyan/Tue/3.1/max_square.py DOG GOD
+43623.0   s18_alexyan     7/10 13:17              X         ???  /home/s18_alexyan/Tue/3.1/max_square.py NO ON
+43607.0   s18_alexyan     7/10 13:17   0+00:00:01 X         ???  /home/s18_alexyan/Tue/3.1/max_square.py INTRODUCE REDUCTION
+43640.0   s18_alexyan     7/10 13:18   0+00:00:01 X         ???  /home/s18_alexyan/Tue/3.1/max_square.py PHASE SHAPE
+43624.0   s18_alexyan     7/10 13:17              X         ???  /home/s18_alexyan/Tue/3.1/max_square.py IGNORE REGION
+43608.0   s18_alexyan     7/10 13:17   0+00:00:01 X         ???  /home/s18_alexyan/Tue/3.1/max_square.py ITEM TIME
+43641.0   s18_alexyan     7/10 13:18              X         ???  /home/s18_alexyan/Tue/3.1/max_square.py CREATION REACTION
+43625.0   s18_alexyan     7/10 13:17              X         ???  /home/s18_alexyan/Tue/3.1/max_square.py EAST SEAT
+43609.0   s18_alexyan     7/10 13:17   0+00:00:01 X         ???  /home/s18_alexyan/Tue/3.1/max_square.py HOW WHO
+43642.0   s18_alexyan     7/10 13:18              X         ???  /home/s18_alexyan/Tue/3.1/max_square.py SIGN SING
+43626.0   s18_alexyan     7/10 13:17              X         ???  /home/s18_alexyan/Tue/3.1/max_square.py CARE RACE
+43610.0   s18_alexyan     7/10 13:17   0+00:00:01 X         ???  /home/s18_alexyan/Tue/3.1/max_square.py HATE HEAT
+43627.0   s18_alexyan     7/10 13:17              X         ???  /home/s18_alexyan/Tue/3.1/max_square.py MALE MEAL
+43611.0   s18_alexyan     7/10 13:17   0+00:00:01 X         ???  /home/s18_alexyan/Tue/3.1/max_square.py DEAL LEAD
+43628.0   s18_alexyan     7/10 13:17              X         ???  /home/s18_alexyan/Tue/3.1/max_square.py ITS SIT
+43612.0   s18_alexyan     7/10 13:17   0+00:00:01 X         ???  /home/s18_alexyan/Tue/3.1/max_square.py LEAST STEAL
+43629.0   s18_alexyan     7/10 13:17              X         ???  /home/s18_alexyan/Tue/3.1/max_square.py COURSE SOURCE
+43613.0   s18_alexyan     7/10 13:17   0+00:00:01 X         ???  /home/s18_alexyan/Tue/3.1/max_square.py DANGER GARDEN
+43630.0   s18_alexyan     7/10 13:17              X         ???  /home/s18_alexyan/Tue/3.1/max_square.py BOARD BROAD
+43614.0   s18_alexyan     7/10 13:17              X         ???  /home/s18_alexyan/Tue/3.1/max_square.py FORMER REFORM
+43631.0   s18_alexyan     7/10 13:17   0+00:00:01 X         ???  /home/s18_alexyan/Tue/3.1/max_square.py MEAN NAME
+43615.0   s18_alexyan     7/10 13:17              X         ???  /home/s18_alexyan/Tue/3.1/max_square.py NOTE TONE
+43632.0   s18_alexyan     7/10 13:17              X         ???  /home/s18_alexyan/Tue/3.1/max_square.py QUIET QUITE
+43616.0   s18_alexyan     7/10 13:17              X         ???  /home/s18_alexyan/Tue/3.1/max_square.py FORM FROM
+43633.0   s18_alexyan     7/10 13:17              X         ???  /home/s18_alexyan/Tue/3.1/max_square.py EARTH HEART
+43617.0   s18_alexyan     7/10 13:17              X         ???  /home/s18_alexyan/Tue/3.1/max_square.py EARN NEAR
+43601.0   s18_alexyan     7/10 13:17              X         ???  /home/s18_alexyan/Tue/3.1/max_square.py CREDIT DIRECT
+43634.0   s18_alexyan     7/10 13:17   0+00:00:01 X         ???  /home/s18_alexyan/Tue/3.1/max_square.py ACT CAT
+43618.0   s18_alexyan     7/10 13:17              X         ???  /home/s18_alexyan/Tue/3.1/max_square.py SHEET THESE
+43596.0   s18_alexyan     7/10 13:13   0+00:00:03 C   7/10 13:17 /home/s18_alexyan/Tue/3.1/find_anagrams.py p098_words.txt
+43517.0   s18_alexyan     7/10 12:10   0+00:00:03 C   7/10 12:13 /home/s18_alexyan/Tue/3.1/find_anagrams.py p098_words.txt
+43446.0   s18_alexyan     7/10 12:01   0+00:07:19 X         ???  /usr/bin/condor_dagman -p 0 -f -l . -Lockfile anagrams.dag.lock -AutoRescue 1 -DoRescueFrom 0 -Dag anagrams.dag -Suppress_no
+43447.0   s18_alexyan     7/10 12:01              X         ???  /home/s18_alexyan/Tue/3.1/find_anagrams.py p098_words.txt
+43421.0   s18_alexyan     7/10 11:55   0+00:06:22 X         ???  /usr/bin/condor_dagman -p 0 -f -l . -Lockfile anagrams.dag.lock -AutoRescue 1 -DoRescueFrom 0 -Dag anagrams.dag -Suppress_no
+43423.0   s18_alexyan     7/10 11:55              X         ???  /home/s18_alexyan/Tue/3.1/find_anagrams.py p098_words.txt
+43412.0   s18_alexyan     7/10 11:52              C   7/10 11:52 /usr/bin/condor_dagman -p 0 -f -l . -Lockfile anagrams.dag.lock -AutoRescue 1 -DoRescueFrom 0 -Dag anagrams.dag -Suppress_no
+43401.0   s18_alexyan     7/10 11:50   0+00:00:01 C   7/10 11:50 /usr/bin/condor_dagman -p 0 -f -l . -Lockfile anagrams.dag.lock -AutoRescue 1 -DoRescueFrom 0 -Dag anagrams.dag -Suppress_no
+43374.0   s18_alexyan     7/10 11:41   0+00:00:01 C   7/10 11:41 /usr/bin/condor_dagman -p 0 -f -l . -Lockfile anagrams.dag.lock -AutoRescue 1 -DoRescueFrom 0 -Dag anagrams.dag -Suppress_no
+43282.49  s18_alexyan     7/10 10:30   0+00:01:03 C   7/10 10:35 /bin/sleep 60  
+43282.48  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:35 /bin/sleep 60  
+43282.47  s18_alexyan     7/10 10:30   0+00:01:01 C   7/10 10:35 /bin/sleep 60  
+43282.46  s18_alexyan     7/10 10:30   0+00:01:01 C   7/10 10:35 /bin/sleep 60  
+43282.45  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:34 /bin/sleep 60  
+43282.41  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:34 /bin/sleep 60  
+43282.40  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:34 /bin/sleep 60  
+43282.44  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:34 /bin/sleep 60  
+43282.43  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:34 /bin/sleep 60  
+43282.42  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:34 /bin/sleep 60  
+43282.39  s18_alexyan     7/10 10:30   0+00:01:01 C   7/10 10:33 /bin/sleep 60  
+43282.38  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:33 /bin/sleep 60  
+43282.14  s18_alexyan     7/10 10:30   0+00:01:29 C   7/10 10:33 /bin/sleep 60  
+43282.32  s18_alexyan     7/10 10:30   0+00:01:09 C   7/10 10:32 /bin/sleep 60  
+43282.6   s18_alexyan     7/10 10:30   0+00:01:05 C   7/10 10:32 /bin/sleep 60  
+43282.36  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:32 /bin/sleep 60  
+43282.35  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:32 /bin/sleep 60  
+43282.37  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:32 /bin/sleep 60  
+43282.31  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:32 /bin/sleep 60  
+43282.30  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:32 /bin/sleep 60  
+43282.29  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:32 /bin/sleep 60  
+43282.34  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:32 /bin/sleep 60  
+43282.27  s18_alexyan     7/10 10:30   0+00:01:03 C   7/10 10:32 /bin/sleep 60  
+43282.33  s18_alexyan     7/10 10:30   0+00:01:01 C   7/10 10:32 /bin/sleep 60  
+43282.17  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:32 /bin/sleep 60  
+43282.16  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:32 /bin/sleep 60  
+43282.28  s18_alexyan     7/10 10:30   0+00:01:01 C   7/10 10:32 /bin/sleep 60  
+43282.18  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:32 /bin/sleep 60  
+43282.25  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:32 /bin/sleep 60  
+43282.19  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:32 /bin/sleep 60  
+43282.26  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:32 /bin/sleep 60  
+43282.12  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:32 /bin/sleep 60  
+43282.15  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:32 /bin/sleep 60  
+43282.13  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:32 /bin/sleep 60  
+43282.22  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:32 /bin/sleep 60  
+43282.10  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:32 /bin/sleep 60  
+43282.11  s18_alexyan     7/10 10:30   0+00:01:03 C   7/10 10:32 /bin/sleep 60  
+43282.7   s18_alexyan     7/10 10:30   0+00:01:03 C   7/10 10:32 /bin/sleep 60  
+43282.3   s18_alexyan     7/10 10:30   0+00:01:03 C   7/10 10:32 /bin/sleep 60  
+43282.4   s18_alexyan     7/10 10:30   0+00:01:03 C   7/10 10:32 /bin/sleep 60  
+43282.20  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:32 /bin/sleep 60  
+43282.24  s18_alexyan     7/10 10:30   0+00:01:01 C   7/10 10:32 /bin/sleep 60  
+43282.1   s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:32 /bin/sleep 60  
+43282.21  s18_alexyan     7/10 10:30   0+00:01:01 C   7/10 10:32 /bin/sleep 60  
+43282.9   s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:32 /bin/sleep 60  
+43282.23  s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:32 /bin/sleep 60  
+43282.0   s18_alexyan     7/10 10:30   0+00:01:03 C   7/10 10:32 /bin/sleep 60  
+43282.2   s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:32 /bin/sleep 60  
+43282.5   s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:32 /bin/sleep 60  
+43282.8   s18_alexyan     7/10 10:30   0+00:01:02 C   7/10 10:32 /bin/sleep 60  
+43246.8   s18_alexyan     7/10 10:02   0+00:01:10 C   7/10 10:05 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.1   s18_alexyan     7/10 10:02   0+00:00:28 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.53  s18_alexyan     7/10 10:02   0+00:00:15 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.92  s18_alexyan     7/10 10:02   0+00:00:16 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.72  s18_alexyan     7/10 10:02   0+00:00:13 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.86  s18_alexyan     7/10 10:02   0+00:00:12 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.12  s18_alexyan     7/10 10:02   0+00:00:15 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.88  s18_alexyan     7/10 10:02   0+00:00:11 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.83  s18_alexyan     7/10 10:02   0+00:00:08 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.32  s18_alexyan     7/10 10:02   0+00:00:12 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.87  s18_alexyan     7/10 10:02   0+00:00:08 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.58  s18_alexyan     7/10 10:02   0+00:00:10 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.85  s18_alexyan     7/10 10:02   0+00:00:07 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.0   s18_alexyan     7/10 10:02   0+00:00:12 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.76  s18_alexyan     7/10 10:02   0+00:00:07 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.56  s18_alexyan     7/10 10:02   0+00:00:08 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.94  s18_alexyan     7/10 10:02   0+00:00:05 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.97  s18_alexyan     7/10 10:02   0+00:00:05 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.93  s18_alexyan     7/10 10:02   0+00:00:06 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.95  s18_alexyan     7/10 10:02   0+00:00:05 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.96  s18_alexyan     7/10 10:02   0+00:00:05 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.99  s18_alexyan     7/10 10:02   0+00:00:04 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.33  s18_alexyan     7/10 10:02   0+00:00:04 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.98  s18_alexyan     7/10 10:02   0+00:00:04 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.89  s18_alexyan     7/10 10:02   0+00:00:05 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.75  s18_alexyan     7/10 10:02   0+00:00:05 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.40  s18_alexyan     7/10 10:02   0+00:00:08 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.90  s18_alexyan     7/10 10:02   0+00:00:05 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.91  s18_alexyan     7/10 10:02   0+00:00:05 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.37  s18_alexyan     7/10 10:02   0+00:00:08 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.80  s18_alexyan     7/10 10:02   0+00:00:05 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.74  s18_alexyan     7/10 10:02   0+00:00:05 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.73  s18_alexyan     7/10 10:02   0+00:00:05 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.36  s18_alexyan     7/10 10:02   0+00:00:08 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.77  s18_alexyan     7/10 10:02   0+00:00:05 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.66  s18_alexyan     7/10 10:02   0+00:00:05 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.69  s18_alexyan     7/10 10:02   0+00:00:06 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.67  s18_alexyan     7/10 10:02   0+00:00:05 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.71  s18_alexyan     7/10 10:02   0+00:00:06 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.65  s18_alexyan     7/10 10:02   0+00:00:06 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.63  s18_alexyan     7/10 10:02   0+00:00:06 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.25  s18_alexyan     7/10 10:02   0+00:00:09 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.78  s18_alexyan     7/10 10:02   0+00:00:06 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.51  s18_alexyan     7/10 10:02   0+00:00:07 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.81  s18_alexyan     7/10 10:02   0+00:00:06 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.70  s18_alexyan     7/10 10:02   0+00:00:06 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.55  s18_alexyan     7/10 10:02   0+00:00:07 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.64  s18_alexyan     7/10 10:02   0+00:00:06 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.59  s18_alexyan     7/10 10:02   0+00:00:07 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.49  s18_alexyan     7/10 10:02   0+00:00:07 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.84  s18_alexyan     7/10 10:02   0+00:00:06 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.82  s18_alexyan     7/10 10:02   0+00:00:06 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.38  s18_alexyan     7/10 10:02   0+00:00:06 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.79  s18_alexyan     7/10 10:02   0+00:00:06 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.20  s18_alexyan     7/10 10:02   0+00:00:06 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.52  s18_alexyan     7/10 10:02   0+00:00:07 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.68  s18_alexyan     7/10 10:02   0+00:00:06 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.61  s18_alexyan     7/10 10:02   0+00:00:07 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.60  s18_alexyan     7/10 10:02   0+00:00:07 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.23  s18_alexyan     7/10 10:02   0+00:00:09 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.54  s18_alexyan     7/10 10:02   0+00:00:07 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.42  s18_alexyan     7/10 10:02   0+00:00:07 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.39  s18_alexyan     7/10 10:02   0+00:00:08 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.27  s18_alexyan     7/10 10:02   0+00:00:08 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.48  s18_alexyan     7/10 10:02   0+00:00:07 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.62  s18_alexyan     7/10 10:02   0+00:00:06 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.44  s18_alexyan     7/10 10:02   0+00:00:07 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.35  s18_alexyan     7/10 10:02   0+00:00:08 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.41  s18_alexyan     7/10 10:02   0+00:00:08 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.47  s18_alexyan     7/10 10:02   0+00:00:07 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.31  s18_alexyan     7/10 10:02   0+00:00:08 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.57  s18_alexyan     7/10 10:02   0+00:00:07 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.34  s18_alexyan     7/10 10:02   0+00:00:08 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.22  s18_alexyan     7/10 10:02   0+00:00:09 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.43  s18_alexyan     7/10 10:02   0+00:00:06 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.50  s18_alexyan     7/10 10:02   0+00:00:07 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.30  s18_alexyan     7/10 10:02   0+00:00:07 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.15  s18_alexyan     7/10 10:02   0+00:00:08 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.46  s18_alexyan     7/10 10:02   0+00:00:07 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.29  s18_alexyan     7/10 10:02   0+00:00:07 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.28  s18_alexyan     7/10 10:02   0+00:00:07 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.26  s18_alexyan     7/10 10:02   0+00:00:08 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.11  s18_alexyan     7/10 10:02   0+00:00:08 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.10  s18_alexyan     7/10 10:02   0+00:00:08 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.45  s18_alexyan     7/10 10:02   0+00:00:07 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.24  s18_alexyan     7/10 10:02   0+00:00:07 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.19  s18_alexyan     7/10 10:02   0+00:00:07 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.16  s18_alexyan     7/10 10:02   0+00:00:07 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.14  s18_alexyan     7/10 10:02   0+00:00:06 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.21  s18_alexyan     7/10 10:02   0+00:00:06 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.17  s18_alexyan     7/10 10:02   0+00:00:06 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.13  s18_alexyan     7/10 10:02   0+00:00:06 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.5   s18_alexyan     7/10 10:02   0+00:00:07 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.7   s18_alexyan     7/10 10:02   0+00:00:07 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.18  s18_alexyan     7/10 10:02   0+00:00:05 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.3   s18_alexyan     7/10 10:02   0+00:00:06 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.4   s18_alexyan     7/10 10:02   0+00:00:05 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.9   s18_alexyan     7/10 10:02   0+00:00:04 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.2   s18_alexyan     7/10 10:02   0+00:00:05 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43246.6   s18_alexyan     7/10 10:02   0+00:00:04 C   7/10 10:04 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.88  s18_alexyan     7/10 09:58   0+00:00:19 C   7/10 10:01 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.71  s18_alexyan     7/10 09:58   0+00:00:16 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.98  s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.92  s18_alexyan     7/10 09:58   0+00:00:09 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.60  s18_alexyan     7/10 09:58   0+00:00:13 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.73  s18_alexyan     7/10 09:58   0+00:00:13 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.74  s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.95  s18_alexyan     7/10 09:58   0+00:00:13 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.97  s18_alexyan     7/10 09:58   0+00:00:13 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.38  s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.70  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.29  s18_alexyan     7/10 09:58   0+00:00:13 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.94  s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.91  s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.47  s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.93  s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.48  s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.62  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.90  s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.81  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.86  s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.89  s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.80  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.85  s18_alexyan     7/10 09:58   0+00:00:13 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.84  s18_alexyan     7/10 09:58   0+00:00:13 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.79  s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.78  s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.31  s18_alexyan     7/10 09:58   0+00:00:16 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.82  s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.76  s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.72  s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.42  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.75  s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.77  s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.99  s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.69  s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.66  s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.13  s18_alexyan     7/10 09:58   0+00:00:17 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.63  s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.57  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.58  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.55  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.34  s18_alexyan     7/10 09:58   0+00:00:16 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.33  s18_alexyan     7/10 09:58   0+00:00:16 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.59  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.49  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.61  s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.52  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.37  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.51  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.14  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.46  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.50  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.40  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.35  s18_alexyan     7/10 09:58   0+00:00:16 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.16  s18_alexyan     7/10 09:58   0+00:00:17 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.96  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.36  s18_alexyan     7/10 09:58   0+00:00:16 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.87  s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.83  s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.64  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.2   s18_alexyan     7/10 09:58   0+00:00:17 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.32  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.53  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.56  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.67  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.65  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.54  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.68  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.30  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.26  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.24  s18_alexyan     7/10 09:58   0+00:00:16 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.12  s18_alexyan     7/10 09:58   0+00:00:16 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.23  s18_alexyan     7/10 09:58   0+00:00:17 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.17  s18_alexyan     7/10 09:58   0+00:00:18 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.27  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.25  s18_alexyan     7/10 09:58   0+00:00:16 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.20  s18_alexyan     7/10 09:58   0+00:00:16 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.19  s18_alexyan     7/10 09:58   0+00:00:17 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.45  s18_alexyan     7/10 09:58   0+00:00:16 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.44  s18_alexyan     7/10 09:58   0+00:00:16 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.15  s18_alexyan     7/10 09:58   0+00:00:16 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.43  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.9   s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.41  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.28  s18_alexyan     7/10 09:58   0+00:00:16 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.10  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.8   s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.39  s18_alexyan     7/10 09:58   0+00:00:16 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.1   s18_alexyan     7/10 09:58   0+00:00:16 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.22  s18_alexyan     7/10 09:58   0+00:00:15 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.21  s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.11  s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.18  s18_alexyan     7/10 09:58   0+00:00:13 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.0   s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.7   s18_alexyan     7/10 09:58   0+00:00:14 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.6   s18_alexyan     7/10 09:58   0+00:00:13 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.5   s18_alexyan     7/10 09:58   0+00:00:12 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.4   s18_alexyan     7/10 09:58   0+00:00:12 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43236.3   s18_alexyan     7/10 09:58   0+00:00:12 C   7/10 10:00 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.99  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.98  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.97  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.96  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.95  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.94  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.93  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.92  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.91  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.90  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.89  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.88  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.87  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.86  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.85  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.84  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.83  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.82  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.81  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.80  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.79  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.78  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.77  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.76  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.75  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.74  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.73  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.72  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.71  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.70  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.69  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.68  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.67  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.66  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.65  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.64  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.63  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.62  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.61  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.60  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.59  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.58  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.57  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.56  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.55  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.54  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.53  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.52  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.51  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.50  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.49  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.48  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.47  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.46  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.45  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.44  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.43  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.42  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.41  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.40  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.39  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.38  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.37  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.36  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.35  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.34  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.33  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.32  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.31  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.30  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.29  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.28  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.27  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.26  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.25  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.24  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.23  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.22  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.21  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.20  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.19  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.18  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.17  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.16  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.15  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.14  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.13  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.12  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.11  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.10  s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.9   s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.8   s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.7   s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.6   s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.5   s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.4   s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.3   s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.2   s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.1   s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43228.0   s18_alexyan     7/10 09:55              X         ???  /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.83  s18_alexyan     7/10 09:42   0+00:00:11 C   7/10 09:50 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.88  s18_alexyan     7/10 09:42   0+00:00:10 C   7/10 09:50 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.28  s18_alexyan     7/10 09:42   0+00:00:02 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.80  s18_alexyan     7/10 09:42   0+00:00:02 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.48  s18_alexyan     7/10 09:42   0+00:00:03 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.72  s18_alexyan     7/10 09:42   0+00:00:09 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.67  s18_alexyan     7/10 09:42   0+00:00:07 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.44  s18_alexyan     7/10 09:42   0+00:00:10 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.46  s18_alexyan     7/10 09:42   0+00:00:10 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.41  s18_alexyan     7/10 09:42   0+00:00:11 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.64  s18_alexyan     7/10 09:42   0+00:00:07 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.19  s18_alexyan     7/10 09:42   0+00:00:14 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.29  s18_alexyan     7/10 09:42   0+00:00:12 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.98  s18_alexyan     7/10 09:42   0+00:00:06 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.78  s18_alexyan     7/10 09:42   0+00:00:08 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.97  s18_alexyan     7/10 09:42   0+00:00:06 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.95  s18_alexyan     7/10 09:42   0+00:00:07 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.99  s18_alexyan     7/10 09:42   0+00:00:06 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.93  s18_alexyan     7/10 09:42   0+00:00:07 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.85  s18_alexyan     7/10 09:42   0+00:00:07 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.96  s18_alexyan     7/10 09:42   0+00:00:06 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.52  s18_alexyan     7/10 09:42   0+00:00:11 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.81  s18_alexyan     7/10 09:42   0+00:00:07 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.89  s18_alexyan     7/10 09:42   0+00:00:07 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.94  s18_alexyan     7/10 09:42   0+00:00:07 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.77  s18_alexyan     7/10 09:42   0+00:00:08 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.92  s18_alexyan     7/10 09:42   0+00:00:07 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.91  s18_alexyan     7/10 09:42   0+00:00:07 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.47  s18_alexyan     7/10 09:42   0+00:00:12 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.87  s18_alexyan     7/10 09:42   0+00:00:07 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.86  s18_alexyan     7/10 09:42   0+00:00:07 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.79  s18_alexyan     7/10 09:42   0+00:00:08 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.84  s18_alexyan     7/10 09:42   0+00:00:07 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.82  s18_alexyan     7/10 09:42   0+00:00:08 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.76  s18_alexyan     7/10 09:42   0+00:00:07 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.74  s18_alexyan     7/10 09:42   0+00:00:07 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.0   s18_alexyan     7/10 09:42   0+00:00:07 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.61  s18_alexyan     7/10 09:42   0+00:00:06 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.55  s18_alexyan     7/10 09:42   0+00:00:07 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.37  s18_alexyan     7/10 09:42   0+00:00:13 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.75  s18_alexyan     7/10 09:42   0+00:00:06 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.71  s18_alexyan     7/10 09:42   0+00:00:06 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.57  s18_alexyan     7/10 09:42   0+00:00:06 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.23  s18_alexyan     7/10 09:42   0+00:00:10 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.60  s18_alexyan     7/10 09:42   0+00:00:06 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.54  s18_alexyan     7/10 09:42   0+00:00:06 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.51  s18_alexyan     7/10 09:42   0+00:00:06 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.38  s18_alexyan     7/10 09:42   0+00:00:09 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.56  s18_alexyan     7/10 09:42   0+00:00:06 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.43  s18_alexyan     7/10 09:42   0+00:00:07 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.42  s18_alexyan     7/10 09:42   0+00:00:07 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.58  s18_alexyan     7/10 09:42   0+00:00:06 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.34  s18_alexyan     7/10 09:42   0+00:00:08 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.17  s18_alexyan     7/10 09:42   0+00:00:05 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.90  s18_alexyan     7/10 09:42   0+00:00:05 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.36  s18_alexyan     7/10 09:42   0+00:00:08 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.39  s18_alexyan     7/10 09:42   0+00:00:06 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.73  s18_alexyan     7/10 09:42   0+00:00:06 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.70  s18_alexyan     7/10 09:42   0+00:00:05 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.69  s18_alexyan     7/10 09:42   0+00:00:05 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.68  s18_alexyan     7/10 09:42   0+00:00:05 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.66  s18_alexyan     7/10 09:42   0+00:00:05 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.25  s18_alexyan     7/10 09:42   0+00:00:07 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.63  s18_alexyan     7/10 09:42   0+00:00:05 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.59  s18_alexyan     7/10 09:42   0+00:00:05 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.65  s18_alexyan     7/10 09:42   0+00:00:05 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.62  s18_alexyan     7/10 09:42   0+00:00:05 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.53  s18_alexyan     7/10 09:42   0+00:00:05 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.50  s18_alexyan     7/10 09:42   0+00:00:05 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.16  s18_alexyan     7/10 09:42   0+00:00:07 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.35  s18_alexyan     7/10 09:42   0+00:00:05 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.1   s18_alexyan     7/10 09:42   0+00:00:08 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.49  s18_alexyan     7/10 09:42   0+00:00:04 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.32  s18_alexyan     7/10 09:42   0+00:00:05 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.12  s18_alexyan     7/10 09:42   0+00:00:07 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.33  s18_alexyan     7/10 09:42   0+00:00:05 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.45  s18_alexyan     7/10 09:42   0+00:00:04 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.26  s18_alexyan     7/10 09:42   0+00:00:04 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.18  s18_alexyan     7/10 09:42   0+00:00:05 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.24  s18_alexyan     7/10 09:42   0+00:00:05 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.20  s18_alexyan     7/10 09:42   0+00:00:05 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.22  s18_alexyan     7/10 09:42   0+00:00:05 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.21  s18_alexyan     7/10 09:42   0+00:00:05 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.15  s18_alexyan     7/10 09:42   0+00:00:05 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.13  s18_alexyan     7/10 09:42   0+00:00:05 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.9   s18_alexyan     7/10 09:42   0+00:00:06 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.11  s18_alexyan     7/10 09:42   0+00:00:06 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.8   s18_alexyan     7/10 09:42   0+00:00:05 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.10  s18_alexyan     7/10 09:42   0+00:00:05 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.7   s18_alexyan     7/10 09:42   0+00:00:05 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.40  s18_alexyan     7/10 09:42   0+00:00:05 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.4   s18_alexyan     7/10 09:42   0+00:00:06 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.3   s18_alexyan     7/10 09:42   0+00:00:04 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.6   s18_alexyan     7/10 09:42   0+00:00:04 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.31  s18_alexyan     7/10 09:42   0+00:00:04 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.27  s18_alexyan     7/10 09:42   0+00:00:03 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.5   s18_alexyan     7/10 09:42   0+00:00:03 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.30  s18_alexyan     7/10 09:42   0+00:00:03 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.14  s18_alexyan     7/10 09:42   0+00:00:02 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location-wrapper.sh 
+43161.2   s18_alexyan     7/10 09:42   0+00:00:02 C   7/10 09:49 /home/s18_alexyan/Tue/1.1/location

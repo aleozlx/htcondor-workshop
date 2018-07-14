@@ -1,0 +1,10 @@
+universe = vanilla
+output = qtl_2.out
+error = qtl_2.err
+log = qtl_2.log
+executable = ./runR.pl
+arguments = qtl_2 qtl.R 2
+requirements = (Arch == "X86_64") && (OpSysMajorVer)
+should_transfer_files = YES
+transfer_input_files = ./qtl.R,./RLIBS.tar.gz,./input.csv,./perm_combined_2.tar.gz
+queue

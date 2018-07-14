@@ -1,0 +1,10 @@
+universe = vanilla
+output = qtl_3.out
+error = qtl_3.err
+log = qtl_3.log
+executable = ./runR.pl
+arguments = qtl_3 qtl.R 3
+requirements = (Arch == "X86_64") && (OpSysMajorVer > 5)
+should_transfer_files = YES
+transfer_input_files = ./qtl.R,./RLIBS.tar.gz,./input.csv,./perm_combined_3.tar.gz
+queue
